@@ -17,8 +17,6 @@ echo SoC   : SM8350
 echo RKH   : %RKH% (Microsoft Andromeda Attestation PCA 2017) (From: 11/1/2017 To: 11/1/2032)
 echo.
 
-set directory=
-
 for /f %%f in ('dir /b /s extracted\*.mbn.unsigned') do (
     call :moveUnsigned %%f
 )
