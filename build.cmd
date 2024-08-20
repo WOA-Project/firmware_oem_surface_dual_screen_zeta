@@ -17,6 +17,16 @@ echo SoC   : SM8350
 echo RKH   : %RKH% (Microsoft Andromeda Attestation PCA 2017) (From: 11/1/2017 To: 11/1/2032)
 echo.
 
+set directory=
+
+for /f %%f in ('dir /b /s extracted\*.mbn.unsigned') do (
+    call :moveUnsigned %%f
+)
+
+for /f %%f in ('dir /b /s extracted\*_unsigned.mbn') do (
+    call :moveUnsigned %%f
+)
+
 echo Checking MBN files validity... (This may take a while!)
 
 for /f %%f in ('dir /b /s extracted\*.mbn') do (
@@ -323,6 +333,18 @@ if %x%==EXCEPTION! (
 )
 
 echo %1 is a valid MBN file and is not production signed (%x%). Moving...
+mkdir unsigned\%directory%
+move %1 unsigned\%directory%
+exit /b 0
+
+:moveUnsigned
+echo.
+echo File: %1
+echo.
+set directory=%~dp1
+call set directory=%%directory:%cd%=%%
+
+echo %1 is a valid MBN file and is not signed. Moving...
 mkdir unsigned\%directory%
 move %1 unsigned\%directory%
 exit /b 0
