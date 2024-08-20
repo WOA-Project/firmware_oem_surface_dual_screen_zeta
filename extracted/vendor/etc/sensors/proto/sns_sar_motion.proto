@@ -1,0 +1,27 @@
+// @file sns_sar_motion.proto
+//
+// Defines standard message types for the SAR_MOTION
+//
+syntax = "proto2";
+import "nanopb.proto";
+import "sns_std_sensor.proto";
+
+enum sns_sar_motion_msgid
+{
+  option (nanopb_enumopt).long_names = false;
+
+  SNS_SAR_MOTION_MSGID_SNS_SAR_MOTION_DATA = 1024;
+}
+
+enum sns_sar_motion_event_type {
+  option (nanopb_enumopt).long_names = false;
+
+  SNS_SAR_MOTION_EVENT_TYPE_UNKNOWN = 0;
+  SNS_SAR_MOTION_EVENT_TYPE_IN_MOTION = 1;
+  SNS_SAR_MOTION_EVENT_TYPE_STATIONARY = 2;
+}
+
+message sns_sar_motion_data
+{
+  required sns_sar_motion_event_type state = 2 [default = SNS_SAR_MOTION_EVENT_TYPE_STATIONARY];
+}

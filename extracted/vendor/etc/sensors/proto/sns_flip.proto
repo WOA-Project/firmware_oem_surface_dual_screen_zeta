@@ -1,0 +1,30 @@
+// @file sns_flip.proto
+//
+// Defines standard message types for flip
+//
+// Copyright (c) 2017 Microsoft Corporation
+// All Rights Reserved.
+// Confidential and Proprietary - Microsoft Corporation
+syntax = "proto2";
+import "nanopb.proto";
+import "sns_std_sensor.proto";
+
+enum sns_flip_msgid
+{
+  option (nanopb_enumopt).long_names = false;
+
+  SNS_FLIP_MSGID_SNS_FLIP_EVENT = 7789;
+}
+
+enum sns_flip_event_type {
+  option (nanopb_enumopt).long_names = false;
+
+  SNS_FLIP_EVENT_TYPE_UNKNOWN = 0;
+  SNS_FLIP_EVENT_TYPE_C3_UP = 1;
+  SNS_FLIP_EVENT_TYPE_R2_UP = 2;
+}
+
+message sns_flip_event
+{
+  required sns_flip_event_type state = 1 [default = SNS_FLIP_EVENT_TYPE_UNKNOWN];
+}

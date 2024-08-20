@@ -1,0 +1,52 @@
+// @file sns_device_state.proto
+//
+// Defines the API for Accelerometer Sensors.
+// All Accelerometer Sensor drivers are required to comply with this API.
+// Any new functionality for Accelerometer Sensor can be defined in a
+// device specific API file.
+//
+// Copyright (c) 2016-2018 Qualcomm Technologies, Inc.
+// All Rights Reserved.
+// Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+syntax = "proto2";
+import "nanopb.proto";
+
+// Message IDs for device_state Sensor
+enum sns_device_state_msgid {
+ option (nanopb_enumopt).long_names = false;
+ SNS_DEVICE_STATE_MSGID_SNS_DEVICE_STATE_EVENT  = 5566;
+}
+
+enum sns_display_state {
+ option (nanopb_enumopt).long_names = false;
+
+ SNS_DISPLAY_STATE_UNKNOWN = -1;
+ SNS_DISPLAY_STATE_BOTH_OFF = 0;
+ SNS_DISPLAY_STATE_LEFT_ON_ONLY = 1;
+ SNS_DISPLAY_STATE_RIGHT_ON_ONLY = 2;
+ SNS_DISPLAY_STATE_BOTH_ON = 3;
+}
+
+enum sns_app_processor_state
+{
+ option (nanopb_enumopt).long_names = false;
+ SNS_APP_PROCESSOR_STATE_SUSPEND  = 0;
+ SNS_APP_PROCESSOR_STATE_AWAKE  = 1;
+}
+
+enum sns_lockscreen_state
+{
+ option (nanopb_enumopt).long_names = false;
+ SNS_LOCKSCREEN_STATE_UNLOCKED  = 0;
+ SNS_LOCKSCREEN_STATE_LOCKED    = 1;
+}
+
+// Events types from device_state Sensor
+message sns_device_state_event
+{
+ // device_state output event
+ required sns_app_processor_state app_processor_state = 1 [default = SNS_APP_PROCESSOR_STATE_AWAKE];
+ required sns_display_state display_state = 2 [default = SNS_DISPLAY_STATE_UNKNOWN];
+ required sns_lockscreen_state lockscreen_state = 3 [default = SNS_LOCKSCREEN_STATE_UNLOCKED];
+}

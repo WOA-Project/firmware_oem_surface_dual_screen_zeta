@@ -1,0 +1,557 @@
+surfaceduo_txc_1_crs.json = 13
+surfaceduo_txc_1_a12.json = 13
+surfaceduo_txc_1.json = 13
+surfaceduo_txc_0_crs.json = 13
+surfaceduo_txc_0_a12.json = 13
+surfaceduo_txc_0.json = 13
+surfaceduo_tcs3430_1.json = 13
+surfaceduo_tcs3430_0.json = 13
+surfaceduo_sar_posture.json = 13
+surfaceduo_sar_motion_1.json = 13
+surfaceduo_sar_motion_0.json = 13
+surfaceduo_power_0.json = 13
+surfaceduo_posture.json = 13
+surfaceduo_lsm6dst_1.json = 13
+surfaceduo_lsm6dst_0.json = 13
+surfaceduo_lps22hh_0.json = 13
+surfaceduo_irq.json = 13
+surfaceduo_fold.json = 13
+surfaceduo_flip.json = 13
+surfaceduo_dynamic_sensors.json = 13
+surfaceduo_diagnostics.json = 13
+surfaceduo_device_state.json = 13
+surfaceduo_default_sensors.json = 13
+surfaceduo_bu52053nvx_1.json = 13
+surfaceduo_bu52053nvx_0.json = 13
+surfaceduo_alpha.json = 13
+surfaceduo_ak997x_dri_0.json = 13
+surfaceduo_ak997x_0.json = 13
+surfaceduo_ak991x_orient_v2_0.json = 13
+surfaceduo_ak991x_orient_v1_0.json = 13
+surfaceduo_ak991x_1.json = 13
+surfaceduo_ak991x_0.json = 13
+sns_wrist_pedo.json = 13
+sns_tilt_to_wake.json = 13
+sns_tilt_sw_enabled.json = 13
+sns_tilt_sw_disabled.json = 13
+sns_tilt.json = 13
+sns_smd.json = 13
+sns_rotv.json = 13
+sns_rmd.json = 13
+sns_reg_config = 13
+sns_pedometer.json = 13
+sns_multishake.json = 13
+sns_mag_cal_legacy.json = 13
+sns_mag_cal.json = 13
+sns_heart_rate.json = 13
+sns_gyro_cal.json = 13
+sns_geomag_rv.json = 13
+sns_fmv_legacy.json = 13
+sns_fmv.json = 13
+sns_facing.json = 13
+sns_dpc.json = 13
+sns_distance_bound.json = 13
+sns_direct_channel.json = 13
+sns_diag_filter.json = 13
+sns_device_orient.json = 13
+sns_dae.json = 13
+sns_cm.json = 13
+sns_ccd_v3_walk.json = 13
+sns_ccd_v3_1_walk.json = 13
+sns_ccd_v2_walk.json = 13
+sns_ccd.json = 13
+sns_bring_to_ear.json = 13
+sns_basic_gestures.json = 13
+sns_aont.json = 13
+sns_amd_sw_enabled.json = 13
+sns_amd_sw_disabled.json = 13
+sns_amd.json = 13
+
+-------------------------------
+
+surfaceduo_txc_1_crs.json = 1,
+surfaceduo_txc_1_a12.json = 1,
+surfaceduo_txc_1.json = 1,
+surfaceduo_txc_0_crs.json = 1,
+surfaceduo_txc_0_a12.json = 1,
+surfaceduo_txc_0.json = 1,
+surfaceduo_tcs3430_1.json = 1,
+surfaceduo_tcs3430_0.json = 1,
+surfaceduo_sar_posture.json = 1,
+surfaceduo_sar_motion_1.json = 1,
+surfaceduo_sar_motion_0.json = 1,
+surfaceduo_power_0.json = 1,
+surfaceduo_posture.json = 1,
+surfaceduo_lsm6dst_1.json = 1,
+surfaceduo_lsm6dst_0.json = 1,
+surfaceduo_lps22hh_0.json = 1,
+surfaceduo_irq.json = 1,
+surfaceduo_fold.json = 1,
+surfaceduo_flip.json = 1,
+surfaceduo_dynamic_sensors.json = 1,
+surfaceduo_diagnostics.json = 1,
+surfaceduo_device_state.json = 1,
+surfaceduo_default_sensors.json = 1,
+surfaceduo_bu52053nvx_1.json = 1,
+surfaceduo_bu52053nvx_0.json = 1,
+surfaceduo_alpha.json = 1,
+surfaceduo_ak997x_dri_0.json = 1,
+surfaceduo_ak997x_0.json = 1,
+surfaceduo_ak991x_orient_v2_0.json = 1,
+surfaceduo_ak991x_orient_v1_0.json = 1,
+surfaceduo_ak991x_1.json = 1,
+surfaceduo_ak991x_0.json = 1,
+sns_wrist_pedo.json = 1,
+sns_tilt_to_wake.json = 1,
+sns_tilt_sw_enabled.json = 1,
+sns_tilt_sw_disabled.json = 1,
+sns_tilt.json = 1,
+sns_smd.json = 1,
+sns_rotv.json = 1,
+sns_rmd.json = 1,
+sns_reg_config = 1,
+sns_pedometer.json = 1,
+sns_multishake.json = 1,
+sns_mag_cal_legacy.json = 1,
+sns_mag_cal.json = 1,
+sns_heart_rate.json = 1,
+sns_gyro_cal.json = 1,
+sns_geomag_rv.json = 1,
+sns_fmv_legacy.json = 1,
+sns_fmv.json = 1,
+sns_facing.json = 1,
+sns_dpc.json = 1,
+sns_distance_bound.json = 1,
+sns_direct_channel.json = 1,
+sns_diag_filter.json = 1,
+sns_device_orient.json = 1,
+sns_dae.json = 1,
+sns_cm.json = 1,
+sns_ccd_v3_walk.json = 1,
+sns_ccd_v3_1_walk.json = 1,
+sns_ccd_v2_walk.json = 1,
+sns_ccd.json = 1,
+sns_bring_to_ear.json = 1,
+sns_basic_gestures.json = 1,
+sns_aont.json = 1,
+sns_amd_sw_enabled.json = 1,
+sns_amd_sw_disabled.json = 1,
+sns_amd.json = 1,
+
+-------------------------------
+
+CopyFiles=surfaceduo_txc_1_crs.json,surfaceduo_txc_1_a12.json,surfaceduo_txc_1.json,surfaceduo_txc_0_crs.json,surfaceduo_txc_0_a12.json,surfaceduo_txc_0.json,surfaceduo_tcs3430_1.json,surfaceduo_tcs3430_0.json,surfaceduo_sar_posture.json,surfaceduo_sar_motion_1.json,surfaceduo_sar_motion_0.json,surfaceduo_power_0.json,surfaceduo_posture.json,surfaceduo_lsm6dst_1.json,surfaceduo_lsm6dst_0.json,surfaceduo_lps22hh_0.json,surfaceduo_irq.json,surfaceduo_fold.json,surfaceduo_flip.json,surfaceduo_dynamic_sensors.json,surfaceduo_diagnostics.json,surfaceduo_device_state.json,surfaceduo_default_sensors.json,surfaceduo_bu52053nvx_1.json,surfaceduo_bu52053nvx_0.json,surfaceduo_alpha.json,surfaceduo_ak997x_dri_0.json,surfaceduo_ak997x_0.json,surfaceduo_ak991x_orient_v2_0.json,surfaceduo_ak991x_orient_v1_0.json,surfaceduo_ak991x_1.json,surfaceduo_ak991x_0.json,sns_wrist_pedo.json,sns_tilt_to_wake.json,sns_tilt_sw_enabled.json,sns_tilt_sw_disabled.json,sns_tilt.json,sns_smd.json,sns_rotv.json,sns_rmd.json,sns_reg_config,sns_pedometer.json,sns_multishake.json,sns_mag_cal_legacy.json,sns_mag_cal.json,sns_heart_rate.json,sns_gyro_cal.json,sns_geomag_rv.json,sns_fmv_legacy.json,sns_fmv.json,sns_facing.json,sns_dpc.json,sns_distance_bound.json,sns_direct_channel.json,sns_diag_filter.json,sns_device_orient.json,sns_dae.json,sns_cm.json,sns_ccd_v3_walk.json,sns_ccd_v3_1_walk.json,sns_ccd_v2_walk.json,sns_ccd.json,sns_bring_to_ear.json,sns_basic_gestures.json,sns_aont.json,sns_amd_sw_enabled.json,sns_amd_sw_disabled.json,sns_amd.json
+
+-------------------------------
+
+[surfaceduo_txc_1_crs.json]
+surfaceduo_txc_1_crs.json
+[surfaceduo_txc_1_a12.json]
+surfaceduo_txc_1_a12.json
+[surfaceduo_txc_1.json]
+surfaceduo_txc_1.json
+[surfaceduo_txc_0_crs.json]
+surfaceduo_txc_0_crs.json
+[surfaceduo_txc_0_a12.json]
+surfaceduo_txc_0_a12.json
+[surfaceduo_txc_0.json]
+surfaceduo_txc_0.json
+[surfaceduo_tcs3430_1.json]
+surfaceduo_tcs3430_1.json
+[surfaceduo_tcs3430_0.json]
+surfaceduo_tcs3430_0.json
+[surfaceduo_sar_posture.json]
+surfaceduo_sar_posture.json
+[surfaceduo_sar_motion_1.json]
+surfaceduo_sar_motion_1.json
+[surfaceduo_sar_motion_0.json]
+surfaceduo_sar_motion_0.json
+[surfaceduo_power_0.json]
+surfaceduo_power_0.json
+[surfaceduo_posture.json]
+surfaceduo_posture.json
+[surfaceduo_lsm6dst_1.json]
+surfaceduo_lsm6dst_1.json
+[surfaceduo_lsm6dst_0.json]
+surfaceduo_lsm6dst_0.json
+[surfaceduo_lps22hh_0.json]
+surfaceduo_lps22hh_0.json
+[surfaceduo_irq.json]
+surfaceduo_irq.json
+[surfaceduo_fold.json]
+surfaceduo_fold.json
+[surfaceduo_flip.json]
+surfaceduo_flip.json
+[surfaceduo_dynamic_sensors.json]
+surfaceduo_dynamic_sensors.json
+[surfaceduo_diagnostics.json]
+surfaceduo_diagnostics.json
+[surfaceduo_device_state.json]
+surfaceduo_device_state.json
+[surfaceduo_default_sensors.json]
+surfaceduo_default_sensors.json
+[surfaceduo_bu52053nvx_1.json]
+surfaceduo_bu52053nvx_1.json
+[surfaceduo_bu52053nvx_0.json]
+surfaceduo_bu52053nvx_0.json
+[surfaceduo_alpha.json]
+surfaceduo_alpha.json
+[surfaceduo_ak997x_dri_0.json]
+surfaceduo_ak997x_dri_0.json
+[surfaceduo_ak997x_0.json]
+surfaceduo_ak997x_0.json
+[surfaceduo_ak991x_orient_v2_0.json]
+surfaceduo_ak991x_orient_v2_0.json
+[surfaceduo_ak991x_orient_v1_0.json]
+surfaceduo_ak991x_orient_v1_0.json
+[surfaceduo_ak991x_1.json]
+surfaceduo_ak991x_1.json
+[surfaceduo_ak991x_0.json]
+surfaceduo_ak991x_0.json
+[sns_wrist_pedo.json]
+sns_wrist_pedo.json
+[sns_tilt_to_wake.json]
+sns_tilt_to_wake.json
+[sns_tilt_sw_enabled.json]
+sns_tilt_sw_enabled.json
+[sns_tilt_sw_disabled.json]
+sns_tilt_sw_disabled.json
+[sns_tilt.json]
+sns_tilt.json
+[sns_smd.json]
+sns_smd.json
+[sns_rotv.json]
+sns_rotv.json
+[sns_rmd.json]
+sns_rmd.json
+[sns_reg_config]
+sns_reg_config
+[sns_pedometer.json]
+sns_pedometer.json
+[sns_multishake.json]
+sns_multishake.json
+[sns_mag_cal_legacy.json]
+sns_mag_cal_legacy.json
+[sns_mag_cal.json]
+sns_mag_cal.json
+[sns_heart_rate.json]
+sns_heart_rate.json
+[sns_gyro_cal.json]
+sns_gyro_cal.json
+[sns_geomag_rv.json]
+sns_geomag_rv.json
+[sns_fmv_legacy.json]
+sns_fmv_legacy.json
+[sns_fmv.json]
+sns_fmv.json
+[sns_facing.json]
+sns_facing.json
+[sns_dpc.json]
+sns_dpc.json
+[sns_distance_bound.json]
+sns_distance_bound.json
+[sns_direct_channel.json]
+sns_direct_channel.json
+[sns_diag_filter.json]
+sns_diag_filter.json
+[sns_device_orient.json]
+sns_device_orient.json
+[sns_dae.json]
+sns_dae.json
+[sns_cm.json]
+sns_cm.json
+[sns_ccd_v3_walk.json]
+sns_ccd_v3_walk.json
+[sns_ccd_v3_1_walk.json]
+sns_ccd_v3_1_walk.json
+[sns_ccd_v2_walk.json]
+sns_ccd_v2_walk.json
+[sns_ccd.json]
+sns_ccd.json
+[sns_bring_to_ear.json]
+sns_bring_to_ear.json
+[sns_basic_gestures.json]
+sns_basic_gestures.json
+[sns_aont.json]
+sns_aont.json
+[sns_amd_sw_enabled.json]
+sns_amd_sw_enabled.json
+[sns_amd_sw_disabled.json]
+sns_amd_sw_disabled.json
+[sns_amd.json]
+sns_amd.json
+
+-------------------------------
+
+; Updating registry of sns_amd.json to remote path \vendor\etc\sensors\config\sns_amd.json
+HKR,Mappings\FASTRPC\Default\faab18abdfbcf08f24617fbd70e8ecb341dec5ba2f9fed8fc98b1f6d96dd381f,"Local",%REG_SZ%, %13%\sns_amd.json
+hkr,mappings\fastrpc\default\faab18abdfbcf08f24617fbd70e8ecb341dec5ba2f9fed8fc98b1f6d96dd381f,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_amd.json
+
+; Updating registry of sns_amd_sw_disabled.json to remote path \vendor\etc\sensors\config\sns_amd_sw_disabled.json
+HKR,Mappings\FASTRPC\Default\47b8acbc15a5be0ea919ff188b4be9fc6b552641ccc96b55099f9a4789754cae,"Local",%REG_SZ%, %13%\sns_amd_sw_disabled.json
+hkr,mappings\fastrpc\default\47b8acbc15a5be0ea919ff188b4be9fc6b552641ccc96b55099f9a4789754cae,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_amd_sw_disabled.json
+
+; Updating registry of sns_amd_sw_enabled.json to remote path \vendor\etc\sensors\config\sns_amd_sw_enabled.json
+HKR,Mappings\FASTRPC\Default\5c83e49989eb5a6a6a63d299fa67b29490f8268a7c1e40e6d6769971e0f6bb94,"Local",%REG_SZ%, %13%\sns_amd_sw_enabled.json
+hkr,mappings\fastrpc\default\5c83e49989eb5a6a6a63d299fa67b29490f8268a7c1e40e6d6769971e0f6bb94,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_amd_sw_enabled.json
+
+; Updating registry of sns_aont.json to remote path \vendor\etc\sensors\config\sns_aont.json
+HKR,Mappings\FASTRPC\Default\1580e7950f854a62216f44163084ba83d301bc99fc6571bdced8af6f3e686ef6,"Local",%REG_SZ%, %13%\sns_aont.json
+hkr,mappings\fastrpc\default\1580e7950f854a62216f44163084ba83d301bc99fc6571bdced8af6f3e686ef6,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_aont.json
+
+; Updating registry of sns_basic_gestures.json to remote path \vendor\etc\sensors\config\sns_basic_gestures.json
+HKR,Mappings\FASTRPC\Default\95ab7cf5089ca49d2bf951f27e2922fdca16a16877f5851b513799ac2119a129,"Local",%REG_SZ%, %13%\sns_basic_gestures.json
+hkr,mappings\fastrpc\default\95ab7cf5089ca49d2bf951f27e2922fdca16a16877f5851b513799ac2119a129,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_basic_gestures.json
+
+; Updating registry of sns_bring_to_ear.json to remote path \vendor\etc\sensors\config\sns_bring_to_ear.json
+HKR,Mappings\FASTRPC\Default\6837f720e55398d08edffc8694e56d914c9c718c3c8e2754537ec08f8d6f5907,"Local",%REG_SZ%, %13%\sns_bring_to_ear.json
+hkr,mappings\fastrpc\default\6837f720e55398d08edffc8694e56d914c9c718c3c8e2754537ec08f8d6f5907,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_bring_to_ear.json
+
+; Updating registry of sns_ccd.json to remote path \vendor\etc\sensors\config\sns_ccd.json
+HKR,Mappings\FASTRPC\Default\da0d68f660d3623e7d47babb67760c33633cd6a30282936822317a2b7b57e0d8,"Local",%REG_SZ%, %13%\sns_ccd.json
+hkr,mappings\fastrpc\default\da0d68f660d3623e7d47babb67760c33633cd6a30282936822317a2b7b57e0d8,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_ccd.json
+
+; Updating registry of sns_ccd_v2_walk.json to remote path \vendor\etc\sensors\config\sns_ccd_v2_walk.json
+HKR,Mappings\FASTRPC\Default\9e94f9710b7fc51214dbde933d9ee8a181577c064205d3331b792e1879aaa147,"Local",%REG_SZ%, %13%\sns_ccd_v2_walk.json
+hkr,mappings\fastrpc\default\9e94f9710b7fc51214dbde933d9ee8a181577c064205d3331b792e1879aaa147,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_ccd_v2_walk.json
+
+; Updating registry of sns_ccd_v3_1_walk.json to remote path \vendor\etc\sensors\config\sns_ccd_v3_1_walk.json
+HKR,Mappings\FASTRPC\Default\5916a54c7e61a0bbc8ecd846b2d7efae8aba8e55519c3fae66599f6e950efcd7,"Local",%REG_SZ%, %13%\sns_ccd_v3_1_walk.json
+hkr,mappings\fastrpc\default\5916a54c7e61a0bbc8ecd846b2d7efae8aba8e55519c3fae66599f6e950efcd7,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_ccd_v3_1_walk.json
+
+; Updating registry of sns_ccd_v3_walk.json to remote path \vendor\etc\sensors\config\sns_ccd_v3_walk.json
+HKR,Mappings\FASTRPC\Default\d275e65e0801e14cb20c20dc1549365bdf8f0eaaa4184279342f1033dc3e82df,"Local",%REG_SZ%, %13%\sns_ccd_v3_walk.json
+hkr,mappings\fastrpc\default\d275e65e0801e14cb20c20dc1549365bdf8f0eaaa4184279342f1033dc3e82df,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_ccd_v3_walk.json
+
+; Updating registry of sns_cm.json to remote path \vendor\etc\sensors\config\sns_cm.json
+HKR,Mappings\FASTRPC\Default\e90b1c5330b8e25ce7398dc377f060e5280a582dbe26fc36cce5dce97a1c4929,"Local",%REG_SZ%, %13%\sns_cm.json
+hkr,mappings\fastrpc\default\e90b1c5330b8e25ce7398dc377f060e5280a582dbe26fc36cce5dce97a1c4929,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_cm.json
+
+; Updating registry of sns_dae.json to remote path \vendor\etc\sensors\config\sns_dae.json
+HKR,Mappings\FASTRPC\Default\aee6d93352d8f6dd71843d8737e86213a095514fe88605b66ee72264e35c5491,"Local",%REG_SZ%, %13%\sns_dae.json
+hkr,mappings\fastrpc\default\aee6d93352d8f6dd71843d8737e86213a095514fe88605b66ee72264e35c5491,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_dae.json
+
+; Updating registry of sns_device_orient.json to remote path \vendor\etc\sensors\config\sns_device_orient.json
+HKR,Mappings\FASTRPC\Default\a31b0d556a661a3492dafc13d3281e2d004ac27b67532276d43345f0450d3ba6,"Local",%REG_SZ%, %13%\sns_device_orient.json
+hkr,mappings\fastrpc\default\a31b0d556a661a3492dafc13d3281e2d004ac27b67532276d43345f0450d3ba6,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_device_orient.json
+
+; Updating registry of sns_diag_filter.json to remote path \vendor\etc\sensors\config\sns_diag_filter.json
+HKR,Mappings\FASTRPC\Default\c00402dc2a6a13969a21e20ed8d8b3cea699fa5557cbe68c1e02be0150e360ce,"Local",%REG_SZ%, %13%\sns_diag_filter.json
+hkr,mappings\fastrpc\default\c00402dc2a6a13969a21e20ed8d8b3cea699fa5557cbe68c1e02be0150e360ce,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_diag_filter.json
+
+; Updating registry of sns_direct_channel.json to remote path \vendor\etc\sensors\config\sns_direct_channel.json
+HKR,Mappings\FASTRPC\Default\f12e26c26c6b7e59e5bdafd7591f603d69864ddc11361f3a4e07fd68892608d1,"Local",%REG_SZ%, %13%\sns_direct_channel.json
+hkr,mappings\fastrpc\default\f12e26c26c6b7e59e5bdafd7591f603d69864ddc11361f3a4e07fd68892608d1,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_direct_channel.json
+
+; Updating registry of sns_distance_bound.json to remote path \vendor\etc\sensors\config\sns_distance_bound.json
+HKR,Mappings\FASTRPC\Default\cf25716acd786f77edd6cbe570de1227350160acfd7f6ad9a13dab6efbbf44c6,"Local",%REG_SZ%, %13%\sns_distance_bound.json
+hkr,mappings\fastrpc\default\cf25716acd786f77edd6cbe570de1227350160acfd7f6ad9a13dab6efbbf44c6,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_distance_bound.json
+
+; Updating registry of sns_dpc.json to remote path \vendor\etc\sensors\config\sns_dpc.json
+HKR,Mappings\FASTRPC\Default\78380d32f2a16b557e45a823370d0eb753922d8abb4c07105ae8c5ea90a18d2c,"Local",%REG_SZ%, %13%\sns_dpc.json
+hkr,mappings\fastrpc\default\78380d32f2a16b557e45a823370d0eb753922d8abb4c07105ae8c5ea90a18d2c,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_dpc.json
+
+; Updating registry of sns_facing.json to remote path \vendor\etc\sensors\config\sns_facing.json
+HKR,Mappings\FASTRPC\Default\cb926f260f462f3e533d08728c2470d91f9c6cfa5d5eab1fce7144636a957148,"Local",%REG_SZ%, %13%\sns_facing.json
+hkr,mappings\fastrpc\default\cb926f260f462f3e533d08728c2470d91f9c6cfa5d5eab1fce7144636a957148,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_facing.json
+
+; Updating registry of sns_fmv.json to remote path \vendor\etc\sensors\config\sns_fmv.json
+HKR,Mappings\FASTRPC\Default\8950e04fd4b978eb46e54b6a3e0b18792ab22efba1a4a9affed3d3ee4717f0e2,"Local",%REG_SZ%, %13%\sns_fmv.json
+hkr,mappings\fastrpc\default\8950e04fd4b978eb46e54b6a3e0b18792ab22efba1a4a9affed3d3ee4717f0e2,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_fmv.json
+
+; Updating registry of sns_fmv_legacy.json to remote path \vendor\etc\sensors\config\sns_fmv_legacy.json
+HKR,Mappings\FASTRPC\Default\5d2911d1a7bde8c36a3ab801d2c9530feaa4a227c0559fcc555b5828d54a487c,"Local",%REG_SZ%, %13%\sns_fmv_legacy.json
+hkr,mappings\fastrpc\default\5d2911d1a7bde8c36a3ab801d2c9530feaa4a227c0559fcc555b5828d54a487c,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_fmv_legacy.json
+
+; Updating registry of sns_geomag_rv.json to remote path \vendor\etc\sensors\config\sns_geomag_rv.json
+HKR,Mappings\FASTRPC\Default\7db8dd6ee807b2e72cd986bac7e7fc357d6129e4df3a981e00cd3a0ddd6c5d00,"Local",%REG_SZ%, %13%\sns_geomag_rv.json
+hkr,mappings\fastrpc\default\7db8dd6ee807b2e72cd986bac7e7fc357d6129e4df3a981e00cd3a0ddd6c5d00,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_geomag_rv.json
+
+; Updating registry of sns_gyro_cal.json to remote path \vendor\etc\sensors\config\sns_gyro_cal.json
+HKR,Mappings\FASTRPC\Default\20e67434ad11b4126130fd0e55f127b08048d9e5b578c7337bcabc21416bfdcd,"Local",%REG_SZ%, %13%\sns_gyro_cal.json
+hkr,mappings\fastrpc\default\20e67434ad11b4126130fd0e55f127b08048d9e5b578c7337bcabc21416bfdcd,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_gyro_cal.json
+
+; Updating registry of sns_heart_rate.json to remote path \vendor\etc\sensors\config\sns_heart_rate.json
+HKR,Mappings\FASTRPC\Default\e0826b1c3515f7b0a7fb04e79b9f4521029c2151c5ac6dbe4f8022b7f9c658f7,"Local",%REG_SZ%, %13%\sns_heart_rate.json
+hkr,mappings\fastrpc\default\e0826b1c3515f7b0a7fb04e79b9f4521029c2151c5ac6dbe4f8022b7f9c658f7,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_heart_rate.json
+
+; Updating registry of sns_mag_cal.json to remote path \vendor\etc\sensors\config\sns_mag_cal.json
+HKR,Mappings\FASTRPC\Default\149a82b7b9c4b3e8a3bc0fc5cff177a8f55137d911ed2a3c53a8b92342af14d3,"Local",%REG_SZ%, %13%\sns_mag_cal.json
+hkr,mappings\fastrpc\default\149a82b7b9c4b3e8a3bc0fc5cff177a8f55137d911ed2a3c53a8b92342af14d3,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_mag_cal.json
+
+; Updating registry of sns_mag_cal_legacy.json to remote path \vendor\etc\sensors\config\sns_mag_cal_legacy.json
+HKR,Mappings\FASTRPC\Default\efb41311f9aed32d1e16bb111ccbd004bdc76400c5b717ff597d7e26cae6c651,"Local",%REG_SZ%, %13%\sns_mag_cal_legacy.json
+hkr,mappings\fastrpc\default\efb41311f9aed32d1e16bb111ccbd004bdc76400c5b717ff597d7e26cae6c651,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_mag_cal_legacy.json
+
+; Updating registry of sns_multishake.json to remote path \vendor\etc\sensors\config\sns_multishake.json
+HKR,Mappings\FASTRPC\Default\b6de4a3135c28af2b1cb45e5cf44c2e49e60fa59f5ce67a4436721bdb4ae0bf7,"Local",%REG_SZ%, %13%\sns_multishake.json
+hkr,mappings\fastrpc\default\b6de4a3135c28af2b1cb45e5cf44c2e49e60fa59f5ce67a4436721bdb4ae0bf7,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_multishake.json
+
+; Updating registry of sns_pedometer.json to remote path \vendor\etc\sensors\config\sns_pedometer.json
+HKR,Mappings\FASTRPC\Default\994640118dca5d66f1a559fbbea646a98cd4103fb2e732afaed8e077d75c94b4,"Local",%REG_SZ%, %13%\sns_pedometer.json
+hkr,mappings\fastrpc\default\994640118dca5d66f1a559fbbea646a98cd4103fb2e732afaed8e077d75c94b4,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_pedometer.json
+
+; Updating registry of sns_reg_config to remote path \vendor\etc\sensors\config\sns_reg_config
+HKR,Mappings\FASTRPC\Default\bbf3cae24853c58fb06f03b1ce0bed5e1795d58a59dae3054defa3f7e7b5bb6f,"Local",%REG_SZ%, %13%\sns_reg_config
+hkr,mappings\fastrpc\default\bbf3cae24853c58fb06f03b1ce0bed5e1795d58a59dae3054defa3f7e7b5bb6f,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_reg_config
+
+; Updating registry of sns_rmd.json to remote path \vendor\etc\sensors\config\sns_rmd.json
+HKR,Mappings\FASTRPC\Default\9e0a728851e3dd779d5460ce672b1fab5080025ac52ff7d88c3771413e4ee530,"Local",%REG_SZ%, %13%\sns_rmd.json
+hkr,mappings\fastrpc\default\9e0a728851e3dd779d5460ce672b1fab5080025ac52ff7d88c3771413e4ee530,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_rmd.json
+
+; Updating registry of sns_rotv.json to remote path \vendor\etc\sensors\config\sns_rotv.json
+HKR,Mappings\FASTRPC\Default\264177299ea594df2ddb3baf817f913c60202eee8a24611b69e85189f4f70319,"Local",%REG_SZ%, %13%\sns_rotv.json
+hkr,mappings\fastrpc\default\264177299ea594df2ddb3baf817f913c60202eee8a24611b69e85189f4f70319,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_rotv.json
+
+; Updating registry of sns_smd.json to remote path \vendor\etc\sensors\config\sns_smd.json
+HKR,Mappings\FASTRPC\Default\3740670ab403905844de0063a7159aa46724b493359b91eb143e84d944d1c0a3,"Local",%REG_SZ%, %13%\sns_smd.json
+hkr,mappings\fastrpc\default\3740670ab403905844de0063a7159aa46724b493359b91eb143e84d944d1c0a3,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_smd.json
+
+; Updating registry of sns_tilt.json to remote path \vendor\etc\sensors\config\sns_tilt.json
+HKR,Mappings\FASTRPC\Default\e6a206352c7ec693cc1fdc4ee8b6ed7fb027582c28e3fcda178cdde035ab7480,"Local",%REG_SZ%, %13%\sns_tilt.json
+hkr,mappings\fastrpc\default\e6a206352c7ec693cc1fdc4ee8b6ed7fb027582c28e3fcda178cdde035ab7480,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_tilt.json
+
+; Updating registry of sns_tilt_sw_disabled.json to remote path \vendor\etc\sensors\config\sns_tilt_sw_disabled.json
+HKR,Mappings\FASTRPC\Default\5cdcc0c7f69677a9006508d6468af7f7b3027fd8d8b91a913dce6cec3dd8ae93,"Local",%REG_SZ%, %13%\sns_tilt_sw_disabled.json
+hkr,mappings\fastrpc\default\5cdcc0c7f69677a9006508d6468af7f7b3027fd8d8b91a913dce6cec3dd8ae93,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_tilt_sw_disabled.json
+
+; Updating registry of sns_tilt_sw_enabled.json to remote path \vendor\etc\sensors\config\sns_tilt_sw_enabled.json
+HKR,Mappings\FASTRPC\Default\bd60315fd8c6a886a6b956fffd1f587dae73b70a77b446d0bebb5981258ce621,"Local",%REG_SZ%, %13%\sns_tilt_sw_enabled.json
+hkr,mappings\fastrpc\default\bd60315fd8c6a886a6b956fffd1f587dae73b70a77b446d0bebb5981258ce621,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_tilt_sw_enabled.json
+
+; Updating registry of sns_tilt_to_wake.json to remote path \vendor\etc\sensors\config\sns_tilt_to_wake.json
+HKR,Mappings\FASTRPC\Default\cf98ad20e1b870acc2e3e25977539f042039854e531e9e9eb897883506f38242,"Local",%REG_SZ%, %13%\sns_tilt_to_wake.json
+hkr,mappings\fastrpc\default\cf98ad20e1b870acc2e3e25977539f042039854e531e9e9eb897883506f38242,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_tilt_to_wake.json
+
+; Updating registry of sns_wrist_pedo.json to remote path \vendor\etc\sensors\config\sns_wrist_pedo.json
+HKR,Mappings\FASTRPC\Default\8df85b4d7b28c6861c9a9912b8dc4f187745f83feef0757167157a4cffdeb447,"Local",%REG_SZ%, %13%\sns_wrist_pedo.json
+hkr,mappings\fastrpc\default\8df85b4d7b28c6861c9a9912b8dc4f187745f83feef0757167157a4cffdeb447,"remote",%reg_sz%, \vendor\etc\sensors\config\sns_wrist_pedo.json
+
+; Updating registry of surfaceduo_ak991x_0.json to remote path \vendor\etc\sensors\config\surfaceduo_ak991x_0.json
+HKR,Mappings\FASTRPC\Default\7187281bc24fe13cb92d009175b59e82a8b8bf0da72651d1bda0a639c0053a16,"Local",%REG_SZ%, %13%\surfaceduo_ak991x_0.json
+hkr,mappings\fastrpc\default\7187281bc24fe13cb92d009175b59e82a8b8bf0da72651d1bda0a639c0053a16,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_ak991x_0.json
+
+; Updating registry of surfaceduo_ak991x_1.json to remote path \vendor\etc\sensors\config\surfaceduo_ak991x_1.json
+HKR,Mappings\FASTRPC\Default\8abe77cd22cb542734acff8c29b4800199d12caed7c614de6cc6a4dc1ecb49a5,"Local",%REG_SZ%, %13%\surfaceduo_ak991x_1.json
+hkr,mappings\fastrpc\default\8abe77cd22cb542734acff8c29b4800199d12caed7c614de6cc6a4dc1ecb49a5,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_ak991x_1.json
+
+; Updating registry of surfaceduo_ak991x_orient_v1_0.json to remote path \vendor\etc\sensors\config\surfaceduo_ak991x_orient_v1_0.json
+HKR,Mappings\FASTRPC\Default\ae874d568a0da9b4fa9a8aa24859a580faafd7c2adef631744ac5de79c165ac6,"Local",%REG_SZ%, %13%\surfaceduo_ak991x_orient_v1_0.json
+hkr,mappings\fastrpc\default\ae874d568a0da9b4fa9a8aa24859a580faafd7c2adef631744ac5de79c165ac6,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_ak991x_orient_v1_0.json
+
+; Updating registry of surfaceduo_ak991x_orient_v2_0.json to remote path \vendor\etc\sensors\config\surfaceduo_ak991x_orient_v2_0.json
+HKR,Mappings\FASTRPC\Default\7f6163a7ea4ddeebf36ef43b38ea3b3fb33347b2c3efbfe44193467d1b3792b0,"Local",%REG_SZ%, %13%\surfaceduo_ak991x_orient_v2_0.json
+hkr,mappings\fastrpc\default\7f6163a7ea4ddeebf36ef43b38ea3b3fb33347b2c3efbfe44193467d1b3792b0,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_ak991x_orient_v2_0.json
+
+; Updating registry of surfaceduo_ak997x_0.json to remote path \vendor\etc\sensors\config\surfaceduo_ak997x_0.json
+HKR,Mappings\FASTRPC\Default\e67362bb59decdc7ed427026de9a2468d96c2c75ba9329b6d852758c62be3a05,"Local",%REG_SZ%, %13%\surfaceduo_ak997x_0.json
+hkr,mappings\fastrpc\default\e67362bb59decdc7ed427026de9a2468d96c2c75ba9329b6d852758c62be3a05,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_ak997x_0.json
+
+; Updating registry of surfaceduo_ak997x_dri_0.json to remote path \vendor\etc\sensors\config\surfaceduo_ak997x_dri_0.json
+HKR,Mappings\FASTRPC\Default\18f100df3d4f0ee3619f5e1d05c9de08f7c6d2e399308693c11f28ac9117ade9,"Local",%REG_SZ%, %13%\surfaceduo_ak997x_dri_0.json
+hkr,mappings\fastrpc\default\18f100df3d4f0ee3619f5e1d05c9de08f7c6d2e399308693c11f28ac9117ade9,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_ak997x_dri_0.json
+
+; Updating registry of surfaceduo_alpha.json to remote path \vendor\etc\sensors\config\surfaceduo_alpha.json
+HKR,Mappings\FASTRPC\Default\cb4c77e62e3dd5cf3af0bdd692bcbeac3bea192576c01c961cb75e5c77d09a9a,"Local",%REG_SZ%, %13%\surfaceduo_alpha.json
+hkr,mappings\fastrpc\default\cb4c77e62e3dd5cf3af0bdd692bcbeac3bea192576c01c961cb75e5c77d09a9a,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_alpha.json
+
+; Updating registry of surfaceduo_bu52053nvx_0.json to remote path \vendor\etc\sensors\config\surfaceduo_bu52053nvx_0.json
+HKR,Mappings\FASTRPC\Default\5df971d622fa9132fb6e99c06044943fe6ab3249808a44196ee96efc06e2af2e,"Local",%REG_SZ%, %13%\surfaceduo_bu52053nvx_0.json
+hkr,mappings\fastrpc\default\5df971d622fa9132fb6e99c06044943fe6ab3249808a44196ee96efc06e2af2e,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_bu52053nvx_0.json
+
+; Updating registry of surfaceduo_bu52053nvx_1.json to remote path \vendor\etc\sensors\config\surfaceduo_bu52053nvx_1.json
+HKR,Mappings\FASTRPC\Default\9d78cafda6ffd19014db33f58777b025a6da11d7060ca825dddb06c7f35452f2,"Local",%REG_SZ%, %13%\surfaceduo_bu52053nvx_1.json
+hkr,mappings\fastrpc\default\9d78cafda6ffd19014db33f58777b025a6da11d7060ca825dddb06c7f35452f2,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_bu52053nvx_1.json
+
+; Updating registry of surfaceduo_default_sensors.json to remote path \vendor\etc\sensors\config\surfaceduo_default_sensors.json
+HKR,Mappings\FASTRPC\Default\eda2daad6ae4a39523bde36a895a44cf51d223f364d5023f6c7416dd667928e6,"Local",%REG_SZ%, %13%\surfaceduo_default_sensors.json
+hkr,mappings\fastrpc\default\eda2daad6ae4a39523bde36a895a44cf51d223f364d5023f6c7416dd667928e6,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_default_sensors.json
+
+; Updating registry of surfaceduo_device_state.json to remote path \vendor\etc\sensors\config\surfaceduo_device_state.json
+HKR,Mappings\FASTRPC\Default\e69e27d0c4c13a9eb5ad49d1d94365f4d7ae24ff51df878bb382ae50b63a5330,"Local",%REG_SZ%, %13%\surfaceduo_device_state.json
+hkr,mappings\fastrpc\default\e69e27d0c4c13a9eb5ad49d1d94365f4d7ae24ff51df878bb382ae50b63a5330,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_device_state.json
+
+; Updating registry of surfaceduo_diagnostics.json to remote path \vendor\etc\sensors\config\surfaceduo_diagnostics.json
+HKR,Mappings\FASTRPC\Default\68c6730b5bcca7a22f0338b04667ea555aeeffb974edfb2d1a878d82a055994b,"Local",%REG_SZ%, %13%\surfaceduo_diagnostics.json
+hkr,mappings\fastrpc\default\68c6730b5bcca7a22f0338b04667ea555aeeffb974edfb2d1a878d82a055994b,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_diagnostics.json
+
+; Updating registry of surfaceduo_dynamic_sensors.json to remote path \vendor\etc\sensors\config\surfaceduo_dynamic_sensors.json
+HKR,Mappings\FASTRPC\Default\f527d8b6ac2470870410d4d322124f69f266273bcac1b5248f0ce372be6ed1cb,"Local",%REG_SZ%, %13%\surfaceduo_dynamic_sensors.json
+hkr,mappings\fastrpc\default\f527d8b6ac2470870410d4d322124f69f266273bcac1b5248f0ce372be6ed1cb,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_dynamic_sensors.json
+
+; Updating registry of surfaceduo_flip.json to remote path \vendor\etc\sensors\config\surfaceduo_flip.json
+HKR,Mappings\FASTRPC\Default\4bb7a1edd9022829ec70e90c58a7a996165a6979602a675fec9094e2e4a233c0,"Local",%REG_SZ%, %13%\surfaceduo_flip.json
+hkr,mappings\fastrpc\default\4bb7a1edd9022829ec70e90c58a7a996165a6979602a675fec9094e2e4a233c0,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_flip.json
+
+; Updating registry of surfaceduo_fold.json to remote path \vendor\etc\sensors\config\surfaceduo_fold.json
+HKR,Mappings\FASTRPC\Default\0fe7ea98fb28edb52d74d4171985ee6eb72a0db12dc184b2dee9b49bd7cc9d6b,"Local",%REG_SZ%, %13%\surfaceduo_fold.json
+hkr,mappings\fastrpc\default\0fe7ea98fb28edb52d74d4171985ee6eb72a0db12dc184b2dee9b49bd7cc9d6b,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_fold.json
+
+; Updating registry of surfaceduo_irq.json to remote path \vendor\etc\sensors\config\surfaceduo_irq.json
+HKR,Mappings\FASTRPC\Default\76c071d3ab1eac218584510d21662630c775d765c74807e5eafc40971a5155be,"Local",%REG_SZ%, %13%\surfaceduo_irq.json
+hkr,mappings\fastrpc\default\76c071d3ab1eac218584510d21662630c775d765c74807e5eafc40971a5155be,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_irq.json
+
+; Updating registry of surfaceduo_lps22hh_0.json to remote path \vendor\etc\sensors\config\surfaceduo_lps22hh_0.json
+HKR,Mappings\FASTRPC\Default\2a9e372ddef48186ff8bbf6a36590b6ef3a7672c02d80245ca078c4a621be112,"Local",%REG_SZ%, %13%\surfaceduo_lps22hh_0.json
+hkr,mappings\fastrpc\default\2a9e372ddef48186ff8bbf6a36590b6ef3a7672c02d80245ca078c4a621be112,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_lps22hh_0.json
+
+; Updating registry of surfaceduo_lsm6dst_0.json to remote path \vendor\etc\sensors\config\surfaceduo_lsm6dst_0.json
+HKR,Mappings\FASTRPC\Default\d0cd707400480cfea41ecc76e7dfb84162eddd86fcbfa2c6e3e881c5ee8361b5,"Local",%REG_SZ%, %13%\surfaceduo_lsm6dst_0.json
+hkr,mappings\fastrpc\default\d0cd707400480cfea41ecc76e7dfb84162eddd86fcbfa2c6e3e881c5ee8361b5,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_lsm6dst_0.json
+
+; Updating registry of surfaceduo_lsm6dst_1.json to remote path \vendor\etc\sensors\config\surfaceduo_lsm6dst_1.json
+HKR,Mappings\FASTRPC\Default\34413e07869816e66d03eae925a034934f9ad533d84ed8b3e54b5042244e9469,"Local",%REG_SZ%, %13%\surfaceduo_lsm6dst_1.json
+hkr,mappings\fastrpc\default\34413e07869816e66d03eae925a034934f9ad533d84ed8b3e54b5042244e9469,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_lsm6dst_1.json
+
+; Updating registry of surfaceduo_posture.json to remote path \vendor\etc\sensors\config\surfaceduo_posture.json
+HKR,Mappings\FASTRPC\Default\1dffb2380af52d6d01efed18a657c42d4c0be36c23a68d681e49ccfa37f0e23c,"Local",%REG_SZ%, %13%\surfaceduo_posture.json
+hkr,mappings\fastrpc\default\1dffb2380af52d6d01efed18a657c42d4c0be36c23a68d681e49ccfa37f0e23c,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_posture.json
+
+; Updating registry of surfaceduo_power_0.json to remote path \vendor\etc\sensors\config\surfaceduo_power_0.json
+HKR,Mappings\FASTRPC\Default\fb5f5e4b8dad3d55aa68f4509e98fafcb468c12cf36ea9826a641fc298b266a6,"Local",%REG_SZ%, %13%\surfaceduo_power_0.json
+hkr,mappings\fastrpc\default\fb5f5e4b8dad3d55aa68f4509e98fafcb468c12cf36ea9826a641fc298b266a6,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_power_0.json
+
+; Updating registry of surfaceduo_sar_motion_0.json to remote path \vendor\etc\sensors\config\surfaceduo_sar_motion_0.json
+HKR,Mappings\FASTRPC\Default\40b19dc89d4b25ce3de33f7a90dcb02cc8ce449cdcd46ad031acee73c6fce105,"Local",%REG_SZ%, %13%\surfaceduo_sar_motion_0.json
+hkr,mappings\fastrpc\default\40b19dc89d4b25ce3de33f7a90dcb02cc8ce449cdcd46ad031acee73c6fce105,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_sar_motion_0.json
+
+; Updating registry of surfaceduo_sar_motion_1.json to remote path \vendor\etc\sensors\config\surfaceduo_sar_motion_1.json
+HKR,Mappings\FASTRPC\Default\95faae631ad597b8b3f6179c6d953b3d44adbb188f45f06440318140c987d342,"Local",%REG_SZ%, %13%\surfaceduo_sar_motion_1.json
+hkr,mappings\fastrpc\default\95faae631ad597b8b3f6179c6d953b3d44adbb188f45f06440318140c987d342,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_sar_motion_1.json
+
+; Updating registry of surfaceduo_sar_posture.json to remote path \vendor\etc\sensors\config\surfaceduo_sar_posture.json
+HKR,Mappings\FASTRPC\Default\48b4e5e17a66528a3bfa3fba381ab8458e824ced8aeebd1801c584f2c458a738,"Local",%REG_SZ%, %13%\surfaceduo_sar_posture.json
+hkr,mappings\fastrpc\default\48b4e5e17a66528a3bfa3fba381ab8458e824ced8aeebd1801c584f2c458a738,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_sar_posture.json
+
+; Updating registry of surfaceduo_tcs3430_0.json to remote path \vendor\etc\sensors\config\surfaceduo_tcs3430_0.json
+HKR,Mappings\FASTRPC\Default\477fb8fbf2a7417de25d76ce889df620ca41c6370a16847bae487b9755f33c73,"Local",%REG_SZ%, %13%\surfaceduo_tcs3430_0.json
+hkr,mappings\fastrpc\default\477fb8fbf2a7417de25d76ce889df620ca41c6370a16847bae487b9755f33c73,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_tcs3430_0.json
+
+; Updating registry of surfaceduo_tcs3430_1.json to remote path \vendor\etc\sensors\config\surfaceduo_tcs3430_1.json
+HKR,Mappings\FASTRPC\Default\07797cf4c0e3cdb9aad191c1838906433f9d291108ba7654a53f260922d4a311,"Local",%REG_SZ%, %13%\surfaceduo_tcs3430_1.json
+hkr,mappings\fastrpc\default\07797cf4c0e3cdb9aad191c1838906433f9d291108ba7654a53f260922d4a311,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_tcs3430_1.json
+
+; Updating registry of surfaceduo_txc_0.json to remote path \vendor\etc\sensors\config\surfaceduo_txc_0.json
+HKR,Mappings\FASTRPC\Default\b3d778e554c618b827afe0a8cd3dc70939caea36c86194b6b283b9f86a98d42c,"Local",%REG_SZ%, %13%\surfaceduo_txc_0.json
+hkr,mappings\fastrpc\default\b3d778e554c618b827afe0a8cd3dc70939caea36c86194b6b283b9f86a98d42c,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_txc_0.json
+
+; Updating registry of surfaceduo_txc_0_a12.json to remote path \vendor\etc\sensors\config\surfaceduo_txc_0_a12.json
+HKR,Mappings\FASTRPC\Default\b71d3a7070bbda5ab0391fff866ed4f67ca4324c47bca6bfb2bf679e2d4f3ebb,"Local",%REG_SZ%, %13%\surfaceduo_txc_0_a12.json
+hkr,mappings\fastrpc\default\b71d3a7070bbda5ab0391fff866ed4f67ca4324c47bca6bfb2bf679e2d4f3ebb,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_txc_0_a12.json
+
+; Updating registry of surfaceduo_txc_0_crs.json to remote path \vendor\etc\sensors\config\surfaceduo_txc_0_crs.json
+HKR,Mappings\FASTRPC\Default\fb7cff9923b00616c798453babab21964da431a7ac94979d8cdd6592fb7c27ab,"Local",%REG_SZ%, %13%\surfaceduo_txc_0_crs.json
+hkr,mappings\fastrpc\default\fb7cff9923b00616c798453babab21964da431a7ac94979d8cdd6592fb7c27ab,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_txc_0_crs.json
+
+; Updating registry of surfaceduo_txc_1.json to remote path \vendor\etc\sensors\config\surfaceduo_txc_1.json
+HKR,Mappings\FASTRPC\Default\6fe664b6125a57488df249a174f4dbe71cc76399b26e601106ce227c517f38df,"Local",%REG_SZ%, %13%\surfaceduo_txc_1.json
+hkr,mappings\fastrpc\default\6fe664b6125a57488df249a174f4dbe71cc76399b26e601106ce227c517f38df,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_txc_1.json
+
+; Updating registry of surfaceduo_txc_1_a12.json to remote path \vendor\etc\sensors\config\surfaceduo_txc_1_a12.json
+HKR,Mappings\FASTRPC\Default\71e525209219aba51c9115758541536501a139d6de2d80538fa4e872b54759e4,"Local",%REG_SZ%, %13%\surfaceduo_txc_1_a12.json
+hkr,mappings\fastrpc\default\71e525209219aba51c9115758541536501a139d6de2d80538fa4e872b54759e4,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_txc_1_a12.json
+
+; Updating registry of surfaceduo_txc_1_crs.json to remote path \vendor\etc\sensors\config\surfaceduo_txc_1_crs.json
+HKR,Mappings\FASTRPC\Default\2b0cbf50a3078e98d4257c2cde7511e65ffcef45dbd916ad764bbaf147e4f33e,"Local",%REG_SZ%, %13%\surfaceduo_txc_1_crs.json
+hkr,mappings\fastrpc\default\2b0cbf50a3078e98d4257c2cde7511e65ffcef45dbd916ad764bbaf147e4f33e,"remote",%reg_sz%, \vendor\etc\sensors\config\surfaceduo_txc_1_crs.json
+

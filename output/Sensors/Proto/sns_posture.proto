@@ -1,0 +1,79 @@
+// @file sns_posture.proto
+//
+// Defines standard message types for posture
+//
+// Copyright (c) 2019 OEM Corporation
+// All Rights Reserved.
+// Confidential and Proprietary - OEM Corporation
+syntax = "proto2";
+import "nanopb.proto";
+
+// Message IDs for posture Sensor
+enum sns_posture_msgid {
+  option (nanopb_enumopt).long_names = false;
+  SNS_POSTURE_MSGID_SNS_POSTURE_EVENT  = 7788;
+}
+
+enum sns_posture_event_type {
+  option (nanopb_enumopt).long_names = false;
+
+  SNS_POSTURE_EVENT_TYPE_UNKNOWN = -1;
+
+  /*< 5 degrees . */
+  SNS_POSTURE_EVENT_TYPE_CLOSED = 0;
+
+  /* 5-75 degress */
+  SNS_POSTURE_EVENT_TYPE_PEEK_RIGHT = 1;
+  SNS_POSTURE_EVENT_TYPE_PEEK_LEFT = 2;
+
+  /* Read (DPM) 76-140 degrees. */
+  SNS_POSTURE_EVENT_TYPE_READ = 3;
+
+  /* Compose (DPM) 76-140 degrees */
+  SNS_POSTURE_EVENT_TYPE_COMPOSE = 4;
+
+  /* Open (DPM) 141-235 degrees */
+  SNS_POSTURE_EVENT_TYPE_OPEN_DPM = 5;
+
+  /* Open (DLM) 141-235 degrees */
+  SNS_POSTURE_EVENT_TYPE_OPEN_DLM = 6;
+
+  /* 236-345 degrees in portrait */
+  SNS_POSTURE_EVENT_TYPE_BROCHURE_RIGHT = 7;
+
+  /* 191~315 degrees in landscape */
+  SNS_POSTURE_EVENT_TYPE_TENT_RIGHT = 8;
+
+  /* 316-360 degrees in portrait */
+  SNS_POSTURE_EVENT_TYPE_FLIP_P_RIGHT = 9;
+
+  /* 316-360 degrees in landscape */
+  SNS_POSTURE_EVENT_TYPE_FLIP_L_RIGHT = 10;
+
+  /* 316-360 degrees in portrait */
+  SNS_POSTURE_EVENT_TYPE_FLIP_P_LEFT = 11;
+
+  /* 316-360 degrees in landscape */
+  SNS_POSTURE_EVENT_TYPE_FLIP_L_LEFT = 12;
+
+  /* 236-345 degrees in landscape */
+  SNS_POSTURE_EVENT_TYPE_BROCHURE_LEFT = 13;
+
+  /* 236-345 degrees in landscape */
+  SNS_POSTURE_EVENT_TYPE_TENT_LEFT = 14;
+
+  /* 236-345 degrees in landscape */
+  SNS_POSTURE_EVENT_TYPE_RAMP_RIGHT = 15;
+
+  /* 236-345 degrees in landscape */
+  SNS_POSTURE_EVENT_TYPE_RAMP_LEFT = 16;
+
+  SNS_POSTURE_EVENT_TYPE_UNDETERMINED = 99;
+}
+
+// Events types from posture Sensor
+message sns_posture_event
+{
+  // Posture output event
+  required sns_posture_event_type state = 1 [default = SNS_POSTURE_EVENT_TYPE_UNKNOWN];
+}

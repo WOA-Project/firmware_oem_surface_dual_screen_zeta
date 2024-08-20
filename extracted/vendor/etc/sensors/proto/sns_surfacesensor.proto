@@ -1,0 +1,174 @@
+// @file sns_surfacesensor.proto
+//
+// Defines standard message types for surface sensor
+//
+// Copyright (c) 2021 Microsoft Corporation
+// All Rights Reserved.
+// Confidential and Proprietary - Microsoft Corporation
+
+syntax = "proto2";
+import "nanopb.proto";
+import "sns_registry.proto";
+
+enum sns_surfacesensor_msgid
+{
+  option (nanopb_enumopt).long_names = false;
+
+  SNS_SURFACESENSOR_MSGID_SNS_SURFACESENSOR_DATA = 2048;
+
+  SNS_SURFACESENSOR_MSGID_SNS_CONFIG_REQ = 2049;
+  SNS_SURFACESENSOR_MSGID_SNS_COMMAND_REQ = 2050;
+  SNS_SURFACESENSOR_MSGID_SNS_CONFIG_RESP = 2051;
+  SNS_SURFACESENSOR_MSGID_SNS_COMMAND_RESP = 2052;
+  SNS_SURFACESENSOR_MSGID_SNS_ON_CHANGE_REQ = 2053;
+}
+
+enum sns_helper_cmd_id
+{
+  option (nanopb_enumopt).long_names = false;
+
+  NO_PAYLOAD  = 0;
+  CONFIG_REQ  = 1;
+  COMMAND_REQ = 2;
+}
+
+enum sns_surfacesensor_operation
+{
+  option (nanopb_enumopt).long_names = false;
+
+  NO_OP       = 0;
+  READ        = 1;
+  UPDATE      = 2;
+  WRITE_REG   = 3;
+}
+
+enum sns_surfacesensor_status
+{
+  option (nanopb_enumopt).long_names = false;
+
+  SUCCESS     = 0;
+  FAILED      = 1;
+}
+
+enum sns_surfacesensor_cmd_type
+{
+  option (nanopb_enumopt).long_names = false;
+
+  DUMP_HW_REGISTER  = 0;
+  DUMP_INT_STATUS   = 1;
+  DUMP_ISLAND_INFO  = 2;
+}
+
+// Configuration Message
+// Used to either request for a certain configuration of the Sim Sensor or
+// alter an already existing configuration of the Simulation Sensor
+// Uses sns_std_sensor_config defined in sns_std_sensor.proto
+// The message field definitions are as follows:
+// 1) float sample_rate
+//      containing the required sample rate of the Sim sensor in hertz
+
+message sns_surfacesensor_request
+{
+  // REQUIRED
+  // INTEGER
+  // Supported command
+  required sns_helper_cmd_id cmd_id = 1;
+
+  // REQUIRED
+  // INTEGER
+  // Supported operation
+  required sns_surfacesensor_operation operation = 2;
+
+  // REQUIRED
+  // STRING
+  // Target group name of corresponding registry
+  required string group_name = 3;
+
+  // REQUIRED
+  // INTEGER
+  // Size of the config names
+  required fixed32 cfg_size = 4;
+
+  // REPEATED
+  // STRING
+  // Target config names that we want to read or update
+  repeated string cfg_name = 5;
+
+  // OPTIONAL
+  // SNS_REGISTRY_DATA
+  // Use for encapsulating ConfigItems
+  optional sns_registry_data data = 6;
+}
+
+message sns_surfacesensor_event
+{
+  // REQUIRED
+  // INTEGER
+  // Status of surfacesensor request
+  required sns_surfacesensor_status status = 1;
+}
+
+message reg_entry
+{
+  //
+  optional uint32 key = 1;
+
+  //
+  optional uint32 value = 2;
+}
+
+message sns_surfacesensor_cmd_request
+{
+  // REQUIRED
+  // INTEGER
+  // Supported command
+  required sns_helper_cmd_id cmd_id = 1;
+
+  // REQUIRED
+  // INTEGER
+  // Supported operation
+  required sns_surfacesensor_cmd_type cmd_type = 2;
+}
+
+message sns_surfacesensor_cmd_event
+{
+  // REQUIRED
+  // INTEGER
+  // Status of surfacesensor request
+  required sns_surfacesensor_status status = 1;
+
+  // REQUIRED
+  required uint32 hw_id = 2;
+
+  // REPEATED
+  // KEY,VALUE MAP
+  repeated reg_entry reg_info = 3 [(nanopb).max_count = 32];
+}
+
+message sns_surfacesensor_setval_request
+{
+  // OPTIONAL
+  // BOOLEAN
+  // Set boolean value to target sensor
+  optional bool bool_val = 1;
+
+  // OPTIONAL
+  // INTEGER
+  // Set integer value to target sensor
+  optional int32 int_val = 2;
+
+  // OPTIONAL
+  // UNSIGNED INTEGER
+  // Set unsigned integer value to target sensor
+  optional uint32 uint_val = 3;
+
+  // OPTIONAL
+  // FLOAT
+  // Set float value to target sensor
+  optional float flt_val = 4;
+
+  // OPTIONAL
+  // STRING
+  // Set string value to target sensor
+  optional string str_val = 5;
+}

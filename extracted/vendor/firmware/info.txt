@@ -1,0 +1,1 @@
+{"organization": "https://dev.azure.com/E-OS", "feed": "c1-11-resource-files", "name": "ufs-firmware", "version": "0.0.5", "path": "vendor/surface/ufs/ffu/prebuilts/", "project": null, "hashCheck": false, "description": "ufs firmware", "wipepath": false, "filter": [], "archs": null, "view_filter": null}

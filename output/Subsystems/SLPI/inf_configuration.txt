@@ -1,0 +1,69 @@
+map_SSC_SLPI_USER_lahaina.slpi.prodQ.txt = 13,\SDSP
+map_SLPI_SHARED_LIBS_lahaina.slpi.prodQ.txt = 13,\SDSP
+libsysmon_skel.so = 13,\SDSP
+libsysmonquery_skel.so = 13,\SDSP
+libsysmondomain_skel.so = 13,\SDSP
+libstabilitydomain_skel.so = 13,\SDSP
+fastrpc_shell_2 = 13,\SDSP
+
+-------------------------------
+
+map_SSC_SLPI_USER_lahaina.slpi.prodQ.txt = 1,\SDSP
+map_SLPI_SHARED_LIBS_lahaina.slpi.prodQ.txt = 1,\SDSP
+libsysmon_skel.so = 1,\SDSP
+libsysmonquery_skel.so = 1,\SDSP
+libsysmondomain_skel.so = 1,\SDSP
+libstabilitydomain_skel.so = 1,\SDSP
+fastrpc_shell_2 = 1,\SDSP
+
+-------------------------------
+
+CopyFiles=map_SSC_SLPI_USER_lahaina.slpi.prodQ.txt,map_SLPI_SHARED_LIBS_lahaina.slpi.prodQ.txt,libsysmon_skel.so,libsysmonquery_skel.so,libsysmondomain_skel.so,libstabilitydomain_skel.so,fastrpc_shell_2
+
+-------------------------------
+
+[map_SSC_SLPI_USER_lahaina.slpi.prodQ.txt]
+map_SSC_SLPI_USER_lahaina.slpi.prodQ.txt
+[map_SLPI_SHARED_LIBS_lahaina.slpi.prodQ.txt]
+map_SLPI_SHARED_LIBS_lahaina.slpi.prodQ.txt
+[libsysmon_skel.so]
+libsysmon_skel.so
+[libsysmonquery_skel.so]
+libsysmonquery_skel.so
+[libsysmondomain_skel.so]
+libsysmondomain_skel.so
+[libstabilitydomain_skel.so]
+libstabilitydomain_skel.so
+[fastrpc_shell_2]
+fastrpc_shell_2
+
+-------------------------------
+
+; Updating registry of fastrpc_shell_2 to remote path \sdsp\fastrpc_shell_2
+HKR,Mappings\FASTRPC\Default\65102f9ba031e11c52097852499f6dedcd85fb8724181db56d58c597d1f52cb6,"Local",%REG_SZ%, %13%\SDSP\fastrpc_shell_2
+hkr,mappings\fastrpc\default\65102f9ba031e11c52097852499f6dedcd85fb8724181db56d58c597d1f52cb6,"remote",%reg_sz%, \sdsp\fastrpc_shell_2
+
+; Updating registry of libstabilitydomain_skel.so to remote path \sdsp\libstabilitydomain_skel.so
+HKR,Mappings\FASTRPC\Default\bdcd2a22dae2a0add0d3afa0c980f18a15a0001daecd32c588de525cfcdc60d0,"Local",%REG_SZ%, %13%\SDSP\libstabilitydomain_skel.so
+hkr,mappings\fastrpc\default\bdcd2a22dae2a0add0d3afa0c980f18a15a0001daecd32c588de525cfcdc60d0,"remote",%reg_sz%, \sdsp\libstabilitydomain_skel.so
+
+; Updating registry of libsysmondomain_skel.so to remote path \sdsp\libsysmondomain_skel.so
+HKR,Mappings\FASTRPC\Default\b6effaa9f655614a6acee10a998c059b32dc4d3d9d9162ec21431a1a2b9947c9,"Local",%REG_SZ%, %13%\SDSP\libsysmondomain_skel.so
+hkr,mappings\fastrpc\default\b6effaa9f655614a6acee10a998c059b32dc4d3d9d9162ec21431a1a2b9947c9,"remote",%reg_sz%, \sdsp\libsysmondomain_skel.so
+
+; Updating registry of libsysmonquery_skel.so to remote path \sdsp\libsysmonquery_skel.so
+HKR,Mappings\FASTRPC\Default\11efb47e25691cc96482e86ce85fc42a754fc6b33a4fdb0901dbb2196d1fe7af,"Local",%REG_SZ%, %13%\SDSP\libsysmonquery_skel.so
+hkr,mappings\fastrpc\default\11efb47e25691cc96482e86ce85fc42a754fc6b33a4fdb0901dbb2196d1fe7af,"remote",%reg_sz%, \sdsp\libsysmonquery_skel.so
+
+; Updating registry of libsysmon_skel.so to remote path \sdsp\libsysmon_skel.so
+HKR,Mappings\FASTRPC\Default\be24b8ec370e39882568d2431504b59797e3d738cd37fc6a41ba65031ef2435b,"Local",%REG_SZ%, %13%\SDSP\libsysmon_skel.so
+hkr,mappings\fastrpc\default\be24b8ec370e39882568d2431504b59797e3d738cd37fc6a41ba65031ef2435b,"remote",%reg_sz%, \sdsp\libsysmon_skel.so
+
+; Updating registry of map_SLPI_SHARED_LIBS_lahaina.slpi.prodQ.txt to remote path \sdsp\map_SLPI_SHARED_LIBS_lahaina.slpi.prodQ.txt
+HKR,Mappings\FASTRPC\Default\d92e02a020041d49c380a944fd77b412d45c7a4dd574dc5507042e240dab7c01,"Local",%REG_SZ%, %13%\SDSP\map_SLPI_SHARED_LIBS_lahaina.slpi.prodQ.txt
+hkr,mappings\fastrpc\default\d92e02a020041d49c380a944fd77b412d45c7a4dd574dc5507042e240dab7c01,"remote",%reg_sz%, \sdsp\map_slpi_shared_libs_lahaina.slpi.prodq.txt
+
+; Updating registry of map_SSC_SLPI_USER_lahaina.slpi.prodQ.txt to remote path \sdsp\map_SSC_SLPI_USER_lahaina.slpi.prodQ.txt
+HKR,Mappings\FASTRPC\Default\56320c2d43c3a67ecbee6b2042c73f6069dd64f12a37a579a62dfd271a31668f,"Local",%REG_SZ%, %13%\SDSP\map_SSC_SLPI_USER_lahaina.slpi.prodQ.txt
+hkr,mappings\fastrpc\default\56320c2d43c3a67ecbee6b2042c73f6069dd64f12a37a579a62dfd271a31668f,"remote",%reg_sz%, \sdsp\map_ssc_slpi_user_lahaina.slpi.prodq.txt
+

@@ -1,0 +1,28 @@
+// @file sns_diagnostics.proto
+//
+// Defines standard message types for diagnostics
+//
+// Copyright (c) 2019 OEM Corporation
+// All Rights Reserved.
+// Confidential and Proprietary - OEM Corporation
+syntax = "proto2";
+import "nanopb.proto";
+import "sns_std_sensor.proto";
+
+// Message IDs for diagnostics Sensor
+enum sns_diagnostics_msgid {
+  option (nanopb_enumopt).long_names = false;
+  SNS_DIAGNOSTICS_MSGID_SNS_DIAGNOSTICS_EVENT  = 7788;
+}
+
+
+
+// Events types from diagnostics Sensor
+message sns_diagnostics_event
+{
+  // Posture output event
+  required float state = 1 [(nanopb).max_count = 8];
+
+  // Accuracy of the data
+  required sns_std_sensor_sample_status accuracy = 2;
+}
