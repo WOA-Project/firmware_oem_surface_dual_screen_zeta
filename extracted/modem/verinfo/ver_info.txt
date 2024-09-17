@@ -8,20 +8,20 @@
         "boot": "BOOT.MXF.1.0-00893-LAHAINA-1.7786.2", 
         "btfm": "BTFM.HSP.1.0.0-00941-QCAHSPROMZ-1.7786.2", 
         "cdsp": "CDSP.HT.2.5-00891-LAHAINA-1.7786.2", 
-        "common": "Lahaina.LA.1.0.c8-00059-STD.PROD-1.7786.99", 
+        "common": "Lahaina.LA.1.0.c8-00059-STD.PROD-1.7786.101", 
         "cpucp": "CPUCP.FW.1.0-00063-LAHAINA.EXT-1", 
         "glue": "GLUE.LAHAINA_LA.1.0-00319-NOOP_TEST-1", 
         "modem": "MPSS.HI.4.0.c8-00035-LC_ALL_PACK-1.7786.91", 
         "slpi": "SLPI.HY.4.0-00220-LAHAINA-1.7786.2", 
         "spss": "SPSS.A1.1.4-10002-LAHAINA.0-3", 
-        "tz": "TZ.XF.5.11-00568-SPF.LAHAINA-1.7786.29", 
-        "tz_apps": "TZ.APPS.2.0-00224-SPF.LAHAINA-2.7786.15", 
+        "tz": "TZ.XF.5.11-00568-SPF.LAHAINA-1.7786.30", 
+        "tz_apps": "TZ.APPS.2.0-00224-SPF.LAHAINA-2.7786.18", 
         "wlan_hsp": "WLAN.HSP.1.1.c3-00267-QCAHSPSWPL_V1_V2_SILICONZ-1.7786.33"
     }, 
     "Metabuild_Info": {
-        "Meta_Build_ID": "Lahaina.LA.1.0.c8-00059-STD.PROD-1.7786.99", 
+        "Meta_Build_ID": "Lahaina.LA.1.0.c8-00059-STD.PROD-1.7786.101", 
         "Product_Flavor": "asic", 
-        "Time_Stamp": "2024-07-16 11:21:48"
+        "Time_Stamp": "2024-08-20 12:54:44"
     }, 
     "Version": "1.0"
 }
