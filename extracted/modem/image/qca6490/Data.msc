@@ -1,4 +1,4 @@
-VERSION:285442315
+VERSION:285507851
 
 2,IIii,[ wlan_ant_share.c : 169 ] COEX_MWS_ANT_DIVERSITY: chnmsk completed Rx:0x%x, Tx:0x%x, Cal:%d, ReqId:%d 
 1,ii,[ wlan_ant_share.c : 183 ] COEX_MWS_ANT_DIVERSITY: [Warr] chnmsk completed but ReqId:%d not matched with RespId:%d 
@@ -1511,10 +1511,10 @@ VERSION:285442315
 1449,ii,[ wlan_key_mgmt.c : 390 ] KEYMGMT_ADD_KEY_ENTRY_NO_MEM id=%d key_idx=%d 
 1448,iiIiII,[ wlan_key_mgmt.c : 475 ] KEYMGMT_INSTALL_KEY_ENTRY id=%d idx=%d key_flags_bitmap=0x%x len=%d peer_addr=0x04%x08%x 
 1471,II,[ wlan_beacon.c : 647 ] tsf_beacon: 0x%08x%08x 
-1470,Iiii,[ wlan_beacon.c : 2556 ] wlan_beacon_lio_update_li_on_suspend: flags=0x%x, moddtim=%d, dyndtim=%d, maxli=%d 
-1469,iii,[ wlan_beacon.c : 2599 ] wlan_beacon_lio_update_li_on_suspend: params are wrong, moddtim = %d, dyndtim = %d, max_li = %d 
-1468,ii,[ wlan_beacon.c : 2659 ] wlan_beacon_lio_wow_notif_handler: wow_notify=%d, is_system_suspend=%d 
-1467,iii,[ wlan_beacon.c : 2353 ] BEACON_RESYNC_ARBITER_RESOLVE: vdev_id=%d, is_vdev_holding=%d, SLIST_EMPTY(hold_list)=%d 
+1470,Iiii,[ wlan_beacon.c : 2558 ] wlan_beacon_lio_update_li_on_suspend: flags=0x%x, moddtim=%d, dyndtim=%d, maxli=%d 
+1469,iii,[ wlan_beacon.c : 2601 ] wlan_beacon_lio_update_li_on_suspend: params are wrong, moddtim = %d, dyndtim = %d, max_li = %d 
+1468,ii,[ wlan_beacon.c : 2661 ] wlan_beacon_lio_wow_notif_handler: wow_notify=%d, is_system_suspend=%d 
+1467,iii,[ wlan_beacon.c : 2355 ] BEACON_RESYNC_ARBITER_RESOLVE: vdev_id=%d, is_vdev_holding=%d, SLIST_EMPTY(hold_list)=%d 
 1484,iI,[ wlan_mbssid.c : 688 ] MBSS: NONTRAN_BSSID_CAP IE length: %d, NontxBssidCap: 0x%x 
 1483,iI,[ wlan_mbssid.c : 693 ] MBSS: SSID IE length:%d ssid:%s 
 1482,iIIIIIIii,[ wlan_mbssid.c : 709 ] MBSS: Couldn't find (mbssid_ind %d) %x:%x:%x:%x:%x:%x, DP: %d, DC:%d 
@@ -3494,139 +3494,139 @@ VERSION:285442315
 3327,I,[ wlan_wow_enhance.c : 1622 ] WOW_P2PGO_VDEV_DISALLOW  0x%x 
 3326,I,[ wlan_wow_enhance.c : 1631 ] WOW_AP_VDEV_DISALLOW  allow_status = 0x%x 
 3325,II,[ wlan_wow_enhance.c : 1667 ] WOW_IBSS_VDEV_ALLOW status = 0x%x peer_count = 0x%x 
-3393,III,[ cmdLp.c : 328 ] lowpowerHandler: lowPowerMode:0x%x, lowPowerFeatureMask:0x%x, phyIdMask:0x%x, 
+3367,i,[ getTgtPwr.c : 311 ] OFDMA_ru_size: %d invalid 
+3424,i,[ cmdProcessTlv2.c : 517 ] FTM Tx ChainMask %d overwrite to 0x2 due to BT2ed Harmonic! 
+3423,Ii,[ cmdProcessTlv2.c : 4781 ] %s: #### Getting cal version:bdfvertype: %d  !
  
-3392,,[ cmdLp.c : 428 ] lowpowerHandler: lowPowerMode:done 
-3391,i,[ cmdLp.c : 255 ] lowpowerHandler_btclock: BT CLOCK enable=0x%d 
-3390,i,[ cmdLp.c : 122 ] lowpowerHandler_ddssdisable: g_ddss_disable_all=%d
+3422,ii,[ cmdProcessTlv2.c : 1942 ] PHYDBGdump2Handler(Phy:%d, Option:%d)
  
-3389,i,[ cmdLp.c : 108 ] lowpowerHandler_dss: g_synth_control_ftm[0]=%d
+3421,IiI,[ cmdProcessTlv2.c : 1950 ] ### data_ptr %p size %d status 0x%x
  
-3388,I,[ cmdLp.c : 297 ] lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is inactive! 
+3420,Ii,[ cmdProcessTlv2.c : 1959 ] ### data_ptr %p stream_cnt %d
  
-3387,I,[ cmdLp.c : 302 ] lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is in sleep! 
+3419,,[ cmdProcessTlv2.c : 1962 ] ### Data buffer stream ended
  
-3386,II,[ cmdLp.c : 314 ] lowpowerHandler_hdl_psMask: phyId:0x%x, hdlpsMask=0x%x 
+3418,ii,[ cmdProcessTlv2.c : 2354 ] PHYDBGdumpHandler(Phy:%d, Option:%d)
  
-3385,II,[ cmdLp.c : 75 ] lowpowerHandler_imps_bmps: phyId:0x%x, g_ftm_lowPowerMode_imps_bmps:0x%x 
+3417,IiI,[ cmdProcessTlv2.c : 2362 ] ### data_ptr %p size %d status 0x%x
  
-3384,,[ cmdLp.c : 84 ] lowpowerHandler_imps_bmps: issue wal_pm_ftm_set_power_state sleep 
+3416,Ii,[ cmdProcessTlv2.c : 2371 ] ### data_ptr %p stream_cnt %d
  
-3383,,[ cmdLp.c : 91 ] lowpowerHandler_imps_bmps: issue wal_pm_ftm_set_power_state wakeup 
+3415,,[ cmdProcessTlv2.c : 2374 ] ### Data buffer stream ended
  
-3382,i,[ cmdLp.c : 247 ] lowpowerHandler_lpSynthForLegacyRx: g_ftm_lpSynthForLegacyRx_enable=0x%d 
+3414,Ii,[ cmdProcessTlv2.c : 4758 ] %s :set cal version , bdfvertype: %d !
  
-3381,i,[ cmdLp.c : 240 ] lowpowerHandler_lpSynthForLegacyTx: g_ftm_lpSynthForLegacyTx_enable=0x%d 
+3413,i,[ cmdProcessTlv2.c : 4018 ] Channel index out of bounds %d 
+3412,i,[ cmdProcessTlv2.c : 4026 ] Power offset Index out of bounds %d 
+3411,ii,[ cmdProcessTlv2.c : 4034 ] 2G index %d flag %d 
+3410,ii,[ cmdProcessTlv2.c : 4047 ] values written 2G %d 5G %d 
+3409,i,[ cmdProcessTlv2.c : 4108 ] Channel index out of bounds %d 
+3408,i,[ cmdProcessTlv2.c : 4189 ] Channel index out of bounds %d 
+3407,i,[ cmdProcessTlv2.c : 4219 ] Gain index out of bounds %d 
+3406,i,[ cmdProcessTlv2.c : 4204 ] Target Power index out of bounds %d 
+3405,,[ cmdProcessTlv2.c : 4535 ] OPC_OTP_WRITE:Ready to send response!
  
-3380,II,[ cmdLp.c : 219 ] lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x, No effect as phy is inactive! 
+3404,I,[ cmdProcessTlv2.c : 4536 ] OTP Write status, 0x%x 
+3403,,[ cmdProcessTlv2.c : 4548 ] OPC_OTP_WRITE:send response done!
  
-3379,II,[ cmdLp.c : 232 ] lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x 
+3402,,[ cmdProcessTlv2.c : 2974 ] bdGetSizeHandler
  
-3378,I,[ cmdLp.c : 269 ] lowpowerHandler_pbs: phyId:0x%x, No effect as phy is inactive! 
-3377,I,[ cmdLp.c : 274 ] lowpowerHandler_pbs: phyId:0x%x, No effect as phy is in sleep! 
-3376,iii,[ cmdLp.c : 283 ] lowpowerHandler_pbs: phyId:%d, pbs_enable=%d, pbs_flag=%d 
-3375,I,[ cmdLp.c : 161 ] lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is inactive! 
+3401,iIii,[ cmdProcessTlv2.c : 3001 ] bdReadHandler: bdSize %d, offset 0x%x, size %d, source %d
  
-3374,I,[ cmdLp.c : 166 ] lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is in sleep! 
+3400,i,[ cmdProcessTlv2.c : 3042 ] error in bdReadHandler: status %d
  
-3373,i,[ cmdLp.c : 176 ] lowpowerHandler_phydbgEnable: g_phydbg_disable=%d
+3399,Ii,[ cmdProcessTlv2.c : 4435 ] bdWriteHandler: offset 0x%x, size %d
  
-3372,I,[ cmdLp.c : 135 ] lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is inactive! 
+3398,IIIII,[ cmdProcessTlv2.c : 3748 ] COEX Req Handler(wght0= 0x%x,wght1= 0x%x,wght2= 0x%x,wght3= 0x%x,wght4= 0x%x)
  
-3371,I,[ cmdLp.c : 140 ] lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is in sleep! 
+3397,IIIIII,[ cmdProcessTlv2.c : 3757 ] COEX Req Handler(wght5= 0x%x,wght6= 0x%x,wght7= 0x%x,wght8= 0x%x,wght9= 0x%x,wght10= 0x%x)
  
-3370,i,[ cmdLp.c : 149 ] lowpowerHandler_phydbgdisable: g_phydbg_disable=%d
+3396,iIi,[ cmdProcessTlv2.c : 3763 ] COEX Req Handler(enableDynamicAggr= %d,shareChainMask= 0x%x,enableConcurrentTxChain0= %d)
  
-3369,II,[ cmdLp.c : 189 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is inactive! 
+3395,iIii,[ cmdProcessTlv2.c : 3770 ] COEX Req Handler(btRxAllowWlanTxUnshared= %d,btTxAllowWlanTxShared= 0x%x,wlanTxAllowBtRxShared= %d,wlanRxAllowBtTxShared= %d)
  
-3368,II,[ cmdLp.c : 194 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is in sleep! 
+3394,iIi,[ cmdProcessTlv2.c : 3776 ] COEX Req Handler(concurrentTxEnable= %d,btRxAllowWlanUnsharedTx= 0x%x,wlan1sTxBtTx= %d)
  
-3367,II,[ cmdLp.c : 201 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x 
+3393,ii,[ cmdProcessTlv2.c : 2246 ] combCalGroupHandler(): phyId = %d; cmdid = %d 
+3392,IIII,[ cmdProcessTlv2.c : 4660 ] %s: offset %ld, size %ld, totalsize %ld 
+3391,III,[ cmdProcessTlv2.c : 4729 ] %s: offset %ld, size %ld 
+3390,,[ cmdProcessTlv2.c : 187 ] ftm_termperature_timer_handler::MAC sleeping 
+3389,,[ cmdProcessTlv2.c : 1682 ] Failed Rx Stop 
+3388,,[ cmdProcessTlv2.c : 1693 ] ### genericUtfCmdHandler: InValid CmdID#### 
+3387,i,[ cmdProcessTlv2.c : 482 ]  FATAL ERROR!! Trying to access phy %d which is not present 
+3386,i,[ cmdProcessTlv2.c : 493 ]  FATAL ERROR!! Trying to access phy %d which is inactive 
+3385,I,[ cmdProcessTlv2.c : 4289 ] modifyBDFOTPFlagsHandler: modifyBdfOtpFlags 0x%x 
+3384,,[ cmdProcessTlv2.c : 4307 ] modifyBDFOTPFlagsHandler: pCmdStream is NULL 
+3383,,[ cmdProcessTlv2.c : 3667 ] OFDMA TonePlan
  
-3394,i,[ getTgtPwr.c : 311 ] OFDMA_ru_size: %d invalid 
-3451,i,[ cmdProcessTlv2.c : 517 ] FTM Tx ChainMask %d overwrite to 0x2 due to BT2ed Harmonic! 
-3450,Ii,[ cmdProcessTlv2.c : 4781 ] %s: #### Getting cal version:bdfvertype: %d  !
+3382,ii,[ cmdProcessTlv2.c : 804 ] A: pktgen_complete_timer_handler: Pktgen Tx STOP completion callback failure for phyId %d g_pktgen_done_assert_count %d 
+3381,iiiiiii,[ cmdProcessTlv2.c : 1059 ] rxHandler: phyId %d rxMode %d wlanMode %d freq %d freq2 %d chainMask %d wifiStandard %d 
+3380,ii,[ cmdProcessTlv2.c : 1065 ] rxHandler: issue ftm_imps_wakeup: phyId=%d, rxMode=%d
  
-3449,ii,[ cmdProcessTlv2.c : 1942 ] PHYDBGdump2Handler(Phy:%d, Option:%d)
+3379,i,[ cmdProcessTlv2.c : 1073 ] RX operation not allowed on phyID %d one operation ongoing 
+3378,,[ cmdProcessTlv2.c : 4326 ] #### per chain forced pwr TLV called!
  
-3448,IiI,[ cmdProcessTlv2.c : 1950 ] ### data_ptr %p size %d status 0x%x
+3377,iI,[ cmdProcessTlv2.c : 2665 ] setPhyRfModeHandler: DBS/SBS is not supported, phyRfMode %d status 0x%x  
+3376,I,[ cmdProcessTlv2.c : 1217 ] pdev %u 
+3375,iiiiiII,[ cmdProcessTlv2.c : 1232 ] curChan->band_center_freq1 %d, curChan->band_center_freq2 %d, PHYRF_BW_IDX(curChan) %d curChan->phy_mode %d num_20_bw %d rx_CM %x, tx_CM %x 
+3374,ii,[ cmdProcessTlv2.c : 1300 ] pilot_evm pilot_evm_dB_mean[%d] = %d 
+3373,iiii,[ cmdProcessTlv2.c : 3442 ] Tx Gain Control:Chain %d, Gain %d, dacGain %d, forceCal %d 
  
-3447,Ii,[ cmdProcessTlv2.c : 1959 ] ### data_ptr %p stream_cnt %d
+3372,iiiiiii,[ cmdProcessTlv2.c : 554 ] txHandler: phyId %d txMode %d freq %d freq2 %d wlanMode %d chainMask %d wifiStandard %d 
+3371,i,[ cmdProcessTlv2.c : 589 ] TX operation not allowed on phyID %d one operation ongoing 
+3370,ii,[ cmdProcessTlv2.c : 562 ] txHandler: issue ftm_imps_wakeup: phyId=%d, txMode=%d 
  
-3446,,[ cmdProcessTlv2.c : 1962 ] ### Data buffer stream ended
+3369,iI,[ cmdProcessTlv2.c : 853 ] A: INSIDE txStatusHandler phyId [%d] | Time : %u 
+3368,IIII,[ cmdProcessTlv2.c : 900 ] txStatusHandler ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
+3451,III,[ cmdLp.c : 328 ] lowpowerHandler: lowPowerMode:0x%x, lowPowerFeatureMask:0x%x, phyIdMask:0x%x, 
  
-3445,ii,[ cmdProcessTlv2.c : 2354 ] PHYDBGdumpHandler(Phy:%d, Option:%d)
+3450,,[ cmdLp.c : 428 ] lowpowerHandler: lowPowerMode:done 
+3449,i,[ cmdLp.c : 255 ] lowpowerHandler_btclock: BT CLOCK enable=0x%d 
+3448,i,[ cmdLp.c : 122 ] lowpowerHandler_ddssdisable: g_ddss_disable_all=%d
  
-3444,IiI,[ cmdProcessTlv2.c : 2362 ] ### data_ptr %p size %d status 0x%x
+3447,i,[ cmdLp.c : 108 ] lowpowerHandler_dss: g_synth_control_ftm[0]=%d
  
-3443,Ii,[ cmdProcessTlv2.c : 2371 ] ### data_ptr %p stream_cnt %d
+3446,I,[ cmdLp.c : 297 ] lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is inactive! 
  
-3442,,[ cmdProcessTlv2.c : 2374 ] ### Data buffer stream ended
+3445,I,[ cmdLp.c : 302 ] lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is in sleep! 
  
-3441,Ii,[ cmdProcessTlv2.c : 4758 ] %s :set cal version , bdfvertype: %d !
+3444,II,[ cmdLp.c : 314 ] lowpowerHandler_hdl_psMask: phyId:0x%x, hdlpsMask=0x%x 
  
-3440,i,[ cmdProcessTlv2.c : 4018 ] Channel index out of bounds %d 
-3439,i,[ cmdProcessTlv2.c : 4026 ] Power offset Index out of bounds %d 
-3438,ii,[ cmdProcessTlv2.c : 4034 ] 2G index %d flag %d 
-3437,ii,[ cmdProcessTlv2.c : 4047 ] values written 2G %d 5G %d 
-3436,i,[ cmdProcessTlv2.c : 4108 ] Channel index out of bounds %d 
-3435,i,[ cmdProcessTlv2.c : 4189 ] Channel index out of bounds %d 
-3434,i,[ cmdProcessTlv2.c : 4219 ] Gain index out of bounds %d 
-3433,i,[ cmdProcessTlv2.c : 4204 ] Target Power index out of bounds %d 
-3432,,[ cmdProcessTlv2.c : 4535 ] OPC_OTP_WRITE:Ready to send response!
+3443,II,[ cmdLp.c : 75 ] lowpowerHandler_imps_bmps: phyId:0x%x, g_ftm_lowPowerMode_imps_bmps:0x%x 
  
-3431,I,[ cmdProcessTlv2.c : 4536 ] OTP Write status, 0x%x 
-3430,,[ cmdProcessTlv2.c : 4548 ] OPC_OTP_WRITE:send response done!
+3442,,[ cmdLp.c : 84 ] lowpowerHandler_imps_bmps: issue wal_pm_ftm_set_power_state sleep 
  
-3429,,[ cmdProcessTlv2.c : 2974 ] bdGetSizeHandler
+3441,,[ cmdLp.c : 91 ] lowpowerHandler_imps_bmps: issue wal_pm_ftm_set_power_state wakeup 
  
-3428,iIii,[ cmdProcessTlv2.c : 3001 ] bdReadHandler: bdSize %d, offset 0x%x, size %d, source %d
+3440,i,[ cmdLp.c : 247 ] lowpowerHandler_lpSynthForLegacyRx: g_ftm_lpSynthForLegacyRx_enable=0x%d 
  
-3427,i,[ cmdProcessTlv2.c : 3042 ] error in bdReadHandler: status %d
+3439,i,[ cmdLp.c : 240 ] lowpowerHandler_lpSynthForLegacyTx: g_ftm_lpSynthForLegacyTx_enable=0x%d 
  
-3426,Ii,[ cmdProcessTlv2.c : 4435 ] bdWriteHandler: offset 0x%x, size %d
+3438,II,[ cmdLp.c : 219 ] lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x, No effect as phy is inactive! 
  
-3425,IIIII,[ cmdProcessTlv2.c : 3748 ] COEX Req Handler(wght0= 0x%x,wght1= 0x%x,wght2= 0x%x,wght3= 0x%x,wght4= 0x%x)
+3437,II,[ cmdLp.c : 232 ] lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x 
  
-3424,IIIIII,[ cmdProcessTlv2.c : 3757 ] COEX Req Handler(wght5= 0x%x,wght6= 0x%x,wght7= 0x%x,wght8= 0x%x,wght9= 0x%x,wght10= 0x%x)
+3436,I,[ cmdLp.c : 269 ] lowpowerHandler_pbs: phyId:0x%x, No effect as phy is inactive! 
+3435,I,[ cmdLp.c : 274 ] lowpowerHandler_pbs: phyId:0x%x, No effect as phy is in sleep! 
+3434,iii,[ cmdLp.c : 283 ] lowpowerHandler_pbs: phyId:%d, pbs_enable=%d, pbs_flag=%d 
+3433,I,[ cmdLp.c : 161 ] lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is inactive! 
  
-3423,iIi,[ cmdProcessTlv2.c : 3763 ] COEX Req Handler(enableDynamicAggr= %d,shareChainMask= 0x%x,enableConcurrentTxChain0= %d)
+3432,I,[ cmdLp.c : 166 ] lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is in sleep! 
  
-3422,iIii,[ cmdProcessTlv2.c : 3770 ] COEX Req Handler(btRxAllowWlanTxUnshared= %d,btTxAllowWlanTxShared= 0x%x,wlanTxAllowBtRxShared= %d,wlanRxAllowBtTxShared= %d)
+3431,i,[ cmdLp.c : 176 ] lowpowerHandler_phydbgEnable: g_phydbg_disable=%d
  
-3421,iIi,[ cmdProcessTlv2.c : 3776 ] COEX Req Handler(concurrentTxEnable= %d,btRxAllowWlanUnsharedTx= 0x%x,wlan1sTxBtTx= %d)
+3430,I,[ cmdLp.c : 135 ] lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is inactive! 
  
-3420,ii,[ cmdProcessTlv2.c : 2246 ] combCalGroupHandler(): phyId = %d; cmdid = %d 
-3419,IIII,[ cmdProcessTlv2.c : 4660 ] %s: offset %ld, size %ld, totalsize %ld 
-3418,III,[ cmdProcessTlv2.c : 4729 ] %s: offset %ld, size %ld 
-3417,,[ cmdProcessTlv2.c : 187 ] ftm_termperature_timer_handler::MAC sleeping 
-3416,,[ cmdProcessTlv2.c : 1682 ] Failed Rx Stop 
-3415,,[ cmdProcessTlv2.c : 1693 ] ### genericUtfCmdHandler: InValid CmdID#### 
-3414,i,[ cmdProcessTlv2.c : 482 ]  FATAL ERROR!! Trying to access phy %d which is not present 
-3413,i,[ cmdProcessTlv2.c : 493 ]  FATAL ERROR!! Trying to access phy %d which is inactive 
-3412,I,[ cmdProcessTlv2.c : 4289 ] modifyBDFOTPFlagsHandler: modifyBdfOtpFlags 0x%x 
-3411,,[ cmdProcessTlv2.c : 4307 ] modifyBDFOTPFlagsHandler: pCmdStream is NULL 
-3410,,[ cmdProcessTlv2.c : 3667 ] OFDMA TonePlan
+3429,I,[ cmdLp.c : 140 ] lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is in sleep! 
  
-3409,ii,[ cmdProcessTlv2.c : 804 ] A: pktgen_complete_timer_handler: Pktgen Tx STOP completion callback failure for phyId %d g_pktgen_done_assert_count %d 
-3408,iiiiiii,[ cmdProcessTlv2.c : 1059 ] rxHandler: phyId %d rxMode %d wlanMode %d freq %d freq2 %d chainMask %d wifiStandard %d 
-3407,ii,[ cmdProcessTlv2.c : 1065 ] rxHandler: issue ftm_imps_wakeup: phyId=%d, rxMode=%d
+3428,i,[ cmdLp.c : 149 ] lowpowerHandler_phydbgdisable: g_phydbg_disable=%d
  
-3406,i,[ cmdProcessTlv2.c : 1073 ] RX operation not allowed on phyID %d one operation ongoing 
-3405,,[ cmdProcessTlv2.c : 4326 ] #### per chain forced pwr TLV called!
+3427,II,[ cmdLp.c : 189 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is inactive! 
  
-3404,iI,[ cmdProcessTlv2.c : 2665 ] setPhyRfModeHandler: DBS/SBS is not supported, phyRfMode %d status 0x%x  
-3403,I,[ cmdProcessTlv2.c : 1217 ] pdev %u 
-3402,iiiiiII,[ cmdProcessTlv2.c : 1232 ] curChan->band_center_freq1 %d, curChan->band_center_freq2 %d, PHYRF_BW_IDX(curChan) %d curChan->phy_mode %d num_20_bw %d rx_CM %x, tx_CM %x 
-3401,ii,[ cmdProcessTlv2.c : 1300 ] pilot_evm pilot_evm_dB_mean[%d] = %d 
-3400,iiii,[ cmdProcessTlv2.c : 3442 ] Tx Gain Control:Chain %d, Gain %d, dacGain %d, forceCal %d 
+3426,II,[ cmdLp.c : 194 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is in sleep! 
  
-3399,iiiiiii,[ cmdProcessTlv2.c : 554 ] txHandler: phyId %d txMode %d freq %d freq2 %d wlanMode %d chainMask %d wifiStandard %d 
-3398,i,[ cmdProcessTlv2.c : 589 ] TX operation not allowed on phyID %d one operation ongoing 
-3397,ii,[ cmdProcessTlv2.c : 562 ] txHandler: issue ftm_imps_wakeup: phyId=%d, txMode=%d 
+3425,II,[ cmdLp.c : 201 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x 
  
-3396,iI,[ cmdProcessTlv2.c : 853 ] A: INSIDE txStatusHandler phyId [%d] | Time : %u 
-3395,IIII,[ cmdProcessTlv2.c : 900 ] txStatusHandler ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
 3479,I,[ tcmd.c : 4984 ] Invalid pdev %lu 
 3478,,[ tcmd.c : 1214 ] A: NEW COMMAND ISSUED 
 3477,iiiiI,[ tcmd.c : 2362 ] [UL-OFDMA]ruIdx=%d, dataRate=%d, NSS=%d, pktSz=%d, miscFlags=0x%x 
@@ -3703,156 +3703,156 @@ VERSION:285442315
 3505,II,[ ftm_lowpower.c : 220 ] ftm_ocl_tx_start: phyId:0x%x, ocl_enable=0x%x 
 3504,ii,[ ftm_lowpower.c : 152 ] ftm_tx_rx_trigger_bmps: phyId=%d, isTx=%d, BMPS sleep as g_ftm_lowPowerMode is 1
  
-3513,ii,[ xtalCal.c : 256 ] [TLV2_CTRL_W_OTP]capIn=%d, capOut=%d 
-3512,ii,[ xtalCal.c : 260 ] [ERROR][TLV2_CTRL_W_OTP]OTP has data %d, %d 
-3522,iiiiii,[ rxGainCal.c : 130 ] rxGainCal:: Starting Rx on phyId %d, is2Ghz %d, Chain %d Chan %d, rxMode %d refISS Level %d 
-3521,i,[ rxGainCal.c : 205 ] rxGainCal:: Error on chainIdx %d
+3520,iiiiii,[ rxGainCal.c : 130 ] rxGainCal:: Starting Rx on phyId %d, is2Ghz %d, Chain %d Chan %d, rxMode %d refISS Level %d 
+3519,i,[ rxGainCal.c : 205 ] rxGainCal:: Error on chainIdx %d
  
-3520,i,[ rxGainCal.c : 215 ] rxGainCal:: Error on chainIdx %d
+3518,i,[ rxGainCal.c : 215 ] rxGainCal:: Error on chainIdx %d
  
-3519,i,[ rxGainCal.c : 228 ] rxGainCal:: Error on chainIdx status %d
+3517,i,[ rxGainCal.c : 228 ] rxGainCal:: Error on chainIdx status %d
  
-3518,ii,[ rxGainCal.c : 271 ] rxGainCal:: Host error: phyId %d,  veryFirstRxGainCal %d 
-3517,iiiiii,[ rxGainCal.c : 284 ] rxGainCal:: Host error: phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d,  rxGainCalState.status %d 
-3516,iiiiiii,[ rxGainCal.c : 318 ] rxGainCal:: Saving Results for phyId %d, chainIdx %d, ChanIdx %d, PNFdBr %d, PNFdBm %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d 
-3515,iiiiii,[ rxGainCal.c : 324 ] rxGainCal:: Saving Results for phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d totalPkt=%d 
-3514,,[ rxGainCal.c : 333 ] nextLoopRxCal is NULL 
-3539,Iiii,[ tpcOnepointCal.c : 296 ] tpcOnepointCal::Starting Tx for phy %u, freq %d, chainMask %d, txPwr_db2 %d 
-3538,Iiii,[ tpcOnepointCal.c : 299 ] tpcOnepointCal::Stopping Tx for phy %u, freq %d, chainMask %d, txPwr_db2 %d 
-3537,iii,[ tpcOnepointCal.c : 529 ] tpcOnepointCal::Failure at BandIdx:%d chanIdx:%d chainIdx:%d 
-3536,,[ tpcOnepointCal.c : 539 ] tpcOnepointCal:: end loop 1 
-3535,,[ tpcOnepointCal.c : 549 ] tpcOnepointCal:: break 
-3534,,[ tpcOnepointCal.c : 595 ] tpcOnepointCal:: end loop 
-3533,i,[ tpcOnepointCal.c : 136 ] tpccal chan::2g %d 
-3532,i,[ tpcOnepointCal.c : 142 ] tpccal chan::5g %d 
-3531,ii,[ tpcOnepointCal.c : 170 ] tpcOnepointCal::TPC_DBG 5G numChain %d 2G numChain %d 
-3530,ii,[ tpcOnepointCal.c : 613 ] tpcOnepointCal::TPC_DBG band %d idxChan %d 
-3529,IIII,[ tpcOnepointCal.c : 431 ] tpcOnepointCal::Requesting pwr measurement for phy %u, freq %u, chainMask %u,tgtPwr_db8 %u 
-3528,IIII,[ tpcOnepointCal.c : 445 ] tpcOnepointCal::Requesting pwr measurement for phy %u, freq %u, chainMask %u,tgtPwr_db8 %u 
-3527,,[ tpcOnepointCal.c : 668 ] tpcOnepointcal::Completed 
-3526,,[ tpcOnepointCal.c : 322 ] tpcOnepointCAL::Starting... 
-3525,,[ tpcOnepointCal.c : 709 ] tpcOnepointcal::Failure, -999 power detected 
-3524,IIIiiI,[ tpcOnepointCal.c : 731 ] tpcOnepointCal::Pwr measurement for phy %u, freq %u, chainMask %u, glutOffset %d, thermOffset %d, measPwr_db8 is %u 
-3523,,[ tpcOnepointCal.c : 102 ] tpcOnepointCal::tpcPowerMeasurementDelayTimeout 
-3635,iii,[ tpcCal.c : 606 ] chk1 Max_TX_CAL_Gain_ID_5G:%d Max_TX_CAL_Gain_ID_2G %d Max_TX_CAL_Gain_ID_6G %d 
-3634,Ii,[ tpcCal.c : 780 ] greenTxGainIndGrpFlag2G:%x, greenTxGainIndGrpFlag5G:%d 
+3516,ii,[ rxGainCal.c : 271 ] rxGainCal:: Host error: phyId %d,  veryFirstRxGainCal %d 
+3515,iiiiii,[ rxGainCal.c : 284 ] rxGainCal:: Host error: phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d,  rxGainCalState.status %d 
+3514,iiiiiii,[ rxGainCal.c : 318 ] rxGainCal:: Saving Results for phyId %d, chainIdx %d, ChanIdx %d, PNFdBr %d, PNFdBm %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d 
+3513,iiiiii,[ rxGainCal.c : 324 ] rxGainCal:: Saving Results for phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d totalPkt=%d 
+3512,,[ rxGainCal.c : 333 ] nextLoopRxCal is NULL 
+3537,Iiii,[ tpcOnepointCal.c : 296 ] tpcOnepointCal::Starting Tx for phy %u, freq %d, chainMask %d, txPwr_db2 %d 
+3536,Iiii,[ tpcOnepointCal.c : 299 ] tpcOnepointCal::Stopping Tx for phy %u, freq %d, chainMask %d, txPwr_db2 %d 
+3535,iii,[ tpcOnepointCal.c : 529 ] tpcOnepointCal::Failure at BandIdx:%d chanIdx:%d chainIdx:%d 
+3534,,[ tpcOnepointCal.c : 539 ] tpcOnepointCal:: end loop 1 
+3533,,[ tpcOnepointCal.c : 549 ] tpcOnepointCal:: break 
+3532,,[ tpcOnepointCal.c : 595 ] tpcOnepointCal:: end loop 
+3531,i,[ tpcOnepointCal.c : 136 ] tpccal chan::2g %d 
+3530,i,[ tpcOnepointCal.c : 142 ] tpccal chan::5g %d 
+3529,ii,[ tpcOnepointCal.c : 170 ] tpcOnepointCal::TPC_DBG 5G numChain %d 2G numChain %d 
+3528,ii,[ tpcOnepointCal.c : 613 ] tpcOnepointCal::TPC_DBG band %d idxChan %d 
+3527,IIII,[ tpcOnepointCal.c : 431 ] tpcOnepointCal::Requesting pwr measurement for phy %u, freq %u, chainMask %u,tgtPwr_db8 %u 
+3526,IIII,[ tpcOnepointCal.c : 445 ] tpcOnepointCal::Requesting pwr measurement for phy %u, freq %u, chainMask %u,tgtPwr_db8 %u 
+3525,,[ tpcOnepointCal.c : 668 ] tpcOnepointcal::Completed 
+3524,,[ tpcOnepointCal.c : 322 ] tpcOnepointCAL::Starting... 
+3523,,[ tpcOnepointCal.c : 709 ] tpcOnepointcal::Failure, -999 power detected 
+3522,IIIiiI,[ tpcOnepointCal.c : 731 ] tpcOnepointCal::Pwr measurement for phy %u, freq %u, chainMask %u, glutOffset %d, thermOffset %d, measPwr_db8 is %u 
+3521,,[ tpcOnepointCal.c : 102 ] tpcOnepointCal::tpcPowerMeasurementDelayTimeout 
+3633,iii,[ tpcCal.c : 606 ] chk1 Max_TX_CAL_Gain_ID_5G:%d Max_TX_CAL_Gain_ID_2G %d Max_TX_CAL_Gain_ID_6G %d 
+3632,Ii,[ tpcCal.c : 780 ] greenTxGainIndGrpFlag2G:%x, greenTxGainIndGrpFlag5G:%d 
  
-3633,iiii,[ tpcCal.c : 865 ]  5G IdxGainEndGrp1:%d IdxGainEndGrp2:%d IdxGainEndGrp3:%d IdxGainEndGrp4:%d
+3631,iiii,[ tpcCal.c : 865 ]  5G IdxGainEndGrp1:%d IdxGainEndGrp2:%d IdxGainEndGrp3:%d IdxGainEndGrp4:%d
  
-3632,IIII,[ tpcCal.c : 680 ] tpccal::2G opcChan[%u] %u, tpcChan[%u] %u 
-3631,IIII,[ tpcCal.c : 700 ] tpccal::5G opcChan[%u] %u, tpcChan[%u] %u 
-3630,iiiii,[ tpcCal.c : 1230 ] freq %d gIdx %d dacGain %d paCfg %d chMask %d
+3630,IIII,[ tpcCal.c : 680 ] tpccal::2G opcChan[%u] %u, tpcChan[%u] %u 
+3629,IIII,[ tpcCal.c : 700 ] tpccal::5G opcChan[%u] %u, tpcChan[%u] %u 
+3628,iiiii,[ tpcCal.c : 1230 ] freq %d gIdx %d dacGain %d paCfg %d chMask %d
  
-3629,III,[ tpcCal.c : 1268 ] tpccal::Stopping tx before starting for Chan %u, Chain %u, Gain %u 
-3628,,[ tpcCal.c : 2402 ] tpccal::Generating Caldata 
-3627,ii,[ tpcCal.c : 2485 ] tpcCal::Generating Caldata for Channel %d dacGainforCal %d 
-3626,i,[ tpcCal.c : 2489 ] tpcCal::Generating Caldata for Chain %d 
-3625,iii,[ tpcCal.c : 2496 ] tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
-3624,iii,[ tpcCal.c : 2507 ] tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d 
-3623,iii,[ tpcCal.c : 2517 ] tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
-3622,iii,[ tpcCal.c : 2546 ] tpcCal::Generating Caldata for Chain %d sbsOffset %d NUM_CAL_GAINS_SELECTED_4_GLUT:%d 
-3621,iii,[ tpcCal.c : 2554 ] tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
-3620,iiii,[ tpcCal.c : 2565 ] tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d numGlutEntries_5G:%d 
-3619,iii,[ tpcCal.c : 2575 ] tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
-3618,iii,[ tpcCal.c : 2591 ] phyId:%d cmask:%d pwrAtPdadc:%d 
-3617,I,[ tpcCal.c : 2674 ] TPC2G: &scanCalPierData2G = 0x%x 
-3616,I,[ tpcCal.c : 2675 ] TPC5G: &scanCalPierData5G = 0x%x 
-3615,ii,[ tpcCal.c : 2683 ] TPC: chain = %d, iChanIdx = %d 
-3614,iii,[ tpcCal.c : 2688 ] TPC2G: scanMeasPwr2G[%d][%d] = %d 
-3613,iii,[ tpcCal.c : 2692 ] TPC5G: scanMeasPwr5G[%d][%d] = %d 
-3612,III,[ tpcCal.c : 1690 ] getNextLoop fail curLoop->idxCalPt %u, Chain %u, Gain %u 
-3611,iiiii,[ tpcCal.c : 1717 ] bef, band %d ch %d numCh %d chain %d gain %d
+3627,III,[ tpcCal.c : 1268 ] tpccal::Stopping tx before starting for Chan %u, Chain %u, Gain %u 
+3626,,[ tpcCal.c : 2402 ] tpccal::Generating Caldata 
+3625,ii,[ tpcCal.c : 2485 ] tpcCal::Generating Caldata for Channel %d dacGainforCal %d 
+3624,i,[ tpcCal.c : 2489 ] tpcCal::Generating Caldata for Chain %d 
+3623,iii,[ tpcCal.c : 2496 ] tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
+3622,iii,[ tpcCal.c : 2507 ] tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d 
+3621,iii,[ tpcCal.c : 2517 ] tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
+3620,iii,[ tpcCal.c : 2546 ] tpcCal::Generating Caldata for Chain %d sbsOffset %d NUM_CAL_GAINS_SELECTED_4_GLUT:%d 
+3619,iii,[ tpcCal.c : 2554 ] tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
+3618,iiii,[ tpcCal.c : 2565 ] tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d numGlutEntries_5G:%d 
+3617,iii,[ tpcCal.c : 2575 ] tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
+3616,iii,[ tpcCal.c : 2591 ] phyId:%d cmask:%d pwrAtPdadc:%d 
+3615,I,[ tpcCal.c : 2674 ] TPC2G: &scanCalPierData2G = 0x%x 
+3614,I,[ tpcCal.c : 2675 ] TPC5G: &scanCalPierData5G = 0x%x 
+3613,ii,[ tpcCal.c : 2683 ] TPC: chain = %d, iChanIdx = %d 
+3612,iii,[ tpcCal.c : 2688 ] TPC2G: scanMeasPwr2G[%d][%d] = %d 
+3611,iii,[ tpcCal.c : 2692 ] TPC5G: scanMeasPwr5G[%d][%d] = %d 
+3610,III,[ tpcCal.c : 1690 ] getNextLoop fail curLoop->idxCalPt %u, Chain %u, Gain %u 
+3609,iiiii,[ tpcCal.c : 1717 ] bef, band %d ch %d numCh %d chain %d gain %d
  
-3610,,[ tpcCal.c : 1722 ] end loop0
+3608,,[ tpcCal.c : 1722 ] end loop0
  
-3609,iiii,[ tpcCal.c : 1735 ] inc calPt %d ch %d chn %d, numGain %d
+3607,iiii,[ tpcCal.c : 1735 ] inc calPt %d ch %d chn %d, numGain %d
  
-3608,ii,[ tpcCal.c : 1743 ] inc chain AI %d %d
+3606,ii,[ tpcCal.c : 1743 ] inc chain AI %d %d
  
-3607,ii,[ tpcCal.c : 1751 ] inc ch AI %d %d
+3605,ii,[ tpcCal.c : 1751 ] inc ch AI %d %d
  
-3606,ii,[ tpcCal.c : 1759 ] inc band AI %d %d
+3604,ii,[ tpcCal.c : 1759 ] inc band AI %d %d
  
-3605,,[ tpcCal.c : 1763 ] end loop
+3603,,[ tpcCal.c : 1763 ] end loop
  
-3604,iiii,[ tpcCal.c : 1824 ] pwr est %d band %d numEst %d, idx %d 
-3603,iiiii,[ tpcCal.c : 1828 ] sG %d %d %d %d %d  
-3602,i,[ tpcCal.c : 1829 ] %d
+3602,iiii,[ tpcCal.c : 1824 ] pwr est %d band %d numEst %d, idx %d 
+3601,iiiii,[ tpcCal.c : 1828 ] sG %d %d %d %d %d  
+3600,i,[ tpcCal.c : 1829 ] %d
  
-3601,i,[ tpcCal.c : 3214 ] available_gainIdxs:%d 
-3600,iiii,[ tpcCal.c : 3220 ] Iteration m:%d glutsfilled[%d]:%d Max_Glut_Map[band][grpId]:%d 
-3599,i,[ tpcCal.c : 3221 ] tpcCalResult[band][chan].measPwr[chain][m]:%d 
-3598,,[ tpcCal.c : 3224 ] ERR: BAD CAL TARGETs CONFIGURED for:  
-3597,i,[ tpcCal.c : 3231 ] Picked limiting gainidx:%d 
-3596,i,[ tpcCal.c : 3245 ] Picked gainidx:%d  
-3595,,[ tpcCal.c : 3249 ] Moving up gainidxs to guarantee GLUT count! 
-3594,ii,[ tpcCal.c : 3252 ] currIndx:%d Updated endPwrIdxGrp:%d 
-3593,,[ tpcCal.c : 3257 ] BAD CAL TARGETs CONFIGURED for 
-3592,ii,[ tpcCal.c : 3262 ] Picked max gainidx:%d from group :%d  
-3591,,[ tpcCal.c : 3265 ] Invalid pick_glut_entry condition! 
-3590,,[ tpcCal.c : 1905 ] populateScanArray 
-3589,ii,[ tpcCal.c : 1948 ] populateScanArray 2G: ScanGainIdx = %d, measPwr = %d 
-3588,iiii,[ tpcCal.c : 1951 ] populateScanArray 5G: iBand = %d, scanMeasPwr5G[%d][%d] = %d 
-3587,iiiii,[ tpcCal.c : 1952 ] populateScanArray 5G: tpcCalResult[%d][%d].measPwr[%d][%d] = %d 
-3586,,[ tpcCal.c : 2071 ] tpccal::Post processing CLPC Caldata 
-3585,ii,[ tpcCal.c : 2117 ] tpccal::skip gainIdx %d (< thresh %d) 
-3584,,[ tpcCal.c : 2178 ] tpccal::Post processing CLPC Caldata 
-3583,ii,[ tpcCal.c : 2237 ] tpccal::skip gainIdx %d (< thresh %d) 
-3582,,[ tpcCal.c : 1966 ] tpccal::Post processing OLPC Caldata 
-3581,,[ tpcCal.c : 1974 ] pp OLPC
+3599,i,[ tpcCal.c : 3214 ] available_gainIdxs:%d 
+3598,iiii,[ tpcCal.c : 3220 ] Iteration m:%d glutsfilled[%d]:%d Max_Glut_Map[band][grpId]:%d 
+3597,i,[ tpcCal.c : 3221 ] tpcCalResult[band][chan].measPwr[chain][m]:%d 
+3596,,[ tpcCal.c : 3224 ] ERR: BAD CAL TARGETs CONFIGURED for:  
+3595,i,[ tpcCal.c : 3231 ] Picked limiting gainidx:%d 
+3594,i,[ tpcCal.c : 3245 ] Picked gainidx:%d  
+3593,,[ tpcCal.c : 3249 ] Moving up gainidxs to guarantee GLUT count! 
+3592,ii,[ tpcCal.c : 3252 ] currIndx:%d Updated endPwrIdxGrp:%d 
+3591,,[ tpcCal.c : 3257 ] BAD CAL TARGETs CONFIGURED for 
+3590,ii,[ tpcCal.c : 3262 ] Picked max gainidx:%d from group :%d  
+3589,,[ tpcCal.c : 3265 ] Invalid pick_glut_entry condition! 
+3588,,[ tpcCal.c : 1905 ] populateScanArray 
+3587,ii,[ tpcCal.c : 1948 ] populateScanArray 2G: ScanGainIdx = %d, measPwr = %d 
+3586,iiii,[ tpcCal.c : 1951 ] populateScanArray 5G: iBand = %d, scanMeasPwr5G[%d][%d] = %d 
+3585,iiiii,[ tpcCal.c : 1952 ] populateScanArray 5G: tpcCalResult[%d][%d].measPwr[%d][%d] = %d 
+3584,,[ tpcCal.c : 2071 ] tpccal::Post processing CLPC Caldata 
+3583,ii,[ tpcCal.c : 2117 ] tpccal::skip gainIdx %d (< thresh %d) 
+3582,,[ tpcCal.c : 2178 ] tpccal::Post processing CLPC Caldata 
+3581,ii,[ tpcCal.c : 2237 ] tpccal::skip gainIdx %d (< thresh %d) 
+3580,,[ tpcCal.c : 1966 ] tpccal::Post processing OLPC Caldata 
+3579,,[ tpcCal.c : 1974 ] pp OLPC
  
-3580,iiiii,[ tpcCal.c : 1997 ] meaPwr %d tgtPwr %d, bn %d ch %d chn %d, 
+3578,iiiii,[ tpcCal.c : 1997 ] meaPwr %d tgtPwr %d, bn %d ch %d chn %d, 
  
-3579,i,[ tpcCal.c : 1998 ] numValidMeas = %d
+3577,i,[ tpcCal.c : 1998 ] numValidMeas = %d
  
-3578,iiii,[ tpcCal.c : 2005 ] bkof %d bn %d ch %d chn %d
+3576,iiii,[ tpcCal.c : 2005 ] bkof %d bn %d ch %d chn %d
  
-3577,iiii,[ tpcCal.c : 2016 ] stPwrIdx %d bn %d ch %d chn %d
+3575,iiii,[ tpcCal.c : 2016 ] stPwrIdx %d bn %d ch %d chn %d
  
-3576,iiiiiiii,[ tpcCal.c : 2041 ] iMeas %d iGainIdx %d tgt %d ch %d chn %d sel pwr %d gIdx %d dac %d
+3574,iiiiiiii,[ tpcCal.c : 2041 ] iMeas %d iGainIdx %d tgt %d ch %d chn %d sel pwr %d gIdx %d dac %d
  
-3575,,[ tpcCal.c : 3284 ] postProcessingOLPCCALData_gtx 
-3574,iiii,[ tpcCal.c : 3315 ] BegiN: Band:%d chan:%d startPwrIdxGrp:%d  endPwrIdxGrp:%d  
-3573,ii,[ tpcCal.c : 3316 ] gtx tgtpwridx:%d , GlutPwrMapGrpNum:%d  
-3572,iii,[ tpcCal.c : 3323 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
-3571,i,[ tpcCal.c : 3325 ] endPwrIdxGrp:%d 
-3570,iii,[ tpcCal.c : 3331 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
-3569,i,[ tpcCal.c : 3333 ] endPwrIdxGrp:%d 
-3568,iiii,[ tpcCal.c : 3340 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp3:%d modifiedTarget:%d 
-3567,i,[ tpcCal.c : 3342 ] endPwrIdxGrp:%d 
-3566,iiii,[ tpcCal.c : 3348 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp4:%d modifiedTarget:%d 
-3565,i,[ tpcCal.c : 3350 ] endPwrIdxGrp:%d 
-3564,iii,[ tpcCal.c : 3354 ] gtx Invalid TPC_GLUT_PWR_MAP_GRP Id ! from Band:%d Chain:%d tgtpwridx:%d 
-3563,ii,[ tpcCal.c : 1052 ] Sending to host freq2G %d, freq5G %d
+3573,,[ tpcCal.c : 3284 ] postProcessingOLPCCALData_gtx 
+3572,iiii,[ tpcCal.c : 3315 ] BegiN: Band:%d chan:%d startPwrIdxGrp:%d  endPwrIdxGrp:%d  
+3571,ii,[ tpcCal.c : 3316 ] gtx tgtpwridx:%d , GlutPwrMapGrpNum:%d  
+3570,iii,[ tpcCal.c : 3323 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
+3569,i,[ tpcCal.c : 3325 ] endPwrIdxGrp:%d 
+3568,iii,[ tpcCal.c : 3331 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
+3567,i,[ tpcCal.c : 3333 ] endPwrIdxGrp:%d 
+3566,iiii,[ tpcCal.c : 3340 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp3:%d modifiedTarget:%d 
+3565,i,[ tpcCal.c : 3342 ] endPwrIdxGrp:%d 
+3564,iiii,[ tpcCal.c : 3348 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp4:%d modifiedTarget:%d 
+3563,i,[ tpcCal.c : 3350 ] endPwrIdxGrp:%d 
+3562,iii,[ tpcCal.c : 3354 ] gtx Invalid TPC_GLUT_PWR_MAP_GRP Id ! from Band:%d Chain:%d tgtpwridx:%d 
+3561,ii,[ tpcCal.c : 1052 ] Sending to host freq2G %d, freq5G %d
  
-3562,iii,[ tpcCal.c : 1593 ] Sending to host freq2G %d, freq5G %d, chain %d 
-3561,iiii,[ tpcCal.c : 1594 ] gain %d pwr %d numChain %d numCalpt %d
+3560,iii,[ tpcCal.c : 1593 ] Sending to host freq2G %d, freq5G %d, chain %d 
+3559,iiii,[ tpcCal.c : 1594 ] gain %d pwr %d numChain %d numCalpt %d
  
-3560,IIII,[ tpcCal.c : 1598 ] tpccal::Sending to host to look for measurements inChan2G %u, Chan5G %u, ChainMask(User) %u, Gain %u 
-3559,iii,[ tpcCal.c : 1600 ] Sending to host freq2G %d, freq5G %d, chain %d
+3558,IIII,[ tpcCal.c : 1598 ] tpccal::Sending to host to look for measurements inChan2G %u, Chan5G %u, ChainMask(User) %u, Gain %u 
+3557,iii,[ tpcCal.c : 1600 ] Sending to host freq2G %d, freq5G %d, chain %d
  
-3558,iiii,[ tpcCal.c : 1601 ] gain %d pwr %d numChain %d numCalpt %d
+3556,iiii,[ tpcCal.c : 1601 ] gain %d pwr %d numChain %d numCalpt %d
  
-3557,,[ tpcCal.c : 2353 ] tpccal::Sending Caldata to host 
-3556,,[ tpcCal.c : 1337 ] tpccal::Starting ... 
-3555,,[ tpcCal.c : 1434 ] TPC Cal message check 
+3555,,[ tpcCal.c : 2353 ] tpccal::Sending Caldata to host 
+3554,,[ tpcCal.c : 1337 ] tpccal::Starting ... 
+3553,,[ tpcCal.c : 1434 ] TPC Cal message check 
  
-3554,ii,[ tpcCal.c : 1476 ] tpcCALScheme: %d, phyID %d
+3552,ii,[ tpcCal.c : 1476 ] tpcCALScheme: %d, phyID %d
  
-3553,,[ tpcCal.c : 1870 ] tpccal::Completed 
-3552,,[ tpcCal.c : 1884 ] tpcCalCompleteCallback() 
-3551,iIIII,[ tpcCal.c : 2877 ] tpccal::Got measurement %d from host for Chan %u Chain %u Chain(user) %u Gain %u 
-3550,iIIIII,[ tpcCal.c : 2897 ] tpccal::Thermoffset %d for Band %u tpcChan %u opcChan[%u] %u  Chain %u 
-3549,iiii,[ tpcCal.c : 2913 ] Got Power from host Chan %d ,  GainIdx %d , MeasPwr  %d , Read pdadc %d  
-3548,ii,[ tpcCal.c : 2966 ] Received identical power meas:%d prevMeas:%d .Failing calloop 
-3547,iii,[ tpcCal.c : 2995 ] Get 10Log(pdadc) prev:%d curr:%d slope:%d 
-3546,ii,[ tpcCal.c : 2998 ] Get Power meas:%d prevMeas:%d 
-3545,iiii,[ tpcCal.c : 2999 ]  calFail:%d, gainIdx:%d, idxCalPt:%d skipSlope_gtx_bndry:%d 
-3544,i,[ tpcCal.c : 3003 ] skipping slope for gainIdx = %d 
-3543,III,[ tpcCal.c : 1855 ] tpccal::Starting tx for Chan %u, Chain %u, Gain %u 
-3542,iiiii,[ tpcCal.c : 3181 ] Write to tpcCalPostProcResult[%d][%d].olpc.measPwrExt[%d][%d]:%d 
-3541,iiiii,[ tpcCal.c : 3188 ] Write to tpcCalPostProcResult[%d][%d].olpc.measPwr[%d][%d]:%d 
-3540,ii,[ tpcCal.c : 3198 ] glutsfilled[%d]:%d 
+3551,,[ tpcCal.c : 1870 ] tpccal::Completed 
+3550,,[ tpcCal.c : 1884 ] tpcCalCompleteCallback() 
+3549,iIIII,[ tpcCal.c : 2877 ] tpccal::Got measurement %d from host for Chan %u Chain %u Chain(user) %u Gain %u 
+3548,iIIIII,[ tpcCal.c : 2897 ] tpccal::Thermoffset %d for Band %u tpcChan %u opcChan[%u] %u  Chain %u 
+3547,iiii,[ tpcCal.c : 2913 ] Got Power from host Chan %d ,  GainIdx %d , MeasPwr  %d , Read pdadc %d  
+3546,ii,[ tpcCal.c : 2966 ] Received identical power meas:%d prevMeas:%d .Failing calloop 
+3545,iii,[ tpcCal.c : 2995 ] Get 10Log(pdadc) prev:%d curr:%d slope:%d 
+3544,ii,[ tpcCal.c : 2998 ] Get Power meas:%d prevMeas:%d 
+3543,iiii,[ tpcCal.c : 2999 ]  calFail:%d, gainIdx:%d, idxCalPt:%d skipSlope_gtx_bndry:%d 
+3542,i,[ tpcCal.c : 3003 ] skipping slope for gainIdx = %d 
+3541,III,[ tpcCal.c : 1855 ] tpccal::Starting tx for Chan %u, Chain %u, Gain %u 
+3540,iiiii,[ tpcCal.c : 3181 ] Write to tpcCalPostProcResult[%d][%d].olpc.measPwrExt[%d][%d]:%d 
+3539,iiiii,[ tpcCal.c : 3188 ] Write to tpcCalPostProcResult[%d][%d].olpc.measPwr[%d][%d]:%d 
+3538,ii,[ tpcCal.c : 3198 ] glutsfilled[%d]:%d 
+3635,ii,[ xtalCal.c : 256 ] [TLV2_CTRL_W_OTP]capIn=%d, capOut=%d 
+3634,ii,[ xtalCal.c : 260 ] [ERROR][TLV2_CTRL_W_OTP]OTP has data %d, %d 
 3636,ii,[ wmi_ftm_attach.c : 224 ] ERROR: ftm_parse_unifiedcmd: dataLen %d is LESS than sizeof(segHdrInfo) %d 
 3637,iIIII,[ data_rx.c : 658 ] DATA_TXRX_DBGID_DUP_CHECK vdev_id = %d tcp_info=0x%x SN=0x%x last_pn_valid=0x%x offset_winsize=0x%x 
 3639,III,[ data_rx_pn.c : 151 ] DATA_TXRX_DBGID_REPLAY_CHECK_WAR KeyId=0x%x oldPN=0x%llx newPN=0x%llx 
@@ -6675,182 +6675,182 @@ org_rc_mask_null pdev_rc_mask[0]:%x pdev_rc_mask[1]:%x phymode:%d ni_legacy_rate
 6059,i,[ sched_algo_txbf.c : 1420 ] snd_success remaining cv_buf num  %d 
 6058,Ii,[ sched_algo_txbf.c : 3377 ] cv_upload_dma invalid SW peer ID cv_buf->sw_peer_id 0x%x pdev_id %d 
 6057,I,[ sched_algo_txbf.c : 3416 ] snd_cv_upload success buf 0x%0x 
-6082,I,[ hca_HwComponentBbLithium_debug_core.cpp : 510 ] PHYDBG LWod 0x%lx
+6072,iiIiiiiii,[ hca_HwComponentBbLithium_dfs_phyerr_tlv.cpp : 294 ] DFS_DUMPS ts=%d diff_ts=%d sidx=%i dur=%d chirp=%d det=%d radar_check=%d agc_event=%d rssi=%d  
+6071,iiiii,[ hca_HwComponentBbLithium_dfs_phyerr_tlv.cpp : 300 ] DFS_DUMPS ts=%d delta_peak=%d delta_diff=%d total_gain=%d is_max_pw=%d  
+6070,iiiii,[ hca_HwComponentBbLithium_dfs_phyerr_tlv.cpp : 324 ] DFS_DUMP radar summary detection_mode=%d  timestamp=%d pulse_rssi=%d is_chirp=%d sidx=%d
  
-6081,I,[ hca_HwComponentBbLithium_debug_core.cpp : 511 ] PHYDBG UWod 0x%lx
+6069,iiiiiIiii,[ hca_HwComponentBbLithium_dfs_phyerr_tlv.cpp : 191 ] DFS_DUMPS ts=%d fft_num=%d radar_check=%d total_gain=%d base_pwr=%d peak_sidx=%i relpwr=%d peak_mag=%d num_str_bins_ib=%d
  
-6080,Ii,[ hca_HwComponentBbLithium_debug_core.cpp : 271 ] %s skipping bank %d
+6074,,[ hca_HwComponentBbLithium_debug.cpp : 931 ] PHYDBG DISABLE: HcaHwComponentBbLithium_debug::PHYDBG_disable 
+6073,,[ hca_HwComponentBbLithium_debug.cpp : 933 ] PHYDBG disabled
  
-6079,I,[ hca_HwComponentBbLithium_debug_core.cpp : 461 ] PHYDBG_CAPTURE_U 0x%lx
+6084,ii,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 477 ] DFS_DUMP Dfs0Sighandler pHandle=%d ipc_ring_id=%d
  
-6078,I,[ hca_HwComponentBbLithium_debug_core.cpp : 462 ] PHYDBG_CAPTURE_L 0x%lx
+6083,ii,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 485 ] DFS_DUMP Dfs1Sighandler pHandle=%d ipc_ring_id=%d
  
-6077,I,[ hca_HwComponentBbLithium_debug_core.cpp : 463 ] PHYDBG_PLAYBACK_U 0x%lx
+6082,ii,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 495 ] DFS_DUMP Dfs2Sighandler pHandle=%d ipc_ring_id=%d
  
-6076,I,[ hca_HwComponentBbLithium_debug_core.cpp : 464 ] PHYDBG_PLAYBACK_L 0x%lx
+6081,,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 268 ] FFT_RAW START 
  
-6075,I,[ hca_HwComponentBbLithium_debug_core.cpp : 465 ] PHYDBG_PHYRF_TX_PRE_DESC_WR_1_L 0x%lx
+6080,II,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 272 ] FFT_RAW %p 0x%x 
  
-6074,I,[ hca_HwComponentBbLithium_debug_core.cpp : 466 ] PHYDBG_WFAX_PHYRF_PHYRF_ACTIVATION_CTRL_L 0x%lx
+6079,II,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 276 ] FFT_RAW %p 0x%x 
  
-6073,I,[ hca_HwComponentBbLithium_debug_core.cpp : 467 ] PHYDBG_MODE_L 0x%lx
+6078,II,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 278 ] FFT_RAW %p 0x%x 
  
-6072,I,[ hca_HwComponentBbLithium_debug_core.cpp : 468 ] PHYDBG_TRIGGER_0_L 0x%lx
+6077,II,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 279 ] FFT_RAW %p 0x%x 
  
-6071,I,[ hca_HwComponentBbLithium_debug_core.cpp : 469 ] PHYDBG_TRIGGER_0_U 0x%lx
+6076,,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 284 ] FFT_RAW END 
  
-6070,I,[ hca_HwComponentBbLithium_debug_core.cpp : 470 ] PHYDBG_TRIGGER_1_L 0x%lx
+6075,iii,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 458 ] DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element pHandle=%d ipc_ring_id=%d num_bufs=%d
  
-6069,Ii,[ hca_HwComponentBbLithium_debug_core.cpp : 371 ] %s skipping bank %d
+6111,III,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 319 ] DFS_DUMPS Rejecting Radar since delta peak values are invalid : dl_delta_peak_match_count=%lu, dl_psidx_diff_match_count=%lu, rf_threshold=%lu
  
-6083,I,[ hca_HwComponentBbLithium_phy.cpp : 139 ] %s
+6110,IIi,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 324 ] DFS_DUMPS %s: Rejecting Radar since duration diff %ld is more than %d
  
-6093,ii,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 477 ] DFS_DUMP Dfs0Sighandler pHandle=%d ipc_ring_id=%d
- 
-6092,ii,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 485 ] DFS_DUMP Dfs1Sighandler pHandle=%d ipc_ring_id=%d
- 
-6091,ii,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 495 ] DFS_DUMP Dfs2Sighandler pHandle=%d ipc_ring_id=%d
- 
-6090,,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 268 ] FFT_RAW START 
- 
-6089,II,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 272 ] FFT_RAW %p 0x%x 
- 
-6088,II,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 276 ] FFT_RAW %p 0x%x 
- 
-6087,II,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 278 ] FFT_RAW %p 0x%x 
- 
-6086,II,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 279 ] FFT_RAW %p 0x%x 
- 
-6085,,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 284 ] FFT_RAW END 
- 
-6084,iii,[ hca_HwComponentBbLithium_dfs_process_phyerr.cpp : 458 ] DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element pHandle=%d ipc_ring_id=%d num_bufs=%d
- 
-6097,iiIiiiiii,[ hca_HwComponentBbLithium_dfs_phyerr_tlv.cpp : 294 ] DFS_DUMPS ts=%d diff_ts=%d sidx=%i dur=%d chirp=%d det=%d radar_check=%d agc_event=%d rssi=%d  
-6096,iiiii,[ hca_HwComponentBbLithium_dfs_phyerr_tlv.cpp : 300 ] DFS_DUMPS ts=%d delta_peak=%d delta_diff=%d total_gain=%d is_max_pw=%d  
-6095,iiiii,[ hca_HwComponentBbLithium_dfs_phyerr_tlv.cpp : 324 ] DFS_DUMP radar summary detection_mode=%d  timestamp=%d pulse_rssi=%d is_chirp=%d sidx=%d
- 
-6094,iiiiiIiii,[ hca_HwComponentBbLithium_dfs_phyerr_tlv.cpp : 191 ] DFS_DUMPS ts=%d fft_num=%d radar_check=%d total_gain=%d base_pwr=%d peak_sidx=%i relpwr=%d peak_mag=%d num_str_bins_ib=%d
- 
-6098,i,[ hca_HwComponentBbLithium_pcss_ipc.cpp : 530 ] PcssIpcRingIRQHandler: PS Mode, ignoring IPC Ring IRQ! phyId:%d 
-6125,III,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 319 ] DFS_DUMPS Rejecting Radar since delta peak values are invalid : dl_delta_peak_match_count=%lu, dl_psidx_diff_match_count=%lu, rf_threshold=%lu
- 
-6124,IIi,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 324 ] DFS_DUMPS %s: Rejecting Radar since duration diff %ld is more than %d
- 
-6123,i,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 464 ] [%d]: dfs is NULL 
-6122,i,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 561 ] [%d]: event is NULL  
-6121,iiIIII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 794 ] 
+6109,i,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 464 ] [%d]: dfs is NULL 
+6108,i,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 561 ] [%d]: event is NULL  
+6107,iiIIII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 794 ] 
 [%d]:PHYERR# = %d ts = %u  diff_ts = %u ppdu_rssi = %u dur = %u
  
-6120,iiiiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 798 ] 
+6106,iiiiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 798 ] 
 [%d]: is_hw_chirp = %d segid = %d sidx = %d peak_mag = %d delta_peak = %d 
  
-6119,iiiiIi,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 802 ] 
+6105,iiiiIi,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 802 ] 
 [%d]: delta_diff = %d agc_total_gain = %d agc_mb_gain = %d radar_subchan_mask = 0x%x pulse_height = %d 
  
-6118,iiiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 807 ] 
+6104,iiiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 807 ] 
 [%d]: triggering_agc_event = %d rs_pulse_rssi = %d pri80_inband_power = %d ext80_inband_power = %d 
  
-6117,iIIIII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 811 ] [%d]:xxxxx ts =%u re.re_dur=%u re.re_rssi =%u diff =%u pl->pl_lastelem.p_time=%llu xxxxx 
-6116,Ii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 890 ] :chan->ic_flags=0x%x, MHz separation=%d
+6103,iIIIII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 811 ] [%d]:xxxxx ts =%u re.re_dur=%u re.re_rssi =%u diff =%u pl->pl_lastelem.p_time=%llu xxxxx 
+6102,Ii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 890 ] :chan->ic_flags=0x%x, MHz separation=%d
  
-6115,iii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 894 ] : Peak Idx =%d,re.re_dur =%d,diff_ts =%d
+6101,iii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 894 ] : Peak Idx =%d,re.re_dur =%d,diff_ts =%d
  
-6114,,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 897 ] 
+6100,,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 897 ] 
 : Modify pulse dur to fit valid range 
  
-6113,Ii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 926 ] 
+6099,Ii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 926 ] 
 :chan->ic_flags=0x%x,MHz Separation=%d
  
-6112,iii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 930 ] :Peak Index =%d,re.re_dur =%d,diff_ts =%d
+6098,iii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 930 ] :Peak Index =%d,re.re_dur =%d,diff_ts =%d
  
-6111,,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 933 ] :Modify ETSI pulse dur to valid range 
+6097,,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 933 ] :Modify ETSI pulse dur to valid range 
  
-6110,,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 994 ] DFS_DUMPS found bin5 radar
+6096,,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 994 ] DFS_DUMPS found bin5 radar
  
-6109,iII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1034 ] [%d]: Rejecting on rssi rssi=%u thresh=%u 
-6108,ii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1035 ] DFS_DUMPS Rejecting pulses on rssi rssi=%d, thresh=%d
+6095,iII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1034 ] [%d]: Rejecting on rssi rssi=%u thresh=%u 
+6094,ii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1035 ] DFS_DUMPS Rejecting pulses on rssi rssi=%d, thresh=%d
  
-6107,iII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1066 ] [%d]:Rejecting on pri pri=%lld minpri=%u 
-6106,iiII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1100 ] [%d]:filterID= %d::Rejecting on individual filter min PRI deltaT=%lld rf->rf_minpri=%u 
-6105,iiII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1123 ] [%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
-6104,iiII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1168 ] [%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
-6103,iiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1242 ] [%d]:### Found on channel minDur = %d, filterId = %d  seg_id = %d ### 
-6102,iiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1290 ] DFS_DUMPS Radar Found with Filter Id = %d min dur=%d sidx=%d freq_offset=%d
+6093,iII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1066 ] [%d]:Rejecting on pri pri=%lld minpri=%u 
+6092,iiII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1100 ] [%d]:filterID= %d::Rejecting on individual filter min PRI deltaT=%lld rf->rf_minpri=%u 
+6091,iiII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1123 ] [%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
+6090,iiII,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1168 ] [%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
+6089,iiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1242 ] [%d]:### Found on channel minDur = %d, filterId = %d  seg_id = %d ### 
+6088,iiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1290 ] DFS_DUMPS Radar Found with Filter Id = %d min dur=%d sidx=%d freq_offset=%d
  
-6101,ii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1297 ] CHANNEL_CLOSE radarevent g_dfs_test_mode=%d  event_data.detection_mode=%d
+6087,ii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1297 ] CHANNEL_CLOSE radarevent g_dfs_test_mode=%d  event_data.detection_mode=%d
  
-6100,iiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1328 ] [%d]:### RADAR FOUND ON CHANNEL %d (%d MHz),seg_id=%d ### 
-6099,i,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1398 ] DFS_DEBUGS false_radar dfs->dfs_seq_num =%d
+6086,iiii,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1328 ] [%d]:### RADAR FOUND ON CHANNEL %d (%d MHz),seg_id=%d ### 
+6085,i,[ hca_HwComponentBbLithium_dfs_process_radarevent.cpp : 1398 ] DFS_DEBUGS false_radar dfs->dfs_seq_num =%d
  
-6127,,[ hca_HwComponentBbLithium_debug.cpp : 931 ] PHYDBG DISABLE: HcaHwComponentBbLithium_debug::PHYDBG_disable 
-6126,,[ hca_HwComponentBbLithium_debug.cpp : 933 ] PHYDBG disabled
+6112,i,[ hca_HwComponentBbLithium_pcss_ipc.cpp : 530 ] PcssIpcRingIRQHandler: PS Mode, ignoring IPC Ring IRQ! phyId:%d 
+6113,I,[ hca_HwComponentBbLithium_phy.cpp : 139 ] %s
  
-6150,i,[ hca_HwComponentBbQca649x_reset.cpp : 1480 ] DssControl: Return with no-effect. synth_control=%d 
-6149,ii,[ hca_HwComponentBbQca649x_reset.cpp : 1484 ] DssControl: phyId %d, enable %d 
-6148,iiii,[ hca_HwComponentBbQca649x_reset.cpp : 1521 ] EnableOCL: enable=%d listen_chain=%d backoff=%d FOR PHYID %d 
-6147,,[ hca_HwComponentBbQca649x_reset.cpp : 1960 ] Error Cannot Access RO_PLL_LOCK Register in Sleep, return 
-6146,i,[ hca_HwComponentBbQca649x_reset.cpp : 1974 ] g_consecutive_ro_pll_unlock=%d 
-6145,iIi,[ hca_HwComponentBbQca649x_reset.cpp : 303 ] PostProgInit: phyID %d, resetCause 0x%x, homeChan %d
+6127,I,[ hca_HwComponentBbLithium_debug_core.cpp : 510 ] PHYDBG LWod 0x%lx
  
-6144,Ii,[ hca_HwComponentBbQca649x_reset.cpp : 1384 ] PerformPhyOff: q6_to_m3_ipc_address=%x q6_to_m3_ipc=%d 
-6143,Ii,[ hca_HwComponentBbQca649x_reset.cpp : 1390 ] PerformPhyOff: isNotDone=%x, loopCount=%d 
-6142,ii,[ hca_HwComponentBbQca649x_reset.cpp : 1397 ] PerformPhyOff: MAC|PHYID=%d WFAX_PCSS_VR_Q6_TO_M3_10_L=%d 
-6141,Ii,[ hca_HwComponentBbQca649x_reset.cpp : 1536 ] SetPowerFeatMask: Set Power Mask to %x FOR PHYID %d 
+6126,I,[ hca_HwComponentBbLithium_debug_core.cpp : 511 ] PHYDBG UWod 0x%lx
  
-6140,iiiiiiiii,[ hca_HwComponentBbQca649x_reset.cpp : 638 ] SetXOPowerMode phyId %d, valid=%d, wakeup=%d, imps=%d, valid_1=%d, wakeup_1=%d, imps_1=%d, ignore_other_phy=%d, ignore_this_phy=%d 
-6139,iii,[ hca_HwComponentBbQca649x_reset.cpp : 677 ] SetXOPowerMode Done: phyId %d, lp_xo=%d, curr_xo_state_lp=%d 
-6138,i,[ hca_HwComponentBbQca649x_reset.cpp : 1406 ] ANI_DUMP_PHYID%d SAVE ANI DEFAULTS 
+6125,Ii,[ hca_HwComponentBbLithium_debug_core.cpp : 271 ] %s skipping bank %d
  
-6137,iiiiiiII,[ hca_HwComponentBbQca649x_reset.cpp : 1258 ] ResetPhyInputCommon: phyId %d bw %d mhz %d freq %d/%d dynPriChan %d txCM 0x%x rxCM 0x%x 
-6136,iiiII,[ hca_HwComponentBbQca649x_reset.cpp : 1266 ] ResetPhyInputCommon: conc %d isSBS %d NF %d pwrMask 0x%x loadIniMask 0x%x 
-6135,iIIiiiii,[ hca_HwComponentBbQca649x_reset.cpp : 741 ] RetentionSetChannel: phyId %d txCM 0x%x rxCM 0x%x wakeup %d imps %d fullsave %d homechan %d  cur_tbl_idx %d 
-6134,iiiiI,[ hca_HwComponentBbQca649x_reset.cpp : 742 ] RetentionSetChannel: chan %d freq1 %d freq2 %d phy_mode %d flags 0x%x 
-6133,iii,[ hca_HwComponentBbQca649x_reset.cpp : 770 ] RetentionSetChannel: phyId %d, IMPS %d, Sleep %d, is ignored by debug knob 
-6132,iiiiiiiii,[ hca_HwComponentBbQca649x_reset.cpp : 1133 ] RetentionSetChannel: Profile PHYID=%d SLEEP=%d IMPS=%d, RETINI=%d RESET=%d CAL=%d TPC=%d TOT=%d PF=%d 
-6131,iiI,[ hca_HwComponentBbQca649x_reset.cpp : 1689 ] WritePcssM3Register: phyId: %d pcssM3reg: %d pcssM3RegValue: 0x%x 
-6130,,[ hca_HwComponentBbQca649x_reset.cpp : 1693 ] Error Cannot Access Register in Sleep, return 
-6129,ii,[ hca_HwComponentBbQca649x_reset.cpp : 1332 ] WarmReset MAC|PHYID=%d CF_ACTIVE=%d 
-6128,iiiiI,[ hca_HwComponentBbQca649x_reset.cpp : 1350 ] doing WarmReset | phyid=%d | ind_bitmap=%d | reason=%d | CF_ACTIVE=%d | WarmReset Cause = 0x%x 
-6152,I,[ hca_HwComponentBbQca649x_phy.cpp : 222 ] EnableDssWarCFO: enable 0x%x
+6124,I,[ hca_HwComponentBbLithium_debug_core.cpp : 461 ] PHYDBG_CAPTURE_U 0x%lx
  
-6151,I,[ hca_HwComponentBbQca649x_phy.cpp : 216 ] SetDssWarCFODeltaThreshold: threshold 0x%x
+6123,I,[ hca_HwComponentBbLithium_debug_core.cpp : 462 ] PHYDBG_CAPTURE_L 0x%lx
  
-6166,i,[ hca_HwComponentBbQca649x_pcss.cpp : 107 ] PHY M3 Assert for PHY : %d
+6122,I,[ hca_HwComponentBbLithium_debug_core.cpp : 463 ] PHYDBG_PLAYBACK_U 0x%lx
  
-6165,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 111 ] %c%c%c%c 
-6164,I,[ hca_HwComponentBbQca649x_pcss.cpp : 279 ] PAPRD: UCODE VREG WAR enabled , vReg %x 
-6163,ii,[ hca_HwComponentBbQca649x_pcss.cpp : 212 ] PCSS Version : Branch = %d, Build ID = %d  
-6162,i,[ hca_HwComponentBbQca649x_pcss.cpp : 64 ] PHY M3 Assert for PHY : %d
+6121,I,[ hca_HwComponentBbLithium_debug_core.cpp : 464 ] PHYDBG_PLAYBACK_L 0x%lx
  
-6161,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 66 ] %c%c%c%c 
-6160,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 68 ] %c%c%c%c 
-6159,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 70 ] %c%c%c%c 
-6158,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 72 ] %c%c%c%c 
-6157,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 74 ] %c%c%c%c 
-6156,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 76 ] %c%c%c%c 
-6155,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 78 ] %c%c%c%c 
-6154,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 80 ] %c%c%c%c 
-6153,,[ hca_HwComponentBbQca649x_pcss.cpp : 295 ] Qca649x_pcss::WriteBeaconRssiValueToVreg: Error Cannot Access Register in Sleep, return 
-6183,,[ hca_HwComponentBbQca649x_debug.cpp : 224 ] ERROR: Received Null Pointer buffer argument in ANI Reg Dump. Returning without filling buffer with the dump 
-6182,,[ hca_HwComponentBbQca649x_debug.cpp : 652 ] ERROR: Received Null Pointer buffer argument in DPD Reg Dump. Returning without filling buffer with the dump 
-6181,,[ hca_HwComponentBbQca649x_debug.cpp : 153 ] ERROR: Received Null Pointer buffer argument in TPC Reg Dump. Returning without filling buffer with the dump 
-6180,,[ hca_HwComponentBbQca649x_debug.cpp : 578 ] ERROR: Received Null Pointer buffer argument in RXIQ Reg Dump. Returning without filling buffer with the dump 
-6179,,[ hca_HwComponentBbQca649x_debug.cpp : 423 ] ERROR: Received Null Pointer buffer argument in RXTD Reg Dump. Returning without filling buffer with the dump 
-6178,,[ hca_HwComponentBbQca649x_debug.cpp : 505 ] ERROR: Received Null Pointer buffer argument in TXIQ Reg Dump. Returning without filling buffer with the dump 
-6177,,[ hca_HwComponentBbQca649x_debug.cpp : 725 ] ERROR: Received Null Pointer buffer argument in PKDET Reg Dump. Returning without filling buffer with the dump 
-6176,,[ hca_HwComponentBbQca649x_debug.cpp : 472 ] ERROR: Received Null Pointer buffer argument in RXDCO Reg Dump. Returning without filling buffer with the dump 
-6175,,[ hca_HwComponentBbQca649x_debug.cpp : 313 ] ERROR: Received Null Pointer buffer argument in Radar Reg Dump. Returning without filling buffer with the dump 
-6174,,[ hca_HwComponentBbQca649x_debug.cpp : 266 ] ERROR: Received Null Pointer buffer argument in NF Reg Dump. Returning without filling buffer with the dump 
-6173,,[ hca_HwComponentBbQca649x_debug.cpp : 374 ] ERROR: Received Null Pointer buffer argument in SS Reg Dump. Returning without filling buffer with the dump 
-6172,,[ hca_HwComponentBbQca649x_debug.cpp : 797 ] ERROR: Received Null Pointer arguments 
-6171,I,[ hca_HwComponentBbQca649x_debug.cpp : 803 ] REG DUMP: Started Selective PHY REGs store to buffer: 0x%08x 
-6170,i,[ hca_HwComponentBbQca649x_debug.cpp : 819 ]  length of the reg dump= %d 
-6169,iII,[ hca_HwComponentBbQca649x_debug.cpp : 83 ] PHYDBG: PHYID = %d DBG_CLK_EN = %x in WFAX_PCSS_M3_CTRL_L and CSR_PHYDBG_CLOCKON = %x in WFAX_PHYRF_PHYDBG_MODE_L 
+6120,I,[ hca_HwComponentBbLithium_debug_core.cpp : 465 ] PHYDBG_PHYRF_TX_PRE_DESC_WR_1_L 0x%lx
  
-6168,,[ hca_HwComponentBbQca649x_debug.cpp : 84 ] PHYDBG: Disabled DBG_CLK_EN in WFAX_PCSS_M3_CTRL_L and CSR_PHYDBG_CLOCKON in WFAX_PHYRF_PHYDBG_MODE_L 
+6119,I,[ hca_HwComponentBbLithium_debug_core.cpp : 466 ] PHYDBG_WFAX_PHYRF_PHYRF_ACTIVATION_CTRL_L 0x%lx
  
-6167,,[ hca_HwComponentBbQca649x_debug.cpp : 108 ] PHYDBG: PHYDBG is Fully Disabled!
+6118,I,[ hca_HwComponentBbLithium_debug_core.cpp : 467 ] PHYDBG_MODE_L 0x%lx
  
+6117,I,[ hca_HwComponentBbLithium_debug_core.cpp : 468 ] PHYDBG_TRIGGER_0_L 0x%lx
+ 
+6116,I,[ hca_HwComponentBbLithium_debug_core.cpp : 469 ] PHYDBG_TRIGGER_0_U 0x%lx
+ 
+6115,I,[ hca_HwComponentBbLithium_debug_core.cpp : 470 ] PHYDBG_TRIGGER_1_L 0x%lx
+ 
+6114,Ii,[ hca_HwComponentBbLithium_debug_core.cpp : 371 ] %s skipping bank %d
+ 
+6144,,[ hca_HwComponentBbQca649x_debug.cpp : 224 ] ERROR: Received Null Pointer buffer argument in ANI Reg Dump. Returning without filling buffer with the dump 
+6143,,[ hca_HwComponentBbQca649x_debug.cpp : 652 ] ERROR: Received Null Pointer buffer argument in DPD Reg Dump. Returning without filling buffer with the dump 
+6142,,[ hca_HwComponentBbQca649x_debug.cpp : 153 ] ERROR: Received Null Pointer buffer argument in TPC Reg Dump. Returning without filling buffer with the dump 
+6141,,[ hca_HwComponentBbQca649x_debug.cpp : 578 ] ERROR: Received Null Pointer buffer argument in RXIQ Reg Dump. Returning without filling buffer with the dump 
+6140,,[ hca_HwComponentBbQca649x_debug.cpp : 423 ] ERROR: Received Null Pointer buffer argument in RXTD Reg Dump. Returning without filling buffer with the dump 
+6139,,[ hca_HwComponentBbQca649x_debug.cpp : 505 ] ERROR: Received Null Pointer buffer argument in TXIQ Reg Dump. Returning without filling buffer with the dump 
+6138,,[ hca_HwComponentBbQca649x_debug.cpp : 725 ] ERROR: Received Null Pointer buffer argument in PKDET Reg Dump. Returning without filling buffer with the dump 
+6137,,[ hca_HwComponentBbQca649x_debug.cpp : 472 ] ERROR: Received Null Pointer buffer argument in RXDCO Reg Dump. Returning without filling buffer with the dump 
+6136,,[ hca_HwComponentBbQca649x_debug.cpp : 313 ] ERROR: Received Null Pointer buffer argument in Radar Reg Dump. Returning without filling buffer with the dump 
+6135,,[ hca_HwComponentBbQca649x_debug.cpp : 266 ] ERROR: Received Null Pointer buffer argument in NF Reg Dump. Returning without filling buffer with the dump 
+6134,,[ hca_HwComponentBbQca649x_debug.cpp : 374 ] ERROR: Received Null Pointer buffer argument in SS Reg Dump. Returning without filling buffer with the dump 
+6133,,[ hca_HwComponentBbQca649x_debug.cpp : 797 ] ERROR: Received Null Pointer arguments 
+6132,I,[ hca_HwComponentBbQca649x_debug.cpp : 803 ] REG DUMP: Started Selective PHY REGs store to buffer: 0x%08x 
+6131,i,[ hca_HwComponentBbQca649x_debug.cpp : 819 ]  length of the reg dump= %d 
+6130,iII,[ hca_HwComponentBbQca649x_debug.cpp : 83 ] PHYDBG: PHYID = %d DBG_CLK_EN = %x in WFAX_PCSS_M3_CTRL_L and CSR_PHYDBG_CLOCKON = %x in WFAX_PHYRF_PHYDBG_MODE_L 
+ 
+6129,,[ hca_HwComponentBbQca649x_debug.cpp : 84 ] PHYDBG: Disabled DBG_CLK_EN in WFAX_PCSS_M3_CTRL_L and CSR_PHYDBG_CLOCKON in WFAX_PHYRF_PHYDBG_MODE_L 
+ 
+6128,,[ hca_HwComponentBbQca649x_debug.cpp : 108 ] PHYDBG: PHYDBG is Fully Disabled!
+ 
+6146,I,[ hca_HwComponentBbQca649x_phy.cpp : 222 ] EnableDssWarCFO: enable 0x%x
+ 
+6145,I,[ hca_HwComponentBbQca649x_phy.cpp : 216 ] SetDssWarCFODeltaThreshold: threshold 0x%x
+ 
+6169,i,[ hca_HwComponentBbQca649x_reset.cpp : 1480 ] DssControl: Return with no-effect. synth_control=%d 
+6168,ii,[ hca_HwComponentBbQca649x_reset.cpp : 1484 ] DssControl: phyId %d, enable %d 
+6167,iiii,[ hca_HwComponentBbQca649x_reset.cpp : 1521 ] EnableOCL: enable=%d listen_chain=%d backoff=%d FOR PHYID %d 
+6166,,[ hca_HwComponentBbQca649x_reset.cpp : 1960 ] Error Cannot Access RO_PLL_LOCK Register in Sleep, return 
+6165,i,[ hca_HwComponentBbQca649x_reset.cpp : 1974 ] g_consecutive_ro_pll_unlock=%d 
+6164,iIi,[ hca_HwComponentBbQca649x_reset.cpp : 303 ] PostProgInit: phyID %d, resetCause 0x%x, homeChan %d
+ 
+6163,Ii,[ hca_HwComponentBbQca649x_reset.cpp : 1384 ] PerformPhyOff: q6_to_m3_ipc_address=%x q6_to_m3_ipc=%d 
+6162,Ii,[ hca_HwComponentBbQca649x_reset.cpp : 1390 ] PerformPhyOff: isNotDone=%x, loopCount=%d 
+6161,ii,[ hca_HwComponentBbQca649x_reset.cpp : 1397 ] PerformPhyOff: MAC|PHYID=%d WFAX_PCSS_VR_Q6_TO_M3_10_L=%d 
+6160,Ii,[ hca_HwComponentBbQca649x_reset.cpp : 1536 ] SetPowerFeatMask: Set Power Mask to %x FOR PHYID %d 
+ 
+6159,iiiiiiiii,[ hca_HwComponentBbQca649x_reset.cpp : 638 ] SetXOPowerMode phyId %d, valid=%d, wakeup=%d, imps=%d, valid_1=%d, wakeup_1=%d, imps_1=%d, ignore_other_phy=%d, ignore_this_phy=%d 
+6158,iii,[ hca_HwComponentBbQca649x_reset.cpp : 677 ] SetXOPowerMode Done: phyId %d, lp_xo=%d, curr_xo_state_lp=%d 
+6157,i,[ hca_HwComponentBbQca649x_reset.cpp : 1406 ] ANI_DUMP_PHYID%d SAVE ANI DEFAULTS 
+ 
+6156,iiiiiiII,[ hca_HwComponentBbQca649x_reset.cpp : 1258 ] ResetPhyInputCommon: phyId %d bw %d mhz %d freq %d/%d dynPriChan %d txCM 0x%x rxCM 0x%x 
+6155,iiiII,[ hca_HwComponentBbQca649x_reset.cpp : 1266 ] ResetPhyInputCommon: conc %d isSBS %d NF %d pwrMask 0x%x loadIniMask 0x%x 
+6154,iIIiiiii,[ hca_HwComponentBbQca649x_reset.cpp : 741 ] RetentionSetChannel: phyId %d txCM 0x%x rxCM 0x%x wakeup %d imps %d fullsave %d homechan %d  cur_tbl_idx %d 
+6153,iiiiI,[ hca_HwComponentBbQca649x_reset.cpp : 742 ] RetentionSetChannel: chan %d freq1 %d freq2 %d phy_mode %d flags 0x%x 
+6152,iii,[ hca_HwComponentBbQca649x_reset.cpp : 770 ] RetentionSetChannel: phyId %d, IMPS %d, Sleep %d, is ignored by debug knob 
+6151,iiiiiiiii,[ hca_HwComponentBbQca649x_reset.cpp : 1133 ] RetentionSetChannel: Profile PHYID=%d SLEEP=%d IMPS=%d, RETINI=%d RESET=%d CAL=%d TPC=%d TOT=%d PF=%d 
+6150,iiI,[ hca_HwComponentBbQca649x_reset.cpp : 1689 ] WritePcssM3Register: phyId: %d pcssM3reg: %d pcssM3RegValue: 0x%x 
+6149,,[ hca_HwComponentBbQca649x_reset.cpp : 1693 ] Error Cannot Access Register in Sleep, return 
+6148,ii,[ hca_HwComponentBbQca649x_reset.cpp : 1332 ] WarmReset MAC|PHYID=%d CF_ACTIVE=%d 
+6147,iiiiI,[ hca_HwComponentBbQca649x_reset.cpp : 1350 ] doing WarmReset | phyid=%d | ind_bitmap=%d | reason=%d | CF_ACTIVE=%d | WarmReset Cause = 0x%x 
+6183,i,[ hca_HwComponentBbQca649x_pcss.cpp : 107 ] PHY M3 Assert for PHY : %d
+ 
+6182,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 111 ] %c%c%c%c 
+6181,I,[ hca_HwComponentBbQca649x_pcss.cpp : 279 ] PAPRD: UCODE VREG WAR enabled , vReg %x 
+6180,ii,[ hca_HwComponentBbQca649x_pcss.cpp : 212 ] PCSS Version : Branch = %d, Build ID = %d  
+6179,i,[ hca_HwComponentBbQca649x_pcss.cpp : 64 ] PHY M3 Assert for PHY : %d
+ 
+6178,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 66 ] %c%c%c%c 
+6177,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 68 ] %c%c%c%c 
+6176,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 70 ] %c%c%c%c 
+6175,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 72 ] %c%c%c%c 
+6174,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 74 ] %c%c%c%c 
+6173,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 76 ] %c%c%c%c 
+6172,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 78 ] %c%c%c%c 
+6171,IIII,[ hca_HwComponentBbQca649x_pcss.cpp : 80 ] %c%c%c%c 
+6170,,[ hca_HwComponentBbQca649x_pcss.cpp : 295 ] Qca649x_pcss::WriteBeaconRssiValueToVreg: Error Cannot Access Register in Sleep, return 
 6188,i,[ phyDevLibCommon.c : 71 ] Error: Invalid PHY ID [=%d] 
 6187,II,[ phyDevLibCommon.c : 129 ] Dumping PDMEM: [0x%08lx : 0x%08lx] 
 6186,,[ phyDevLibCommon.c : 134 ] Dumping PDMEM Done 
@@ -8716,355 +8716,355 @@ org_rc_mask_null pdev_rc_mask[0]:%x pdev_rc_mask[1]:%x phymode:%d ni_legacy_rate
 7732,,[ rfaConfig.c : 4232 ] Turning 2G Off 
 7731,II,[ rfaConfig.c : 4247 ]  pwrMask: %u DFSMASK: %u 
 7730,ii,[ rfaConfig.c : 4515 ] set_synth_channel, chidx = %d, freq = %d 
-7754,ii,[ hca_HwComponentTrxHastingsPrime_efuse.cpp : 439 ] HcaHwComponentTrxHastingsPrime_efuse::ReadPerRfa %d, %d 
-7753,II,[ hca_HwComponentTrxHastingsPrime_efuse.cpp : 412 ] HcaHwComponentTrxHastingsPrime_efuse::WritePerRfa 0x%x, 0x%x 
-7752,ii,[ hca_HwComponentTrxHastingsPrime_efuse.cpp : 418 ] HcaHwComponentTrxHastingsPrime_efuse::WritePerRfa::XO cdacin %d, cdacout %d 
-7755,i,[ hca_HwComponentTrxHastingsPrime_cal.cpp : 489 ] TrxHastingPrime-RSSI:%d 
-7756,iii,[ hca_HwComponentTrxHastingsPrime_config.cpp : 89 ] EnableHwDtimSlna: phyId = %d, chain = %d, SLNA_CTRL = %d 
-7758,,[ hca_HwComponentTrxHastingsPrime_btcoex.cpp : 211 ] TrxHastingsPrime_btcoex::SetOverrideGainSetting: Error Cannot Access Register in Sleep 
-7757,iIii,[ hca_HwComponentTrxHastingsPrime_btcoex.cpp : 233 ] TrxHastingsPrime_btcoex::SetOverrideGainSetting: Read back value of PHYID = %d, ovsVal = 0x%02x WLAN_CONTROL_EN_CH0_OVS = %d, BT_CONTROL_SLNA_L_CH0_OVS = %d 
-7801,II,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 171 ] HcaHwComponentTrxHastingsPrime_tpc tpc_flag %x exouple = %x 
-7800,II,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 193 ] TPC_DBG:EnableCLPC (hastingsPrime) clpc thresh in alutGen %x out %x 
-7799,iii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 205 ] [TempComp]HcaHwComponentTrxHastingsPrime_tpc::chainIdx=%d, thermCalValue=%d, alphaTherm=%d 
-7798,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 229 ] HcaHwComponentTrxHastingsPrime_tpc::EnableCLPC=%d 
-7797,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 234 ] HcaHwComponentTrxHastingsPrime_tpc::EnableCLPC=%d 
-7796,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 595 ] ov_rel0:%d 
-7795,iIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1169 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId %d, PrimaryChan %u, SecondaryChan %u, txChainMask %u, rxChainMask %u 
-7794,iiiiiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1171 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: Home Chan = %d, RF Mode = %d, Pwr Mask = %d, Phy Mode = %d, GLUT_DAC_GAIN_CAL = %d, CMD_COUNT_TXGAIN_COUNT_B0 = %d, CMD_COUNT_TXGAIN_COUNT_B1 =%d 
-7793,iIiiiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1201 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, LATEST_FWD_L_B0 = 0x%0x, LATEST_TARGET_PWR_B0 = %d, LATEST_DAC_GAIN_B0 = %d, LATEST_TXGAIN_IDX_B0 = %d, LATEST_GLUT_IDX_B0 = %d, LATEST_TX_IQ_IDX_B0 = %d 
-7792,iIiiiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1203 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, LATEST_FWD_L_B1 = 0x%0x, LATEST_TARGET_PWR_B1 = %d, LATEST_DAC_GAIN_B1 = %d, LATEST_TXGAIN_IDX_B1 = %d, LATEST_GLUT_IDX_B1 = %d, LATEST_TX_IQ_IDX_B1 = %d 
-7791,iIiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1227 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, LATEST_LB_L_B0 = 0x%0x, LATEST_ACCUMULATED_CLPC_ERR_B0 = %d, LATEST_CLPC_ERR_B0 = %d, LATEST_MEAS_PWR_OUT_B0 = %d 
-7790,iIiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1229 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, LATEST_LB_L_B1 = 0x%0x, LATEST_ACCUMULATED_CLPC_ERR_B1 = %d, LATEST_CLPC_ERR_B1 = %d, LATEST_MEAS_PWR_OUT_B1 = %d 
-7789,iIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1246 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, 2G_TPC_FB_12_STAT_B0 = 0x%0x, 2G_TPC_FB_12_STAT_B1 = 0x%0x, 5G_TPC_FB_12_STAT_B0 = 0x%0x, 5G_TPC_FB_12_STAT_B1 = 0x%0x 
-7788,iIiiIii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1265 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, TPC_GEN_CTRL_L = 0x%0x, OLPC_MODE = %d, TARGET_PWR_CLPC_THR_CORR = %d; TPC_CLPC_CTRL = 0x%0x, CLPC_ERR_UPDATE_DIS = %d, MASK_OUT_CLPC_ERR_UPDATE = %d 
-7787,iIiiIii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1282 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, TPC_CHN_STAT_LATEST_TXGAIN_L_B0 = 0x%0x, LATEST_WSI_TPC_PDET_GAIN_IDX_B0 = %d, LATEST_WSI_TPC_ATTEN_B0 = %d; TPC_CHN_STAT_LATEST_TXGAIN_L_B1 = 0x%0x, LATEST_WSI_TPC_PDET_GAIN_IDX_B1 = %d, LATEST_WSI_TPC_ATTEN_B1 = %d 
-7786,iii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 509 ] force glut: chain%d, gainindex%d: dacgain=%d
+7752,iii,[ hca_HwComponentTrxHastingsPrime_config.cpp : 89 ] EnableHwDtimSlna: phyId = %d, chain = %d, SLNA_CTRL = %d 
+7754,,[ hca_HwComponentTrxHastingsPrime_btcoex.cpp : 211 ] TrxHastingsPrime_btcoex::SetOverrideGainSetting: Error Cannot Access Register in Sleep 
+7753,iIii,[ hca_HwComponentTrxHastingsPrime_btcoex.cpp : 233 ] TrxHastingsPrime_btcoex::SetOverrideGainSetting: Read back value of PHYID = %d, ovsVal = 0x%02x WLAN_CONTROL_EN_CH0_OVS = %d, BT_CONTROL_SLNA_L_CH0_OVS = %d 
+7757,ii,[ hca_HwComponentTrxHastingsPrime_efuse.cpp : 439 ] HcaHwComponentTrxHastingsPrime_efuse::ReadPerRfa %d, %d 
+7756,II,[ hca_HwComponentTrxHastingsPrime_efuse.cpp : 412 ] HcaHwComponentTrxHastingsPrime_efuse::WritePerRfa 0x%x, 0x%x 
+7755,ii,[ hca_HwComponentTrxHastingsPrime_efuse.cpp : 418 ] HcaHwComponentTrxHastingsPrime_efuse::WritePerRfa::XO cdacin %d, cdacout %d 
+7778,iii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4278 ] tpcOnepointCal:: GetAlphaTherm pEeprom->baseBdfHeader.commonBoardFlags = %d chainIdx = %d channel = %d 
+7777,iii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4308 ] tpcOnepointCal:: GetAlphaTherm channel %d alphaThermFreq[iAlphaThermFreq] %d chosenChannelIdx %d 
+7776,IIIIIII,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4348 ] tpcOnepointCal:: chosen phyId %u alphaThermFreq[%u] %u curChan %u curChain %u tempIdx %u alphaThermValue %u 
+7775,i,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 1567 ] 6G CTL powerMode = %d 
+7774,ii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 6058 ] DumpTpcPerPacket: Get CTL pwr = good chain: %d sec chain: %d 
  
-7785,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 611 ] OPC: phyId:%d state 
-7784,ii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 703 ] bHomeChan=%d, TPCisOLPC=%d, Need to re-program TPC registers 
-7783,iii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 144 ] [TempComp]HcaHwComponentTrxHastingsPrime_tpc::chainIdx=%d, thermCalValue=%d, alphaTherm=%d 
-7782,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 626 ]  GetLatestAccumulatedCLPCError :%d 
-7781,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 638 ]  GetLatestAccumulatedCLPCErrorPerChain :%d 
-7780,iIIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 787 ] DumpTpcLuts: phyId %d, PrimaryChan %u, SecondaryChan %u, dumpMask=%u  txChainMask %u, rxChainMask %u 
-7779,IIIIIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 823 ] DumpTpcLuts: GLUT: tpcTblIdx %3u |  tpcChainIdx %3u | tpcGainIdx %3u | pwrMeas %3d | minDacGain %3d | txGainIdx %3d | clpcError %3d | tpcClPktCnt %3d 
-7778,IIIIIIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 850 ] DumpTpcLuts: tpcTblIdx %3u |  tpcChainIdx %3u | tpcPlutIdx %3u | pdadc[%3u-%3u] HEX:%8x | pdadc[%3u-%3u] HEX:%8x | 
-7777,IIIIIIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 879 ] DumpTpcLuts: tpcTblIdx %3u |  tpcChainIdx %3u | tpcAlutIdx %3u | Alut tgtPwr Step [%3u-%3u] HEX:%8x | Alut tgtPwr Step [%3u-%3u]  HEX:%8x 
-7776,IiIi,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 921 ] TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_FB_1 (0x%08x) | PD_DC_SEL= %d 
-7775,IiIii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 928 ] TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_OVERRIDE_1 (0x%08x) | PDET_GAIN_IDX_OVS %d | FE_XPA_RF_DISCONNECT_OVS %d 
-7774,IiII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 934 ] TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_OVERRIDE_3 (0x%08x) 0x%08x 
-7773,IiIi,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 940 ] TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_FB_8_B0 (0x%08x) | PDADC_BIAS= %d 
-7772,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 956 ] TPC_DUMP_BDF : DUMP BDF GLUT FOR FREQ=%d 
-7771,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 963 ] TPC-DUMP_BDF calFreqPier2G=%d 
-7770,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 969 ] TPC-DUMP_BDF calFreqPier5G=%d 
-7769,IIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 992 ] TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | txgainIdx %3u | meas_pwr %3d | 
-7768,IIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1017 ] TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | txgainIdx %3u | meas_pwr %3d | 
-7767,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1026 ] TPC_DUMP_BDF_PLUT : DUMP BDF PLUT FOR FREQ=%d 
-7766,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1032 ] TPC-DUMP_BDF calFreqPier2G=%d 
-7765,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1038 ] TPC-DUMP_BDF calFreqPier5G=%d 
-7764,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1043 ] TPC_DUMP_BDF : DUMP BDF CLPC FOR FREQ=%d 
-7763,IIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1063 ] TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | pdadc_read %3u | meas_pwr %3d | 
-7762,IIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1088 ] TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | pdadc_read %3u | meas_pwr %3d | 
-7761,II,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1106 ] TPC_DUMP_RATEARRAY : ratesArray[%u] = 0x%x 
-7760,II,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1113 ] TPC_DUMP_RATEARRAY : ratesArray2[%u] = 0x%x 
-7759,iiiiiiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 429 ] [FCS%d] tpc glut chainIdx:%d channel:%d glutIdxEnd:%d i:%d txGainIdx:%d measPwr:%d minDacGain:%d 
-7879,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1181 ] Do not have access to masterCalDb or localCalDb, failed to restore DPD 
-7878,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1185 ] paprd_restore : finalCase %d, paprdType %d 
-7877,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1205 ] Do not have access to masterCalDb or localCalDb, failed to restore DPD 
-7876,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1209 ] DPD Memory : paprd_restore : finalCase %d 
-7875,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 80 ]  ********* halphy_mem_paprd_edpd_ctrl paprdType%d  
-7874,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 87 ]  WoW Entry mode, update caldb(return) chainmask %d  
-7873,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 92 ] Error: %s Invalid DPD table address 
-7872,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 99 ] Error: %s Invalid DPD table address 
-7871,iiI,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 105 ]  Channel %d  chain (%d) caldb_addr dpdStart 0x%8x  Memory DPD  
-7870,iiI,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 176 ] (1)paprdType %d Untrained tables: chain %d, training_done 0x%8x
+7773,I,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 7335 ] halphy_bdf_ModifyBdfOtpFlags: disableOTPOnePtCal 0x%x 
+7772,i,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2556 ] CTL6G Value %d
  
-7869,iiI,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 179 ] paprdType %d Untrained tables: chain %d, training_done_table 0x%8x
+7771,IIIIIi,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4255 ] tpcOnepointCal:: chosen phyId %u calFreq[%u] %u curChan %u curChain %u onePointThermOffset %d 
+7770,ii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 5248 ] DumpTpcPerPacket: target power: chain1: %d chain2: %d
  
-7868,iiiII,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 769 ] halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d mask %0x%8x 
-7867,iiiII,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 776 ] halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d mask %0x%8x 
-7866,iiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 779 ] halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d retry_dpd %d 
-7865,iiIi,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2147 ] (1)paprdType %d Untrained tables: chain %d, training_done_table 0x%8x alltablesDone %d 
-7864,iI,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2177 ] NEW VALID BITS Untrained tables: chain %d, training_done_table 0x%8x
+7769,iiiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2847 ] DumpTpc: before maxRegDef p1 bdf val: %d, user antenna gain: 2G: %d - 5G: %d, twiceAntennaGain (max of BDF and user): %d, twiceAntennaReduction: %d,  
+7768,iiiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2861 ] DumpTpc: before maxRegDef powerLimit: %d, userMaxPowerx2: %d, twiceMaxRD: %d, twiceLargestAntenna %d, lowest power: %d 
+7767,,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2875 ] DumpTpc: Reg Power update not supported as part of set Tx power as we have new WMI 
+7766,iiiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2885 ] DumpTpc: after maxRegDef default reg pwr: %d pTpcConfig->maxRegAllowedPower[%d]: %d, twiceMultiChainGain[%d]: %d 
+7765,,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 7625 ] Target pwr mode is invalid 
+7764,IIIIIi,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 3919 ] tpcOnepointCal:: chosen phyId %u calFreq[%u] %u curChan %u curChain %u onePointTpcGLUTOffset %d 
+7763,iiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 6109 ] DumpTpcPerPacket: Get regulatory pwr EIRP: %d, is PSD: %d, New regdb WMI call: %d, curr_BW:%d 
  
-7863,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1263 ]  WoW Entry mode, update caldb(return) chainmask %d  
-7862,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1269 ] Error: %s Invalid DPD table address 
-7861,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1280 ] Error: %s Invalid DPD table address 
-7860,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1285 ] Error: %s Invalid DPD table address 
-7859,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1296 ] Error: %s Invalid DPD table address 
-7858,iiII,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1303 ]  Channel %d  chain (%d) caldb_addr dpdStart 0x%8x dpdCtrlStart 0x%8x  
-7857,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1336 ]  ********* halphy_mem_paprd_device_update_caldb_addr paprdType%d  
-7856,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1351 ]  WoW Entry mode, update caldb(return) chainmask %d  
-7855,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1357 ] Error: %s Invalid DPD table address 
-7854,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1368 ] Error: %s Invalid DPD table address 
-7853,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1373 ] Error: %s Invalid DPD table address 
-7852,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1382 ] Error: %s Invalid DPD table address 
-7851,iiII,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1388 ]  Channel %d  chain (%d) caldb_addr dpdStart 0x%8x dpdCtrlStart 0x%8x  Memory DPD  
-7850,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1048 ] HwComponentTrxHastingsPrime_paprd::FtmControl : channel %d dpd_enable %d 
+7762,iiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 6179 ] DumpTpcPerPacket: Get regulatory Final combined power : %d CurrBW: %d, isValidTxPwr: %d,  tx_power: %d
  
-7849,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1647 ]  StorePaprd paprdType %d chain %d table %d   
-7848,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1661 ]  StorePaprd WoW Entry mode, StorePaprd (return) paprdType   
-7847,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1692 ]  eDPD : StorePaprd WoW Entry mode, StorePaprd (return) paprdType   
-7846,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1710 ] Memory DPD :  end of memeory StorePaprd  
-7845,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1074 ] PAPRD ResetParams phyExtn = %d
+7761,ii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 6193 ] DumpTpcPerPacket: Get regulatory pwr = good chain: %d sec chain: %d 
  
-7844,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 950 ] PHY INCATIVE : retrun 
-7843,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1510 ] RestorePaprd : caltype %d  
-7842,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1519 ]  ReStorePaprd WoW Entry mode, ValidateCALDB(return) paprdType %d   
-7841,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1538 ] Cals cal valid bits chain(%d)  %d  
-7840,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1546 ] *********** RestorePaprd : caltype %d  
-7839,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1961 ] PAPRD ProcessMemDPD 
-7838,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1727 ] StoreMemPaprd Entry 
-7837,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1744 ]  StoreMemPaprd WoW Entry mode, StorePaprd (return) paprdType   
-7836,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 317 ]  chain %d dpdPostScalingValue %d 
-7835,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 321 ]  chain %d table %d dpdWarmPktDacGain %d 
-7834,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 322 ]  chain %d table %d dpdGMGlutIdx %d 
-7833,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 376 ]  chain %d table %d ldpdTrainingDacGain %d 
-7832,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1419 ] ValidateCalDb : Invalid caltype %d  
-7831,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1424 ]  ValidateCalDb WoW Entry mode, ValidateCALDB(return) paprdType %d  chainmask %d  
-7830,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1431 ]  halphyDPDValidateCalDB paprdType %d  chainmask %d,  
-7829,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1441 ]  CALIBRATION COMPLETE  chain %d, result 1 
-7828,iiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1459 ]  halphyPaprdValidateCalibration calattempts %d %d, validBits %d %d 
-7827,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1460 ]  halphyPaprdValidateCalibration results[0] %d [1] %d 
-7826,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1033 ] PAPRD phy_core_set_paprd_enable : enable %d ldpd %d edpd %d
+7760,i,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4509 ] cbc: chlist_flag: %d 
+7759,iii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 7711 ] rssiOffset=%d, bdf_rssiffset=%d, total rssi offset=%d 
+7758,i,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4518 ] cbc: chlist_repeat_count: %d 
+7856,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1181 ] Do not have access to masterCalDb or localCalDb, failed to restore DPD 
+7855,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1185 ] paprd_restore : finalCase %d, paprdType %d 
+7854,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1205 ] Do not have access to masterCalDb or localCalDb, failed to restore DPD 
+7853,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1209 ] DPD Memory : paprd_restore : finalCase %d 
+7852,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 80 ]  ********* halphy_mem_paprd_edpd_ctrl paprdType%d  
+7851,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 87 ]  WoW Entry mode, update caldb(return) chainmask %d  
+7850,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 92 ] Error: %s Invalid DPD table address 
+7849,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 99 ] Error: %s Invalid DPD table address 
+7848,iiI,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 105 ]  Channel %d  chain (%d) caldb_addr dpdStart 0x%8x  Memory DPD  
+7847,iiI,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 176 ] (1)paprdType %d Untrained tables: chain %d, training_done 0x%8x
  
-7825,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1579 ] RestoreMemPaprd : Invalid caltype %d  
-7824,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1583 ] *********** RestoreMemPaprd : caltype %d channel %d paprdType %d 
-7823,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1587 ]  RestoreMemPaprd WoW Entry mode, ValidateCALDB(return) paprdType %d   
-7822,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1608 ] Cals cal valid bits chain(%d)  %d  
-7821,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2090 ]  NMSE Check failed %d %d 
-7820,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2102 ]  NMSE Check %d %d %d 
-7819,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1948 ] PAPRD PHY ID %d GetDPDEnable() DPD enable (lDPD %d eDPD %d) 
-7818,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 905 ] PAPRD Calibration complete %d 
-7817,iiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2045 ] Channel Context :(before BG processing)  workingChannel %d txChainMask  %d  phyrfMode %d  WoW Mode %d 
-7816,iiiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1116 ] PAPRD PHY ID %d start %d end %d chan start %d chan end %d 
+7846,iiI,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 179 ] paprdType %d Untrained tables: chain %d, training_done_table 0x%8x
  
-7815,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 497 ]  postProcessingConfig  %d, valid chain mask %d paprdType %d 
-7814,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 254 ] PAPRDTUNING: SETTING - LoopBack Attn | Glut %d Value %d
+7845,iiiII,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 769 ] halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d mask %0x%8x 
+7844,iiiII,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 776 ] halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d mask %0x%8x 
+7843,iiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 779 ] halphyPaprdCheckCalibrationFailure : chain %d training_done_table %d training_fail_table %d retry_dpd %d 
+7842,iiIi,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2147 ] (1)paprdType %d Untrained tables: chain %d, training_done_table 0x%8x alltablesDone %d 
+7841,iI,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2177 ] NEW VALID BITS Untrained tables: chain %d, training_done_table 0x%8x
  
-7813,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 261 ] PAPRDTUNING: SETTING - Timing Delay | Glut %d Value %d
+7840,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1263 ]  WoW Entry mode, update caldb(return) chainmask %d  
+7839,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1269 ] Error: %s Invalid DPD table address 
+7838,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1280 ] Error: %s Invalid DPD table address 
+7837,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1285 ] Error: %s Invalid DPD table address 
+7836,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1296 ] Error: %s Invalid DPD table address 
+7835,iiII,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1303 ]  Channel %d  chain (%d) caldb_addr dpdStart 0x%8x dpdCtrlStart 0x%8x  
+7834,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1336 ]  ********* halphy_mem_paprd_device_update_caldb_addr paprdType%d  
+7833,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1351 ]  WoW Entry mode, update caldb(return) chainmask %d  
+7832,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1357 ] Error: %s Invalid DPD table address 
+7831,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1368 ] Error: %s Invalid DPD table address 
+7830,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1373 ] Error: %s Invalid DPD table address 
+7829,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1382 ] Error: %s Invalid DPD table address 
+7828,iiII,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1388 ]  Channel %d  chain (%d) caldb_addr dpdStart 0x%8x dpdCtrlStart 0x%8x  Memory DPD  
+7827,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1048 ] HwComponentTrxHastingsPrime_paprd::FtmControl : channel %d dpd_enable %d 
  
-7812,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 838 ] PAPRD table index %d; skipping chain 
+7826,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1647 ]  StorePaprd paprdType %d chain %d table %d   
+7825,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1661 ]  StorePaprd WoW Entry mode, StorePaprd (return) paprdType   
+7824,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1692 ]  eDPD : StorePaprd WoW Entry mode, StorePaprd (return) paprdType   
+7823,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1710 ] Memory DPD :  end of memeory StorePaprd  
+7822,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1074 ] PAPRD ResetParams phyExtn = %d
  
-7811,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 857 ] ChangeTrainingIndex : paprdType %d 
-7810,iiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 873 ] PAPRDTUNING: Channel %d chainIdx %d glutIdx %d gainIdx %d
+7821,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 950 ] PHY INCATIVE : retrun 
+7820,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1510 ] RestorePaprd : caltype %d  
+7819,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1519 ]  ReStorePaprd WoW Entry mode, ValidateCALDB(return) paprdType %d   
+7818,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1538 ] Cals cal valid bits chain(%d)  %d  
+7817,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1546 ] *********** RestorePaprd : caltype %d  
+7816,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1961 ] PAPRD ProcessMemDPD 
+7815,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1727 ] StoreMemPaprd Entry 
+7814,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1744 ]  StoreMemPaprd WoW Entry mode, StorePaprd (return) paprdType   
+7813,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 317 ]  chain %d dpdPostScalingValue %d 
+7812,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 321 ]  chain %d table %d dpdWarmPktDacGain %d 
+7811,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 322 ]  chain %d table %d dpdGMGlutIdx %d 
+7810,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 376 ]  chain %d table %d ldpdTrainingDacGain %d 
+7809,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1419 ] ValidateCalDb : Invalid caltype %d  
+7808,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1424 ]  ValidateCalDb WoW Entry mode, ValidateCALDB(return) paprdType %d  chainmask %d  
+7807,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1431 ]  halphyDPDValidateCalDB paprdType %d  chainmask %d,  
+7806,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1441 ]  CALIBRATION COMPLETE  chain %d, result 1 
+7805,iiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1459 ]  halphyPaprdValidateCalibration calattempts %d %d, validBits %d %d 
+7804,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1460 ]  halphyPaprdValidateCalibration results[0] %d [1] %d 
+7803,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1033 ] PAPRD phy_core_set_paprd_enable : enable %d ldpd %d edpd %d
  
-7809,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 887 ] PAPRD Calibration complete 
-7808,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1779 ]  Memory DPD Restore : Control  paprdType%d 
-7807,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1800 ]  Memory DPD Restore : Control  paprdType%d 
-7806,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 701 ] phy_paprd_device_PopulatePaprdTables : chain %d tableIndex %d paprdType %d 
-7805,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 613 ]  PAPRD: XmitTrainingFrame failed. Status %d 
+7802,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1579 ] RestoreMemPaprd : Invalid caltype %d  
+7801,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1583 ] *********** RestoreMemPaprd : caltype %d channel %d paprdType %d 
+7800,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1587 ]  RestoreMemPaprd WoW Entry mode, ValidateCALDB(return) paprdType %d   
+7799,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1608 ] Cals cal valid bits chain(%d)  %d  
+7798,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2090 ]  NMSE Check failed %d %d 
+7797,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2102 ]  NMSE Check %d %d %d 
+7796,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1948 ] PAPRD PHY ID %d GetDPDEnable() DPD enable (lDPD %d eDPD %d) 
+7795,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 905 ] PAPRD Calibration complete %d 
+7794,iiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 2045 ] Channel Context :(before BG processing)  workingChannel %d txChainMask  %d  phyrfMode %d  WoW Mode %d 
+7793,iiiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1116 ] PAPRD PHY ID %d start %d end %d chan start %d chan end %d 
  
-7804,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 615 ]  PAPRD: XmitTrainingFrame tx_count %d
+7792,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 497 ]  postProcessingConfig  %d, valid chain mask %d paprdType %d 
+7791,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 254 ] PAPRDTUNING: SETTING - LoopBack Attn | Glut %d Value %d
  
-7803,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1090 ] PAPRD ResetParams phyExtn = %d
+7790,ii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 261 ] PAPRDTUNING: SETTING - Timing Delay | Glut %d Value %d
  
-7802,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 200 ] PAPRD:HcaHwComponentTrxHastingsPrime_paprd::HwDisable : PhyBase %8x 
+7789,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 838 ] PAPRD table index %d; skipping chain 
  
-7900,iii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4278 ] tpcOnepointCal:: GetAlphaTherm pEeprom->baseBdfHeader.commonBoardFlags = %d chainIdx = %d channel = %d 
-7899,iii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4308 ] tpcOnepointCal:: GetAlphaTherm channel %d alphaThermFreq[iAlphaThermFreq] %d chosenChannelIdx %d 
-7898,IIIIIII,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4348 ] tpcOnepointCal:: chosen phyId %u alphaThermFreq[%u] %u curChan %u curChain %u tempIdx %u alphaThermValue %u 
-7897,i,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 1567 ] 6G CTL powerMode = %d 
-7896,ii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 6058 ] DumpTpcPerPacket: Get CTL pwr = good chain: %d sec chain: %d 
+7788,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 857 ] ChangeTrainingIndex : paprdType %d 
+7787,iiii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 873 ] PAPRDTUNING: Channel %d chainIdx %d glutIdx %d gainIdx %d
  
-7895,I,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 7335 ] halphy_bdf_ModifyBdfOtpFlags: disableOTPOnePtCal 0x%x 
-7894,i,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2556 ] CTL6G Value %d
+7786,,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 887 ] PAPRD Calibration complete 
+7785,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1779 ]  Memory DPD Restore : Control  paprdType%d 
+7784,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1800 ]  Memory DPD Restore : Control  paprdType%d 
+7783,iii,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 701 ] phy_paprd_device_PopulatePaprdTables : chain %d tableIndex %d paprdType %d 
+7782,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 613 ]  PAPRD: XmitTrainingFrame failed. Status %d 
  
-7893,IIIIIi,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4255 ] tpcOnepointCal:: chosen phyId %u calFreq[%u] %u curChan %u curChain %u onePointThermOffset %d 
-7892,ii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 5248 ] DumpTpcPerPacket: target power: chain1: %d chain2: %d
+7781,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 615 ]  PAPRD: XmitTrainingFrame tx_count %d
  
-7891,iiiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2847 ] DumpTpc: before maxRegDef p1 bdf val: %d, user antenna gain: 2G: %d - 5G: %d, twiceAntennaGain (max of BDF and user): %d, twiceAntennaReduction: %d,  
-7890,iiiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2861 ] DumpTpc: before maxRegDef powerLimit: %d, userMaxPowerx2: %d, twiceMaxRD: %d, twiceLargestAntenna %d, lowest power: %d 
-7889,,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2875 ] DumpTpc: Reg Power update not supported as part of set Tx power as we have new WMI 
-7888,iiiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 2885 ] DumpTpc: after maxRegDef default reg pwr: %d pTpcConfig->maxRegAllowedPower[%d]: %d, twiceMultiChainGain[%d]: %d 
-7887,,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 7625 ] Target pwr mode is invalid 
-7886,IIIIIi,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 3919 ] tpcOnepointCal:: chosen phyId %u calFreq[%u] %u curChan %u curChain %u onePointTpcGLUTOffset %d 
-7885,iiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 6109 ] DumpTpcPerPacket: Get regulatory pwr EIRP: %d, is PSD: %d, New regdb WMI call: %d, curr_BW:%d 
+7780,i,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 1090 ] PAPRD ResetParams phyExtn = %d
  
-7884,iiii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 6179 ] DumpTpcPerPacket: Get regulatory Final combined power : %d CurrBW: %d, isValidTxPwr: %d,  tx_power: %d
+7779,I,[ hca_HwComponentTrxHastingsPrime_paprd.cpp : 200 ] PAPRD:HcaHwComponentTrxHastingsPrime_paprd::HwDisable : PhyBase %8x 
  
-7883,ii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 6193 ] DumpTpcPerPacket: Get regulatory pwr = good chain: %d sec chain: %d 
+7899,II,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 171 ] HcaHwComponentTrxHastingsPrime_tpc tpc_flag %x exouple = %x 
+7898,II,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 193 ] TPC_DBG:EnableCLPC (hastingsPrime) clpc thresh in alutGen %x out %x 
+7897,iii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 205 ] [TempComp]HcaHwComponentTrxHastingsPrime_tpc::chainIdx=%d, thermCalValue=%d, alphaTherm=%d 
+7896,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 229 ] HcaHwComponentTrxHastingsPrime_tpc::EnableCLPC=%d 
+7895,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 234 ] HcaHwComponentTrxHastingsPrime_tpc::EnableCLPC=%d 
+7894,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 595 ] ov_rel0:%d 
+7893,iIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1169 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId %d, PrimaryChan %u, SecondaryChan %u, txChainMask %u, rxChainMask %u 
+7892,iiiiiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1171 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: Home Chan = %d, RF Mode = %d, Pwr Mask = %d, Phy Mode = %d, GLUT_DAC_GAIN_CAL = %d, CMD_COUNT_TXGAIN_COUNT_B0 = %d, CMD_COUNT_TXGAIN_COUNT_B1 =%d 
+7891,iIiiiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1201 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, LATEST_FWD_L_B0 = 0x%0x, LATEST_TARGET_PWR_B0 = %d, LATEST_DAC_GAIN_B0 = %d, LATEST_TXGAIN_IDX_B0 = %d, LATEST_GLUT_IDX_B0 = %d, LATEST_TX_IQ_IDX_B0 = %d 
+7890,iIiiiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1203 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, LATEST_FWD_L_B1 = 0x%0x, LATEST_TARGET_PWR_B1 = %d, LATEST_DAC_GAIN_B1 = %d, LATEST_TXGAIN_IDX_B1 = %d, LATEST_GLUT_IDX_B1 = %d, LATEST_TX_IQ_IDX_B1 = %d 
+7889,iIiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1227 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, LATEST_LB_L_B0 = 0x%0x, LATEST_ACCUMULATED_CLPC_ERR_B0 = %d, LATEST_CLPC_ERR_B0 = %d, LATEST_MEAS_PWR_OUT_B0 = %d 
+7888,iIiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1229 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, LATEST_LB_L_B1 = 0x%0x, LATEST_ACCUMULATED_CLPC_ERR_B1 = %d, LATEST_CLPC_ERR_B1 = %d, LATEST_MEAS_PWR_OUT_B1 = %d 
+7887,iIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1246 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, 2G_TPC_FB_12_STAT_B0 = 0x%0x, 2G_TPC_FB_12_STAT_B1 = 0x%0x, 5G_TPC_FB_12_STAT_B0 = 0x%0x, 5G_TPC_FB_12_STAT_B1 = 0x%0x 
+7886,iIiiIii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1265 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, TPC_GEN_CTRL_L = 0x%0x, OLPC_MODE = %d, TARGET_PWR_CLPC_THR_CORR = %d; TPC_CLPC_CTRL = 0x%0x, CLPC_ERR_UPDATE_DIS = %d, MASK_OUT_CLPC_ERR_UPDATE = %d 
+7885,iIiiIii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1282 ] HcaHwComponentTrxHastingsPrime_tpc::DumpTpcRegisters: phyId = %d, TPC_CHN_STAT_LATEST_TXGAIN_L_B0 = 0x%0x, LATEST_WSI_TPC_PDET_GAIN_IDX_B0 = %d, LATEST_WSI_TPC_ATTEN_B0 = %d; TPC_CHN_STAT_LATEST_TXGAIN_L_B1 = 0x%0x, LATEST_WSI_TPC_PDET_GAIN_IDX_B1 = %d, LATEST_WSI_TPC_ATTEN_B1 = %d 
+7884,iii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 509 ] force glut: chain%d, gainindex%d: dacgain=%d
  
-7882,i,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4509 ] cbc: chlist_flag: %d 
-7881,iii,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 7711 ] rssiOffset=%d, bdf_rssiffset=%d, total rssi offset=%d 
-7880,i,[ hca_HwComponentTrxHastingsPrime_bdf.cpp : 4518 ] cbc: chlist_repeat_count: %d 
-7911,iII,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 284 ] XtalCal::sign_flag=%d,  ppm(0.5 unit) = %x value = %x 
+7883,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 611 ] OPC: phyId:%d state 
+7882,ii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 703 ] bHomeChan=%d, TPCisOLPC=%d, Need to re-program TPC registers 
+7881,iii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 144 ] [TempComp]HcaHwComponentTrxHastingsPrime_tpc::chainIdx=%d, thermCalValue=%d, alphaTherm=%d 
+7880,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 626 ]  GetLatestAccumulatedCLPCError :%d 
+7879,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 638 ]  GetLatestAccumulatedCLPCErrorPerChain :%d 
+7878,iIIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 787 ] DumpTpcLuts: phyId %d, PrimaryChan %u, SecondaryChan %u, dumpMask=%u  txChainMask %u, rxChainMask %u 
+7877,IIIIIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 823 ] DumpTpcLuts: GLUT: tpcTblIdx %3u |  tpcChainIdx %3u | tpcGainIdx %3u | pwrMeas %3d | minDacGain %3d | txGainIdx %3d | clpcError %3d | tpcClPktCnt %3d 
+7876,IIIIIIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 850 ] DumpTpcLuts: tpcTblIdx %3u |  tpcChainIdx %3u | tpcPlutIdx %3u | pdadc[%3u-%3u] HEX:%8x | pdadc[%3u-%3u] HEX:%8x | 
+7875,IIIIIIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 879 ] DumpTpcLuts: tpcTblIdx %3u |  tpcChainIdx %3u | tpcAlutIdx %3u | Alut tgtPwr Step [%3u-%3u] HEX:%8x | Alut tgtPwr Step [%3u-%3u]  HEX:%8x 
+7874,IiIi,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 921 ] TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_FB_1 (0x%08x) | PD_DC_SEL= %d 
+7873,IiIii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 928 ] TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_OVERRIDE_1 (0x%08x) | PDET_GAIN_IDX_OVS %d | FE_XPA_RF_DISCONNECT_OVS %d 
+7872,IiII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 934 ] TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_OVERRIDE_3 (0x%08x) 0x%08x 
+7871,IiIi,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 940 ] TPC_DUMP_CHAIN: tpcChainIdx %3u | CH%d_TPC_FB_8_B0 (0x%08x) | PDADC_BIAS= %d 
+7870,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 956 ] TPC_DUMP_BDF : DUMP BDF GLUT FOR FREQ=%d 
+7869,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 963 ] TPC-DUMP_BDF calFreqPier2G=%d 
+7868,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 969 ] TPC-DUMP_BDF calFreqPier5G=%d 
+7867,IIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 992 ] TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | txgainIdx %3u | meas_pwr %3d | 
+7866,IIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1017 ] TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | txgainIdx %3u | meas_pwr %3d | 
+7865,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1026 ] TPC_DUMP_BDF_PLUT : DUMP BDF PLUT FOR FREQ=%d 
+7864,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1032 ] TPC-DUMP_BDF calFreqPier2G=%d 
+7863,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1038 ] TPC-DUMP_BDF calFreqPier5G=%d 
+7862,i,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1043 ] TPC_DUMP_BDF : DUMP BDF CLPC FOR FREQ=%d 
+7861,IIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1063 ] TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | pdadc_read %3u | meas_pwr %3d | 
+7860,IIIII,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1088 ] TPC_DUMP_BDF : tpcchan %3u | tpcChainIdx %3u | gainIdx %3u | pdadc_read %3u | meas_pwr %3d | 
+7859,II,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1106 ] TPC_DUMP_RATEARRAY : ratesArray[%u] = 0x%x 
+7858,II,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 1113 ] TPC_DUMP_RATEARRAY : ratesArray2[%u] = 0x%x 
+7857,iiiiiiii,[ hca_HwComponentTrxHastingsPrime_tpc.cpp : 429 ] [FCS%d] tpc glut chainIdx:%d channel:%d glutIdxEnd:%d i:%d txGainIdx:%d measPwr:%d minDacGain:%d 
+7910,iII,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 284 ] XtalCal::sign_flag=%d,  ppm(0.5 unit) = %x value = %x 
  
-7910,iii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 292 ] PPM WAR: halphy_bdf_GetXtalCalValue: capin=%d, capout=%d offsetPPM = %d 
-7909,ii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 295 ] PPM WAR:: Entering AdjustXtalForLongPkt: capin=%d, capout=%d 
-7908,iiii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 305 ] PPM WAR:: delta = %d, loop %d,  residue=%d, STEPSIZE=%d 
-7907,ii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 383 ] PPM WAR : CAPIN %d CAPOUT %d 
-7906,iii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 396 ] PPM WAR:: AdjustXtalCAPValue -> bdf::: CAPIN %d CAPOUT %d, offsetPPM %d 
-7905,i,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 402 ] PPM WAR:: AdjustXtalCAPValue::: deltaTime in MS = %d 
-7904,i,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 406 ] PPM WAR:: AdjustXtalCAPValue::: deltaTime in MS = %d 
-7903,iii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 414 ] PPM WAR :: %d us used for updating CAPIN %d CAPOUT %d
+7909,iii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 292 ] PPM WAR: halphy_bdf_GetXtalCalValue: capin=%d, capout=%d offsetPPM = %d 
+7908,ii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 295 ] PPM WAR:: Entering AdjustXtalForLongPkt: capin=%d, capout=%d 
+7907,iiii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 305 ] PPM WAR:: delta = %d, loop %d,  residue=%d, STEPSIZE=%d 
+7906,ii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 383 ] PPM WAR : CAPIN %d CAPOUT %d 
+7905,iii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 396 ] PPM WAR:: AdjustXtalCAPValue -> bdf::: CAPIN %d CAPOUT %d, offsetPPM %d 
+7904,i,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 402 ] PPM WAR:: AdjustXtalCAPValue::: deltaTime in MS = %d 
+7903,i,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 406 ] PPM WAR:: AdjustXtalCAPValue::: deltaTime in MS = %d 
+7902,iii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 414 ] PPM WAR :: %d us used for updating CAPIN %d CAPOUT %d
  
-7902,iii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 419 ] PPM WAR:: AdjustXtalCAPValue::: incoming adjusted ppm X = %d real adjusted ppm Y = %d, (X - Y) = %d 
-7901,,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 252 ] OTPPatch failed!!! 
-7912,,[ hca_HwComponentTrxHastingsPrime_calSmIm2.cpp : 117 ] IM2CAL:  completed 
-7927,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 157 ] Calibration is in progress on phyId %d 
-7926,iii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 127 ] DPD Cal State m/c ::: new_channel_change_request(%d) on channel %d smState %d 
-7925,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 205 ] PAPRD: background thread is active(eDPD is running), calibration is in progress 
-7924,Ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 210 ] DPD Cal::: phyRfMode = %x, cannot do cal - BDF disabled for DPD Type(MemLess), phy %d 
-7923,iiiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 218 ] PAPRD: already in progress - bHomeChan %d  channel %d calChannel %d timerActive %d  dpd cal State %d returning 
-7922,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 222 ] PAPRD : Cancel timer: cur channel %d 
-7921,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 233 ] PAPRD: DPD disabled for this range of frequency 
-7920,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 238 ] Calibration is in progress on other phy cur phyId %d 
-7919,Iiiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 265 ] DPD:::pHdl=%x, phyRfMode=%d, phyID=%d, txCM=%d, rxCM=%d  
-7918,Ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 269 ] DPD Cal::: phyRfMode = %x, cannot do cal - NAN vDev found , phy %d 
-7917,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 303 ] Cant fo DPD Calibration , WoW mode is enabled 
-7916,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 307 ]  finalCase %d globalCallingContext %d 
-7915,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 316 ] Cals attempted chain %d  %d  
-7914,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 318 ] Cals cal valid bits chain %d %d  
-7913,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 110 ] Invalid channel %d
+7901,iii,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 419 ] PPM WAR:: AdjustXtalCAPValue::: incoming adjusted ppm X = %d real adjusted ppm Y = %d, (X - Y) = %d 
+7900,,[ hca_HwComponentTrxHastingsPrime_xtalCal.cpp : 252 ] OTPPatch failed!!! 
+7911,i,[ hca_HwComponentTrxHastingsPrime_cal.cpp : 489 ] TrxHastingPrime-RSSI:%d 
+7926,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 157 ] Calibration is in progress on phyId %d 
+7925,iii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 127 ] DPD Cal State m/c ::: new_channel_change_request(%d) on channel %d smState %d 
+7924,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 205 ] PAPRD: background thread is active(eDPD is running), calibration is in progress 
+7923,Ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 210 ] DPD Cal::: phyRfMode = %x, cannot do cal - BDF disabled for DPD Type(MemLess), phy %d 
+7922,iiiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 218 ] PAPRD: already in progress - bHomeChan %d  channel %d calChannel %d timerActive %d  dpd cal State %d returning 
+7921,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 222 ] PAPRD : Cancel timer: cur channel %d 
+7920,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 233 ] PAPRD: DPD disabled for this range of frequency 
+7919,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 238 ] Calibration is in progress on other phy cur phyId %d 
+7918,Iiiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 265 ] DPD:::pHdl=%x, phyRfMode=%d, phyID=%d, txCM=%d, rxCM=%d  
+7917,Ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 269 ] DPD Cal::: phyRfMode = %x, cannot do cal - NAN vDev found , phy %d 
+7916,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 303 ] Cant fo DPD Calibration , WoW mode is enabled 
+7915,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 307 ]  finalCase %d globalCallingContext %d 
+7914,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 316 ] Cals attempted chain %d  %d  
+7913,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 318 ] Cals cal valid bits chain %d %d  
+7912,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemoryLess.cpp : 110 ] Invalid channel %d
  
-7930,,[ hca_HwComponentTrxHastingsPrime_calSmDac.cpp : 171 ] calSmDac: DOCAL invoked 
-7929,,[ hca_HwComponentTrxHastingsPrime_calSmDac.cpp : 175 ] calSmDac: Save invoked 
-7928,,[ hca_HwComponentTrxHastingsPrime_calSmDac.cpp : 201 ] calSmDac: Restore invoked 
-7946,Ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 173 ] DPD Cal::: phyRfMode = %x, cannot do cal - BDF disabled for DPD(Memory), phy %d 
-7945,iiiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 183 ] PAPRD: already in progress -bHomeChan %d  home channel %d cal channel %d timerActive %d  dpd cal State %d, returning 
-7944,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 187 ] PAPRD : Cancel timer Channel %d 
-7943,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 193 ] PAPRD: DPD disabled for this range of frequency 
-7942,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 198 ] Calibration is in progress on other phy cur phyId %d 
-7941,iiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 227 ] PAPRD: INVALIDATING CALDB caldb channel %d home channel %d cal channel %d chain %d 
-7940,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 241 ] Cant fo DPD Calibration , WoW mode is enabled 
-7939,Iiiiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 246 ] eDPD:::pHdl=%x, phyRfMode=%d, phyID=%d, txCM=%d, rxCM=%d finalCase %d 
-7938,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 254 ] Cals cal valid bits chain %d %d  
-7937,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 257 ] Cals attempted(mem_dpd) chain 0 %d  
-7936,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 260 ] Cals attempted(mem_dpd) chain 1 %d  
-7935,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 262 ] Cals cal valid bits chain %d %d  
-7934,I,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 300 ] PAPRD: Memory DPD , Resubmission Final Case0x%08x 
-7933,Ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 326 ] DPD Cal::: phyRfMode = %x, cannot do cal - NAN vDev found , phy %d 
-7932,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 339 ]  new channel request %d channel %d 
-7931,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 116 ] Invalid channel %d
+7929,,[ hca_HwComponentTrxHastingsPrime_calSmDac.cpp : 171 ] calSmDac: DOCAL invoked 
+7928,,[ hca_HwComponentTrxHastingsPrime_calSmDac.cpp : 175 ] calSmDac: Save invoked 
+7927,,[ hca_HwComponentTrxHastingsPrime_calSmDac.cpp : 201 ] calSmDac: Restore invoked 
+7934,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 146 ] calSmBwFilter: WARNING: pHandle is NULL: return without operation. 
+7933,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 251 ] TXBwFilter: Restored now 
+7932,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 262 ] TXBwFilter: Save now 
+7931,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 291 ] RXBwFilter: Restored now 
+7930,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 304 ] RXBwFilter: Save now 
+7963,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1115 ] ITER2CMDIDX  iterIdx 		=%d 
+7962,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 666 ] FC_HANDLE  finalCase 		=%d 
+7961,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 680 ] RXDCO FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
+7960,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 685 ] RXDCO FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL 
+7959,ii,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 829 ] finalCase before switch statement=%d, localrxDcoValid=%d 
+7958,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 944 ] RXDCO ::: CAL_RESTORE convertNewRxdcoLutfromCalDb failed
  
-7950,i,[ hca_HwComponentTrxHastingsPrime_calSmPdet.cpp : 150 ] calSmDET: PDET_Standalone callingContext = %d 
-7949,ii,[ hca_HwComponentTrxHastingsPrime_calSmPdet.cpp : 157 ] calSmDET: PDET_Standalone by pass cal cal or restore: pHandle->phyId=%d, isSBSmode=%d 
-7948,i,[ hca_HwComponentTrxHastingsPrime_calSmPdet.cpp : 234 ] calSmPDET: restore invoked on chainIdx = %d 
-7947,,[ hca_HwComponentTrxHastingsPrime_calSmPdet.cpp : 92 ] Welcome, cal SM for Pdet Cal will be created 
-8029,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 935 ] combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIq=%x 
-8028,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 936 ] combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIqGainMap=%x 
-8027,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 937 ] combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIqDpd=%x 
-8026,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 938 ] combCal_SM_save: TXLO: chainIdx=%d,  pStartTxLo=%x 
-8025,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 939 ] combCal_SM_save: TXIQ: chainIdx=%d,  pStartTxIq=%x 
-8024,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1156 ] cannot update txiq table in caldb for chainIdx = %d! 
-8023,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1290 ] cannot update txlo table in caldb for chainIdx = %d! 
-8022,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1832 ] CAL_COMMON_PARAM pHandle 	=%x 
-8021,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1833 ] CAL_COMMON_PARAM calType 	=%d 
-8020,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1834 ] CAL_COMMON_PARAM cmdGroupId 	=%d 
-8019,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1835 ] CAL_COMMON_PARAM isRestoreOnly 	=%d 
-8018,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1836 ] CAL_COMMON_PARAM calTypeVarianceId 	=%d 
-8017,iii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1837 ] CAL_COMMON_PARAM reserved 	=%d %d %d 
-8016,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1838 ] CAL_COMMON_PARAM (pIn->pHandle).phyId 	=%x 
-8015,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1839 ] CAL_COMMON_PARAM halphyBW 	=%x 
-8014,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1840 ] PHYDEVLIB_PHY_INPUT phyId 		=%d 
-8013,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1841 ] PHYDEVLIB_PHY_INPUT bandCode	=%d 
-8012,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1842 ] PHYDEVLIB_PHY_INPUT bwCode 	=%d 
-8011,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1843 ] PHYDEVLIB_PHY_INPUT phyMode 	=%d 
-8010,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1844 ] PHYDEVLIB_PHY_INPUT band_center_freq1 	=%d 
-8009,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1845 ] PHYDEVLIB_PHY_INPUT band_center_freq2 	=%d 
-8008,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1846 ] PHYDEVLIB_PHY_INPUT txChMask 	=%x 
-8007,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1847 ] PHYDEVLIB_PHY_INPUT rxChMask 	=%x 
-8006,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1848 ] PHYDEVLIB_PHY_INPUT phyBase 	=%x 
-8005,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1849 ] PHYDEVLIB_PHY_INPUT phyBaseExt 	=%x 
-8004,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1850 ] PHYDEVLIB_PHY_INPUT concMode 	=%d 
-8003,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1851 ] PHYDEVLIB_PHY_INPUT dynPriChan 	=%d 
-8002,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1852 ] PHYDEVLIB_PHY_INPUT homeCh		=%d 
-8001,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1853 ] PHYDEVLIB_PHY_INPUT pwrMask 		=%d 
-8000,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1854 ] PHYDEVLIB_PHY_INPUT extLNA 		=%d 
-7999,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1855 ] PHYDEVLIB_PHY_INPUT extPA 		=%d 
-7998,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1856 ] PHYDEVLIB_PHY_INPUT isSBSmode 	=%d 
-7997,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1857 ] PHYDEVLIB_PHY_INPUT loType 		=%d 
-7996,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1858 ] PHYDEVLIB_PHY_INPUT dpdMode 	=%d 
-7995,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1859 ] PHYDEVLIB_PHY_INPUT loadIniMask 	=%d 
-7994,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1860 ] PHYDEVLIB_PHY_INPUT calMask 	=%d 
-7993,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1861 ] PHYDEVLIB_PHY_INPUT cal_mode_ctrl 	=%d 
-7992,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1863 ] CCAL_INPUT calCmdId		=%d 
-7991,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1864 ] CCAL_INPUT cal_chain_mask		=%x 
-7990,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1865 ] CCAL_INPUT cal_mode		=%d 
-7989,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1866 ] CCAL_INPUT mode (80p80 mode)		=%d 
-7988,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1867 ] CCAL_INPUT fixed_gain		=%d 
-7987,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1868 ] CCAL_INPUT engineSharing		=%d 
-7986,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1869 ] CCAL_INPUT driveTxGLUTIdx		=%d 
-7985,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1870 ] CCAL_INPUT enableBlockAccAvg		=%d 
-7984,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1871 ] CCAL_INPUT blockSize[0]		=%d 
-7983,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1872 ] CCAL_INPUT dcEstWindowSize		=%d 
-7982,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1873 ] CCAL_INPUT numOfBlocks		=%d 
-7981,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1874 ] CCAL_INPUT numSamplesToReadback[0]	=%d 
-7980,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1875 ] CCAL_INPUT numSamplesToReadback[1]	=%d 
-7979,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1876 ] CCAL_INPUT numSamplesToReadback[2]	=%d 
-7978,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1877 ] CCAL_INPUT rxGainSettlingTime		=%d 
-7977,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1878 ] CCAL_INPUT txGainSettlingTime		=%d 
-7976,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1879 ] CCAL_INPUT txShiftSettlingTime		=%d 
-7975,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1880 ] CCAL_INPUT calModeSettlingTime	=%d 
-7974,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1881 ] CCAL_INPUT loopbackSettlingTime	=%d 
-7973,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1882 ] CCAL_INPUT txResidueSettlingTime	=%d 
-7972,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1883 ] CCAL_INPUT numTaps[0] 		=%d 
-7971,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1884 ] CCAL_INPUT numTaps[1] 		=%d 
-7970,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 523 ] combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIq=%x 
-7969,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 544 ] cannot update rxiq table in caldb for chainIdx = %d! 
-7968,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 550 ] combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIqGainMap=%x 
-7967,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 551 ] combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIqDpd=%x 
-7966,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 688 ] combCal_SM_restore: TXIQ: chainIdx=%d,  pStartTxIq=%x 
-7965,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 710 ] cannot update txiq table in caldb for chainIdx = %d! 
-7964,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 781 ] combCal_SM_restore: TXLO: chainIdx=%d,  pStartTxLo=%x 
-7963,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 808 ] cannot update txlo table in caldb for chainIdx = %d! 
-7962,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1618 ] COMBCAL FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
-7961,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1623 ] COMBCAL FC_HANDLE: BTC_CALLBACK_TRUE Doing Cal 
-7960,ii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1671 ] FC_HANDLE  finalCase before switch statement		=%d, localtxloValid=%d 
-7959,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1737 ] COMBCAL FC_HANDLE: CALLING BTC CALLBACK to inform CAL has ended CAL Done in %d 
-7958,iiiii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2040 ] CalSM: callingContext=%d, shortenPhyId=%d, pwrMaskRead=%d, illegalSbsLpCombo=%d, determineSBSMode(pHandle))=%d 
-7957,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2047 ] :::: return upon illegal pwrMask/SBS input/onlyOne main synth supported: pwrMaskRead = %d 
-7956,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2079 ] :::: return upon SCAN: disable 
-7955,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2088 ] ::::return upon back to same home channel from scan or from previous home channel wakeup: enable only 
-7954,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2093 ] :::: bypass FCS/PS wakeup check, continue use calDB to determine action 
-7953,ii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2116 ] CalSM: effective pwrMaskRead=%d, numSynForCal=%d 
-7952,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1952 ] ::::return upon back to same home channel from scan or from previous home channel wakeup: enable only 
-7951,iiiIiIii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1396 ] cur_tbl_idx=%d, hwsBw=%d, freq1=%d, tMask=%x, concMode=%d, pwrMask=%x, isSBSmode=%d, loadIniMask=%d 
-8031,i,[ hca_HwComponentTrxHastingsPrime_calSmAdc.cpp : 124 ] CalSM: ADC or TIADC starts: calTypeVarianceId=%d 
-8030,iii,[ hca_HwComponentTrxHastingsPrime_calSmAdc.cpp : 153 ] CalSM: TIADC invoke recipe: calTypeVarianceId=%d, tIadcInput.calCmdId=%d, CAL_DOCAL=%d 
-8036,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 146 ] calSmBwFilter: WARNING: pHandle is NULL: return without operation. 
-8035,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 251 ] TXBwFilter: Restored now 
-8034,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 262 ] TXBwFilter: Save now 
-8033,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 291 ] RXBwFilter: Restored now 
-8032,,[ hca_HwComponentTrxHastingsPrime_calSmBwFilter.cpp : 304 ] RXBwFilter: Save now 
-8065,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1115 ] ITER2CMDIDX  iterIdx 		=%d 
-8064,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 666 ] FC_HANDLE  finalCase 		=%d 
-8063,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 680 ] RXDCO FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
-8062,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 685 ] RXDCO FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL 
-8061,ii,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 829 ] finalCase before switch statement=%d, localrxDcoValid=%d 
-8060,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 944 ] RXDCO ::: CAL_RESTORE convertNewRxdcoLutfromCalDb failed
+7957,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 950 ] RXDCO ::: CAL_RESTORE phyRxDCOCal_qca649x failed
  
-8059,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 950 ] RXDCO ::: CAL_RESTORE phyRxDCOCal_qca649x failed
+7956,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 953 ] RXDCO ::: not support 160/80+80 CAL_RESTORE in convertNewRxdcoLutfromCalDb !!!
  
-8058,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 953 ] RXDCO ::: not support 160/80+80 CAL_RESTORE in convertNewRxdcoLutfromCalDb !!!
+7955,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1003 ] RXDCO FC_HANDLE: CALLING BTC CALLBACK to inform CAL has ended CAL done in %d 
+7954,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1071 ] RXDCO ::: CAL_SAVE convertNewRxdcoLutfromCalDb failed
  
-8057,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1003 ] RXDCO FC_HANDLE: CALLING BTC CALLBACK to inform CAL has ended CAL done in %d 
-8056,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1071 ] RXDCO ::: CAL_SAVE convertNewRxdcoLutfromCalDb failed
+7953,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1074 ] RXDCO ::: not support 160/80+80 CAL_SAVE in convertNewRxdcoLutfromCalDb !!!
  
-8055,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1074 ] RXDCO ::: not support 160/80+80 CAL_SAVE in convertNewRxdcoLutfromCalDb !!!
+7952,I,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1266 ] read back pwrMask=%x at location A 
+7951,iiIi,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1412 ] :::: Can't do rxdco calibration due to conditionally check fails: isSBS = %d, phyId=%d, pwrMask=%x, callingContext)=%d
  
-8054,I,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1266 ] read back pwrMask=%x at location A 
-8053,iiIi,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1412 ] :::: Can't do rxdco calibration due to conditionally check fails: isSBS = %d, phyId=%d, pwrMask=%x, callingContext)=%d
+7950,II,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1510 ] read back pwrMask=%x, phyInput->rxChMask=%x at location B 
+7949,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1546 ] RXDCO Standalone:: time = %d 
+7948,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1559 ] :::: phyrf_turn_off is called 
+7947,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1561 ] :::: phyrf_turn_on is called 
+7946,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1622 ] RXDCO FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
+7945,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1627 ] RXDCO FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL 
+7944,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1676 ] RXDCO FC_HANDLE: CALLING BTC CALLBACK to inform CAL has ended CAL done in %d 
+7943,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 249 ] RXDCO ::SM::: convertNewRxdcoLutfromCalDb chainIdx = %d pStart= NULL!!!!
  
-8052,II,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1510 ] read back pwrMask=%x, phyInput->rxChMask=%x at location B 
-8051,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1546 ] RXDCO Standalone:: time = %d 
-8050,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1559 ] :::: phyrf_turn_off is called 
-8049,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1561 ] :::: phyrf_turn_on is called 
-8048,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1622 ] RXDCO FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
-8047,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1627 ] RXDCO FC_HANDLE: BTC_CALLBACK_TRUE Doing CAL 
-8046,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1676 ] RXDCO FC_HANDLE: CALLING BTC CALLBACK to inform CAL has ended CAL done in %d 
-8045,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 249 ] RXDCO ::SM::: convertNewRxdcoLutfromCalDb chainIdx = %d pStart= NULL!!!!
+7942,iIIi,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 302 ] Restore Rxdco LUT OVD from caldb with chainIdx = %d, LUT_Imag = 0x%x, LUT_Real = 0x%x, range = %d
  
-8044,iIIi,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 302 ] Restore Rxdco LUT OVD from caldb with chainIdx = %d, LUT_Imag = 0x%x, LUT_Real = 0x%x, range = %d
+7941,iIIi,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 314 ] convertNewRxdcoLutfromCalDb:::Save Rxdco LUT to caldb with chainIdx = %d, LUT_Imag = 0x%x, LUT_Real = 0x%x, range = %d
  
-8043,iIIi,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 314 ] convertNewRxdcoLutfromCalDb:::Save Rxdco LUT to caldb with chainIdx = %d, LUT_Imag = 0x%x, LUT_Real = 0x%x, range = %d
+7940,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 357 ] APPLICALBE_RESUBMISSION_ONLY:: failure on not getting pStart (= NULL) from caldb! 
+7939,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 361 ] APPLICALBE_RESUBMISSION_ONLY:: failure on getting chainIdx:%d from pPhyRxdcoInput 
+7938,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1196 ] calling calSmRxDcoStandaloneWowScan 
+7937,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1201 ] calling calSmRxDcoStandaloneWowHomeOrWakeup 
+7936,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1206 ] calling calSmRxDcoStandaloneWowDtim 
+7935,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1212 ] calling calSmRxDcoStandaloneNominal 
+8042,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 935 ] combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIq=%x 
+8041,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 936 ] combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIqGainMap=%x 
+8040,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 937 ] combCal_SM_save: RXIQ: chainIdx=%d,  pStartRxIqDpd=%x 
+8039,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 938 ] combCal_SM_save: TXLO: chainIdx=%d,  pStartTxLo=%x 
+8038,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 939 ] combCal_SM_save: TXIQ: chainIdx=%d,  pStartTxIq=%x 
+8037,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1156 ] cannot update txiq table in caldb for chainIdx = %d! 
+8036,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1290 ] cannot update txlo table in caldb for chainIdx = %d! 
+8035,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1832 ] CAL_COMMON_PARAM pHandle 	=%x 
+8034,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1833 ] CAL_COMMON_PARAM calType 	=%d 
+8033,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1834 ] CAL_COMMON_PARAM cmdGroupId 	=%d 
+8032,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1835 ] CAL_COMMON_PARAM isRestoreOnly 	=%d 
+8031,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1836 ] CAL_COMMON_PARAM calTypeVarianceId 	=%d 
+8030,iii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1837 ] CAL_COMMON_PARAM reserved 	=%d %d %d 
+8029,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1838 ] CAL_COMMON_PARAM (pIn->pHandle).phyId 	=%x 
+8028,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1839 ] CAL_COMMON_PARAM halphyBW 	=%x 
+8027,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1840 ] PHYDEVLIB_PHY_INPUT phyId 		=%d 
+8026,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1841 ] PHYDEVLIB_PHY_INPUT bandCode	=%d 
+8025,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1842 ] PHYDEVLIB_PHY_INPUT bwCode 	=%d 
+8024,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1843 ] PHYDEVLIB_PHY_INPUT phyMode 	=%d 
+8023,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1844 ] PHYDEVLIB_PHY_INPUT band_center_freq1 	=%d 
+8022,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1845 ] PHYDEVLIB_PHY_INPUT band_center_freq2 	=%d 
+8021,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1846 ] PHYDEVLIB_PHY_INPUT txChMask 	=%x 
+8020,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1847 ] PHYDEVLIB_PHY_INPUT rxChMask 	=%x 
+8019,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1848 ] PHYDEVLIB_PHY_INPUT phyBase 	=%x 
+8018,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1849 ] PHYDEVLIB_PHY_INPUT phyBaseExt 	=%x 
+8017,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1850 ] PHYDEVLIB_PHY_INPUT concMode 	=%d 
+8016,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1851 ] PHYDEVLIB_PHY_INPUT dynPriChan 	=%d 
+8015,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1852 ] PHYDEVLIB_PHY_INPUT homeCh		=%d 
+8014,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1853 ] PHYDEVLIB_PHY_INPUT pwrMask 		=%d 
+8013,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1854 ] PHYDEVLIB_PHY_INPUT extLNA 		=%d 
+8012,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1855 ] PHYDEVLIB_PHY_INPUT extPA 		=%d 
+8011,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1856 ] PHYDEVLIB_PHY_INPUT isSBSmode 	=%d 
+8010,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1857 ] PHYDEVLIB_PHY_INPUT loType 		=%d 
+8009,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1858 ] PHYDEVLIB_PHY_INPUT dpdMode 	=%d 
+8008,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1859 ] PHYDEVLIB_PHY_INPUT loadIniMask 	=%d 
+8007,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1860 ] PHYDEVLIB_PHY_INPUT calMask 	=%d 
+8006,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1861 ] PHYDEVLIB_PHY_INPUT cal_mode_ctrl 	=%d 
+8005,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1863 ] CCAL_INPUT calCmdId		=%d 
+8004,I,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1864 ] CCAL_INPUT cal_chain_mask		=%x 
+8003,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1865 ] CCAL_INPUT cal_mode		=%d 
+8002,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1866 ] CCAL_INPUT mode (80p80 mode)		=%d 
+8001,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1867 ] CCAL_INPUT fixed_gain		=%d 
+8000,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1868 ] CCAL_INPUT engineSharing		=%d 
+7999,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1869 ] CCAL_INPUT driveTxGLUTIdx		=%d 
+7998,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1870 ] CCAL_INPUT enableBlockAccAvg		=%d 
+7997,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1871 ] CCAL_INPUT blockSize[0]		=%d 
+7996,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1872 ] CCAL_INPUT dcEstWindowSize		=%d 
+7995,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1873 ] CCAL_INPUT numOfBlocks		=%d 
+7994,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1874 ] CCAL_INPUT numSamplesToReadback[0]	=%d 
+7993,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1875 ] CCAL_INPUT numSamplesToReadback[1]	=%d 
+7992,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1876 ] CCAL_INPUT numSamplesToReadback[2]	=%d 
+7991,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1877 ] CCAL_INPUT rxGainSettlingTime		=%d 
+7990,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1878 ] CCAL_INPUT txGainSettlingTime		=%d 
+7989,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1879 ] CCAL_INPUT txShiftSettlingTime		=%d 
+7988,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1880 ] CCAL_INPUT calModeSettlingTime	=%d 
+7987,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1881 ] CCAL_INPUT loopbackSettlingTime	=%d 
+7986,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1882 ] CCAL_INPUT txResidueSettlingTime	=%d 
+7985,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1883 ] CCAL_INPUT numTaps[0] 		=%d 
+7984,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1884 ] CCAL_INPUT numTaps[1] 		=%d 
+7983,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 523 ] combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIq=%x 
+7982,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 544 ] cannot update rxiq table in caldb for chainIdx = %d! 
+7981,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 550 ] combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIqGainMap=%x 
+7980,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 551 ] combCal_SM_restore: RXIQ: chainIdx=%d,  pStartRxIqDpd=%x 
+7979,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 688 ] combCal_SM_restore: TXIQ: chainIdx=%d,  pStartTxIq=%x 
+7978,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 710 ] cannot update txiq table in caldb for chainIdx = %d! 
+7977,iI,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 781 ] combCal_SM_restore: TXLO: chainIdx=%d,  pStartTxLo=%x 
+7976,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 808 ] cannot update txlo table in caldb for chainIdx = %d! 
+7975,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1618 ] COMBCAL FC_HANDLE: BTC_CALLBACK_FALSE skip Cal 
+7974,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1623 ] COMBCAL FC_HANDLE: BTC_CALLBACK_TRUE Doing Cal 
+7973,ii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1671 ] FC_HANDLE  finalCase before switch statement		=%d, localtxloValid=%d 
+7972,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1737 ] COMBCAL FC_HANDLE: CALLING BTC CALLBACK to inform CAL has ended CAL Done in %d 
+7971,iiiii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2040 ] CalSM: callingContext=%d, shortenPhyId=%d, pwrMaskRead=%d, illegalSbsLpCombo=%d, determineSBSMode(pHandle))=%d 
+7970,i,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2047 ] :::: return upon illegal pwrMask/SBS input/onlyOne main synth supported: pwrMaskRead = %d 
+7969,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2079 ] :::: return upon SCAN: disable 
+7968,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2088 ] ::::return upon back to same home channel from scan or from previous home channel wakeup: enable only 
+7967,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2093 ] :::: bypass FCS/PS wakeup check, continue use calDB to determine action 
+7966,ii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 2116 ] CalSM: effective pwrMaskRead=%d, numSynForCal=%d 
+7965,,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1952 ] ::::return upon back to same home channel from scan or from previous home channel wakeup: enable only 
+7964,iiiIiIii,[ hca_HwComponentTrxHastingsPrime_calSmComb.cpp : 1396 ] cur_tbl_idx=%d, hwsBw=%d, freq1=%d, tMask=%x, concMode=%d, pwrMask=%x, isSBSmode=%d, loadIniMask=%d 
+8058,Ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 173 ] DPD Cal::: phyRfMode = %x, cannot do cal - BDF disabled for DPD(Memory), phy %d 
+8057,iiiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 183 ] PAPRD: already in progress -bHomeChan %d  home channel %d cal channel %d timerActive %d  dpd cal State %d, returning 
+8056,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 187 ] PAPRD : Cancel timer Channel %d 
+8055,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 193 ] PAPRD: DPD disabled for this range of frequency 
+8054,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 198 ] Calibration is in progress on other phy cur phyId %d 
+8053,iiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 227 ] PAPRD: INVALIDATING CALDB caldb channel %d home channel %d cal channel %d chain %d 
+8052,,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 241 ] Cant fo DPD Calibration , WoW mode is enabled 
+8051,Iiiiii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 246 ] eDPD:::pHdl=%x, phyRfMode=%d, phyID=%d, txCM=%d, rxCM=%d finalCase %d 
+8050,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 254 ] Cals cal valid bits chain %d %d  
+8049,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 257 ] Cals attempted(mem_dpd) chain 0 %d  
+8048,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 260 ] Cals attempted(mem_dpd) chain 1 %d  
+8047,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 262 ] Cals cal valid bits chain %d %d  
+8046,I,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 300 ] PAPRD: Memory DPD , Resubmission Final Case0x%08x 
+8045,Ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 326 ] DPD Cal::: phyRfMode = %x, cannot do cal - NAN vDev found , phy %d 
+8044,ii,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 339 ]  new channel request %d channel %d 
+8043,i,[ hca_HwComponentTrxHastingsPrime_calSmDpdMemory.cpp : 116 ] Invalid channel %d
  
-8042,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 357 ] APPLICALBE_RESUBMISSION_ONLY:: failure on not getting pStart (= NULL) from caldb! 
-8041,i,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 361 ] APPLICALBE_RESUBMISSION_ONLY:: failure on getting chainIdx:%d from pPhyRxdcoInput 
-8040,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1196 ] calling calSmRxDcoStandaloneWowScan 
-8039,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1201 ] calling calSmRxDcoStandaloneWowHomeOrWakeup 
-8038,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1206 ] calling calSmRxDcoStandaloneWowDtim 
-8037,,[ hca_HwComponentTrxHastingsPrime_calSmRxDco.cpp : 1212 ] calling calSmRxDcoStandaloneNominal 
+8059,,[ hca_HwComponentTrxHastingsPrime_calSmIm2.cpp : 117 ] IM2CAL:  completed 
+8061,i,[ hca_HwComponentTrxHastingsPrime_calSmAdc.cpp : 124 ] CalSM: ADC or TIADC starts: calTypeVarianceId=%d 
+8060,iii,[ hca_HwComponentTrxHastingsPrime_calSmAdc.cpp : 153 ] CalSM: TIADC invoke recipe: calTypeVarianceId=%d, tIadcInput.calCmdId=%d, CAL_DOCAL=%d 
+8065,i,[ hca_HwComponentTrxHastingsPrime_calSmPdet.cpp : 150 ] calSmDET: PDET_Standalone callingContext = %d 
+8064,ii,[ hca_HwComponentTrxHastingsPrime_calSmPdet.cpp : 157 ] calSmDET: PDET_Standalone by pass cal cal or restore: pHandle->phyId=%d, isSBSmode=%d 
+8063,i,[ hca_HwComponentTrxHastingsPrime_calSmPdet.cpp : 234 ] calSmPDET: restore invoked on chainIdx = %d 
+8062,,[ hca_HwComponentTrxHastingsPrime_calSmPdet.cpp : 92 ] Welcome, cal SM for Pdet Cal will be created 
 8068,i,[ wls_main.c : 194 ] wls_fw thread exists with %d! 
 8067,i,[ wls_main.c : 196 ] wls_locsvr thread exists with %d! 
 8066,i,[ wls_main.c : 198 ] wls_wlansvr thread exists with %d! 

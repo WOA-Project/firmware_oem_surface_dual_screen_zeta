@@ -1,0 +1,19 @@
+import /vendor/etc/init/hw/init.qcom.rc
+
+on early-init && property:ro.boot.key2=*
+    setprop ro.oem.key2 ${ro.boot.key2}
+
+on early-init && property:ro.boot.key1=*
+    setprop ro.oem.key1 ${ro.boot.key1}
+
+on early-boot && property:ro.boot.adb=true
+    setprop persist.vendor.usb.config adb
+
+on early-boot && property:ro.oem.key1=dta
+    setprop persist.vendor.dpm.feature 1
+
+on early-boot && property:ro.oem.key1=ora
+    setprop persist.vendor.dpm.feature 1
+
+on early-boot && property:ro.oem.key1=eeu
+    setprop persist.vendor.dpm.feature 1
